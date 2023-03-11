@@ -1,0 +1,3299 @@
+[
+    {
+     "ocupacao": "ABATEDOR(A) DE AVES COM COMERCIALIZAÇÃO DO PRODUTO INDEPENDENTE",
+     "cnae": "4724-5/00",
+     "descSubCnae": "COMÉRCIO VAREJISTA DE HORTIFRUTIGRANJEIROS",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "ACABADOR(A) DE CALÇADOS INDEPENDENTE",
+     "cnae": "1531-9/02",
+     "descSubCnae": "ACABAMENTO DE CALÇADOS DE COURO SOB CONTRATO",
+     "iss": "S",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "AÇOUGUEIRO(A) INDEPENDENTE",
+     "cnae": "4722-9/01",
+     "descSubCnae": "COMÉRCIO VAREJISTA DE CARNES - AÇOUGUES",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "ADESTRADOR(A) DE ANIMAIS INDEPENDENTE",
+     "cnae": "9609-2/07",
+     "descSubCnae": "ALOJAMENTO DE ANIMAIS DOMÉSTICOS",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "ADESTRADOR(A) DE CÃES DE GUARDA INDEPENDENTE",
+     "cnae": "8011-1/02",
+     "descSubCnae": "SERVIÇOS DE ADESTRAMENTO DE CÃES DE GUARDA",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "AGENTE DE CORREIO FRANQUEADO E PERMissIONÁRIO INDEPENDENTE",
+     "cnae": "5310-5/02",
+     "descSubCnae": "ATIVIDADES DE FRANQUEADAS DO CORREIO NACIONAL",
+     "iss": "S",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "AGENTE DE VIAGENS INDEPENDENTE",
+     "cnae": "7911-2/00",
+     "descSubCnae": "AGÊNCIAS DE VIAGENS",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "AGENTE FUNERÁRIO INDEPENDENTE",
+     "cnae": "9603-3/04",
+     "descSubCnae": "SERVIÇOS DE FUNERÁRIAS",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "AGENTE MATRIMONIAL INDEPENDENTE",
+     "cnae": "9609-2/02",
+     "descSubCnae": "AGÊNCIAS MATRIMONIAIS",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "ALFAIATE INDEPENDENTE",
+     "cnae": "1412-6/02",
+     "descSubCnae": "CONFECÇÃO SOB MEDIDA DE PEÇAS DO VESTUÁRIO, EXCETO ROUPAS ÍNTIMAS",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "AMOLADOR(A) DE ARTIGOS DE CUTELARIA INDEPENDENTE",
+     "cnae": "9529-1/99",
+     "descSubCnae": "REPARAÇÃO E MANUTENÇÃO DE OUTROS OBJETOS E EQUIPAMENTOS PESSOAIS E DOMÉSTICOS NÃO ESPECIFICADOS ANTERIORMENTE",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "ANIMADOR(A) DE FESTAS INDEPENDENTE",
+     "cnae": "9329-8/99",
+     "descSubCnae": "OUTRAS ATIVIDADES DE RECREAÇÃO E LAZER NÃO ESPECIFICADAS ANTERIORMENTE",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "ANTIQUÁRIO(A) INDEPENDENTE",
+     "cnae": "4785-7/01",
+     "descSubCnae": "COMÉRCIO VAREJISTA DE ANTIGUIDADES",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "APICULTOR(A) INDEPENDENTE",
+     "cnae": "0159-8/01",
+     "descSubCnae": "APICULTURA",
+     "iss": "S",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "APURADOR(A), COLETOR(A) E FORNECEDOR(A) DE RECORTES DE MATÉRIAS PUBLICADAS EM JORNAIS E REVISTAS INDEPENDENTE",
+     "cnae": "6399-2/00",
+     "descSubCnae": "OUTRAS ATIVIDADES DE PRESTAÇÃO DE SERVIÇOS DE INFORMAÇÃO NÃO ESPECIFICADAS ANTERIORMENTE",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "ARMADOR(A) DE FERRAGENS NA CONSTRUÇÃO CIVIL INDEPENDENTE",
+     "cnae": "2599-3/01",
+     "descSubCnae": "SERVIÇOS DE CONFECÇÃO DE ARMAÇÕES METÁLICAS PARA A CONSTRUÇÃO",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "ARTESÃO(Ã) DE BIJUTERIAS INDEPENDENTE",
+     "cnae": "3212-4/00",
+     "descSubCnae": "FABRICAÇÃO DE BIJUTERIAS E ARTEFATOS SEMELHANTES",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "ARTESÃO(Ã) EM BORRACHA INDEPENDENTE",
+     "cnae": "2219-6/00",
+     "descSubCnae": "FABRICAÇÃO DE ARTEFATOS DE BORRACHA NÃO ESPECIFICADOS ANTERIORMENTE",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "ARTESÃO(Ã) EM CERÂMICA INDEPENDENTE",
+     "cnae": "2349-4/99",
+     "descSubCnae": "FABRICAÇÃO DE PRODUTOS CERÂMICOS NÃO REFRATÁRIOS NÃO ESPECIFICADOS ANTERIORMENTE",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "ARTESÃO(Ã) EM CIMENTO INDEPENDENTE",
+     "cnae": "2330-3/99",
+     "descSubCnae": "FABRICAÇÃO DE OUTROS ARTEFATOS E PRODUTOS DE CONCRETO, CIMENTO, FIBROCIMENTO, GESSO E MATERIAIS SEMELHANTES",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "ARTESÃO(Ã) EM CORTIÇA, BAMBU E AFINS INDEPENDENTE",
+     "cnae": "1629-3/02",
+     "descSubCnae": "FABRICAÇÃO DE ARTEFATOS DIVERSOS DE CORTIÇA, BAMBU, PALHA, VIME E OUTROS MATERIAIS TRANÇADOS, EXCETO MÓVEIS",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "ARTESÃO(Ã) EM COURO INDEPENDENTE",
+     "cnae": "1529-7/00",
+     "descSubCnae": "FABRICAÇÃO DE ARTEFATOS DE COURO NÃO ESPECIFICADOS ANTERIORMENTE",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "ARTESÃO(Ã) EM GESSO INDEPENDENTE",
+     "cnae": "2330-3/99",
+     "descSubCnae": "FABRICAÇÃO DE OUTROS ARTEFATOS E PRODUTOS DE CONCRETO, CIMENTO, FIBROCIMENTO, GESSO E MATERIAIS SEMELHANTES",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "ARTESÃO(Ã) EM LOUÇAS, VIDRO E CRISTAL INDEPENDENTE",
+     "cnae": "2399-1/01",
+     "descSubCnae": "DECORAÇÃO, LAPIDAÇÃO, GRAVAÇÃO, VITRIFICAÇÃO E OUTROS TRABALHOS EM CERÂMICA, LOUÇA, VIDRO E CRISTAL",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "ARTESÃO(Ã) EM MADEIRA INDEPENDENTE",
+     "cnae": "1629-3/01",
+     "descSubCnae": "FABRICAÇÃO DE ARTEFATOS DIVERSOS DE MADEIRA, EXCETO MÓVEIS",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "ARTESÃO(Ã) EM MÁRMORE, GRANITO, ARDÓSIA E OUTRAS PEDRAS INDEPENDENTE",
+     "cnae": "2391-5/03",
+     "descSubCnae": "APARELHAMENTO DE PLACAS E EXECUÇÃO DE TRABALHOS EM MÁRMORE, GRANITO, ARDÓSIA E OUTRAS PEDRAS",
+     "iss": "S",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "ARTESÃO(Ã) EM METAIS INDEPENDENTE",
+     "cnae": "2599-3/99",
+     "descSubCnae": "FABRICAÇÃO DE OUTROS PRODUTOS DE METAL NÃO ESPECIFICADOS ANTERIORMENTE",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "ARTESÃO(Ã) EM METAIS PRECIOSOS INDEPENDENTE",
+     "cnae": "3211-6/02",
+     "descSubCnae": "FABRICAÇÃO DE ARTEFATOS DE JOALHERIA E OURIVESARIA",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "ARTESÃO(Ã) EM OUTROS MATERIAIS INDEPENDENTE",
+     "cnae": "3299-0/99",
+     "descSubCnae": "FABRICAÇÃO DE PRODUTOS DIVERSOS NÃO ESPECIFICADOS ANTERIORMENTE",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "ARTESÃO(Ã) EM PAPEL INDEPENDENTE",
+     "cnae": "1749-4/00",
+     "descSubCnae": "FABRICAÇÃO DE PRODUTOS DE PASTAS CELULÓSICAS, PAPEL, CARTOLINA, PAPEL-CARTÃO E PAPELÃO ONDULADO NÃO ESPECIFICADOS ANTERIORMENTE",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "ARTESÃO(Ã) EM PLÁSTICO INDEPENDENTE",
+     "cnae": "2229-3/99",
+     "descSubCnae": "FABRICAÇÃO DE ARTEFATOS DE MATERIAL PLÁSTICO PARA OUTROS USOS NÃO ESPECIFICADOS ANTERIORMENTE",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "ARTESÃO(Ã) EM VIDRO INDEPENDENTE",
+     "cnae": "2319-2/00",
+     "descSubCnae": "FABRICAÇÃO DE ARTIGOS DE VIDRO",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "ARTESÃO TÊXTIL",
+     "cnae": "1359-6/00",
+     "descSubCnae": "FABRICAÇÃO DE OUTROS PRODUTOS TÊXTEIS NÃO ESPECIFICADOS",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "ASTRÓLOGO(A) INDEPENDENTE",
+     "cnae": "9609-2/99",
+     "descSubCnae": "OUTRAS ATIVIDADES DE SERVIÇOS PESSOAIS NÃO ESPECIFICADAS ANTERIORMENTE",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "AZULEJISTA INDEPENDENTE",
+     "cnae": "4330-4/05",
+     "descSubCnae": "APLICAÇÃO DE REVESTIMENTOS E DE RESINAS EM INTERIORES E EXTERIORES",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "BALEIRO(A) INDEPENDENTE",
+     "cnae": "4721-1/04",
+     "descSubCnae": "COMÉRCIO VAREJISTA DE DOCES, BALAS, BOMBONS E SEMELHANTES",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "BANHISTA DE ANIMAIS DOMÉSTICOS INDEPENDENTE",
+     "cnae": "9609-2/08",
+     "descSubCnae": "HIGIENE E EMBELEZAMENTO DE ANIMAIS DOMÉSTICOS",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "BARBEIRO INDEPENDENTE",
+     "cnae": "9602-5/01",
+     "descSubCnae": "CABELEIREIROS, MANICURE E PEDICURE",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "BARQUEIRO(A) INDEPENDENTE",
+     "cnae": "5099-8/99",
+     "descSubCnae": "OUTROS TRANSPORTES AQUAVIÁRIOS NÃO ESPECIFICADOS ANTERIORMENTE",
+     "iss": "S",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "BARRAQUEIRO(A) INDEPENDENTE",
+     "cnae": "4712-1/00",
+     "descSubCnae": "COMÉRCIO VAREJISTA DE MERCADORIAS EM GERAL, COM PREDOMINÂNCIA DE PRODUTOS ALIMENTÍCIOS - MINIMERCADOS, MERCEARIAS E ARMAZÉNS",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "BENEFICIADOR(A) DE CASTANHA INDEPENDENTE",
+     "cnae": "1031-7/00",
+     "descSubCnae": "FABRICANTE DE CONSERVAS DE FRUTAS",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "BIKEBOY (CICLISTA MENSAGEIRO) INDEPENDENTE",
+     "cnae": "5320-2/02",
+     "descSubCnae": "SERVIÇOS DE ENTREGA RÁPIDA",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "BIKE PROPAGANDISTA INDEPENDENTE",
+     "cnae": "7319-0/99",
+     "descSubCnae": "OUTRAS ATIVIDADES DE PUBLICIDADE NÃO ESPECIFICADAS ANTERIORMENTE",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "BOLACHEIRO(A)/BISCOITEIRO(A) INDEPENDENTE",
+     "cnae": "1092-9/00",
+     "descSubCnae": "FABRICAÇÃO DE BISCOITOS E BOLACHAS",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "BOMBEIRO(A) HIDRÁULICO INDEPENDENTE",
+     "cnae": "4322-3/01",
+     "descSubCnae": "INSTALAÇÕES HIDRÁULICAS, SANITÁRIAS E DE GÁS",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "BONELEIRO(A) (FABRICANTE DE BONÉS) INDEPENDENTE",
+     "cnae": "1414-2/00",
+     "descSubCnae": "FABRICAÇÃO DE ACESSÓRIOS DO VESTUÁRIO, EXCETO PARA SEGURANÇA E PROTEÇÃO",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "BORDADEIRO(A) INDEPENDENTE",
+     "cnae": "1340-5/99",
+     "descSubCnae": "OUTROS SERVIÇOS DE ACABAMENTO EM FIOS, TECIDOS, ARTEFATOS TÊXTEIS E PEÇAS DO VESTUÁRIO",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "BORRACHEIRO(A) INDEPENDENTE",
+     "cnae": "4520-0/06",
+     "descSubCnae": "SERVIÇOS DE BORRACHARIA PARA VEÍCULOS AUTOMOTORES",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "BRITADOR INDEPENDENTE",
+     "cnae": "2391-5/01",
+     "descSubCnae": "BRITAMENTO DE PEDRAS, EXCETO ASSOCIADO À EXTRAÇÃO",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "CABELEIREIRO(A) INDEPENDENTE",
+     "cnae": "9602-5/01",
+     "descSubCnae": "CABELEIREIROS, MANICURE E PEDICURE",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "CALAFETADOR(A) INDEPENDENTE",
+     "cnae": "4330-4/05",
+     "descSubCnae": "APLICAÇÃO DE REVESTIMENTOS E DE RESINAS EM INTERIORES E EXTERIORES",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "CALHEIRO (A) INDEPENDENTE",
+     "cnae": "4399-1/99",
+     "descSubCnae": "SERVIÇOS ESPECIALIZADOS PARA CONSTRUÇÃO NÃO ESPECIFICADOS ANTERIORMENTE",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "CAMINHONEIRO (A) DE CARGAS NÃO PERIGOSAS, INTERMUNICIPAL E INTERESTADUAL INDEPENDENTE",
+     "cnae": "4930-2/02",
+     "descSubCnae": "TRANSPORTE RODOVIÁRIO DE CARGA, EXCETO PRODUTOS PERIGOSOS E MUDANÇAS, INTERMUNICIPAL, INTERESTADUAL E INTERNACIONAL",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "CANTOR(A)/MÚSICO(A) INDEPENDENTE",
+     "cnae": "9001-9/02",
+     "descSubCnae": "PRODUÇÃO MUSICAL",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "CAPOTEIRO(A) INDEPENDENTE",
+     "cnae": "4520-0/08",
+     "descSubCnae": "SERVIÇOS DE CAPOTARIA",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "CARPINTEIRO(A) INDEPENDENTE",
+     "cnae": "1622-6/99",
+     "descSubCnae": "FABRICAÇÃO DE OUTROS ARTIGOS DE CARPINTARIA PARA CONSTRUÇÃO",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "CARPINTEIRO(A) INSTALADOR(A) INDEPENDENTE",
+     "cnae": "4330-4/02",
+     "descSubCnae": "INSTALAÇÃO DE PORTAS, JANELAS, TETOS, DIVISÓRIAS E ARMÁRIOS EMBUTIDOS DE QUALQUER MATERIAL",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "CARREGADOR (VEÍCULOS INDEPENDENTE",
+     "cnae": "5212-5/00",
+     "descSubCnae": "CARGA E DESCARGA",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "CARREGADOR DE MALAS INDEPENDENTE",
+     "cnae": "9609-2/99",
+     "descSubCnae": "OUTRAS ATIVIDADES DE SERVIÇOS PESSOAIS NÃO ESPECIFICADAS ANTERIORMENTE",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "CARROCEIRO - COLETA DE ENTULHOS E RESÍDUOS INDEPENDENTE",
+     "cnae": "3811-4/00",
+     "descSubCnae": "COLETA DE RESÍDUOS NÃO PERIGOSOS",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "CARROCEIRO - TRANSPORTE DE CARGA INDEPENDENTE",
+     "cnae": "4930-2/01",
+     "descSubCnae": "TRANSPORTE RODOVIÁRIO DE CARGA, EXCETO PRODUTOS PERIGOSOS E MUDANÇAS, MUNICIPAL",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "CARROCEIRO - TRANSPORTE DE MUDANÇA INDEPENDENTE",
+     "cnae": "4930-2/04",
+     "descSubCnae": "TRANSPORTE RODOVIÁRIO DE MUDANÇAS",
+     "iss": "S",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "CARTAZISTA, PINTOR DE INDEPENDENTE",
+     "cnae": "8299-7/99",
+     "descSubCnae": "OUTRAS ATIVIDADES DE SERVIÇOS PRESTADOS PRINCIPALMENTE ÀS EMPRESAS NÃO ESPECIFICADAS ANTERIORMENTE",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "CERQUEIRO(A) INDEPENDENTE",
+     "cnae": "4399-1/99",
+     "descSubCnae": "SERVIÇOS ESPECIALIZADOS PARA CONSTRUÇÃO NÃO ESPECIFICADOS ANTERIORMENTE",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "CHAPELEIRO(A) INDEPENDENTE",
+     "cnae": "1414-2/00",
+     "descSubCnae": "FABRICAÇÃO DE ACESSÓRIOS DO VESTUÁRIO, EXCETO PARA SEGURANÇA E PROTEÇÃO",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "CHAVEIRO(A) INDEPENDENTE",
+     "cnae": "9529-1/02",
+     "descSubCnae": "CHAVEIROS",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "CHOCOLATEIRO(A) INDEPENDENTE",
+     "cnae": "1093-7/01",
+     "descSubCnae": "FABRICAÇÃO DE PRODUTOS DERIVADOS DO CACAU E DE CHOCOLATES",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "CHURRASQUEIRO(A) AMBULANTE INDEPENDENTE",
+     "cnae": "5612-1/00",
+     "descSubCnae": "SERVIÇOS AMBULANTES DE ALIMENTAÇÃO",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "CHURRASQUEIRO(A) EM DOMICÍLIO INDEPENDENTE",
+     "cnae": "5620-1/02",
+     "descSubCnae": "SERVIÇOS DE ALIMENTAÇÃO PARA EVENTOS E RECEPÇÕES - BUFÊ",
+     "iss": "S",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "CLICHERISTA INDEPENDENTE",
+     "cnae": "1821-1/00",
+     "descSubCnae": "SERVIÇOS DE PRÉ-IMPRESSÃO",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "COBRADOR(A) DE DÍVIDAS INDEPENDENTE",
+     "cnae": "8291-1/00",
+     "descSubCnae": "ATIVIDADES DE COBRANÇAS E INFORMAÇÕES CADASTRAIS",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "COLCHOEIRO(A) INDEPENDENTE",
+     "cnae": "3104-7/00",
+     "descSubCnae": "FABRICAÇÃO DE COLCHÕES",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "COLETOR DE RESÍDUOS NÃO-PERIGOSOS INDEPENDENTE",
+     "cnae": "3811-4/00",
+     "descSubCnae": "COLETA DE RESÍDUOS NÃO PERIGOSOS",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "COLOCADOR(A) DE PIERCING INDEPENDENTE",
+     "cnae": "9609-2/06",
+     "descSubCnae": "SERVIÇOS DE TATUAGEM E COLOCAÇÃO DE PIERCING",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "COLOCADOR(A) DE REVESTIMENTOS INDEPENDENTE",
+     "cnae": "4330-4/05",
+     "descSubCnae": "APLICAÇÃO DE REVESTIMENTOS E DE RESINAS EM INTERIORES E EXTERIORES",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "COMERCIANTE DE INSETICIDAS E RATICIDAS INDEPENDENTE",
+     "cnae": "4789-0/05",
+     "descSubCnae": "COMÉRCIO VAREJISTA DE PRODUTOS SANEANTES DOMissANITÁRIOS",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "COMERCIANTE DE PRODUTOS PARA PISCINAS INDEPENDENTE",
+     "cnae": "4789-0/05",
+     "descSubCnae": "COMÉRCIO VAREJISTA DE PRODUTOS SANEANTES DOMissANITÁRIOS",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "COMERCIANTE DE ARTIGOS E ALIMENTOS PARA ANIMAIS DE ESTIMAÇÃO (PET SHOP) INDEPENDENTE (NÃO INCLUI A VENDA DE MEDICAMENTOS)",
+     "cnae": "4789-0/04",
+     "descSubCnae": "COMÉRCIO VAREJISTA DE ANIMAIS VIVOS E DE ARTIGOS E ALIMENTOS PARA ANIMAIS DE ESTIMAÇÃO",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "COMERCIANTE DE ARTIGOS DE ARMARINHO INDEPENDENTE",
+     "cnae": "4755-5/02",
+     "descSubCnae": "COMERCIO VAREJISTA DE ARTIGOS DE ARMARINHO",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "COMERCIANTE DE ARTIGOS DE BEBÊ INDEPENDENTE",
+     "cnae": "4789-0/99",
+     "descSubCnae": "COMÉRCIO VAREJISTA DE OUTROS PRODUTOS NÃO ESPECIFICADOS ANTERIORMENTE",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "COMERCIANTE DE ARTIGOS DE CAÇA, PESCA E CAMPING INDEPENDENTE",
+     "cnae": "4763-6/04",
+     "descSubCnae": "COMÉRCIO VAREJISTA DE ARTIGOS DE CAÇA, PESCA E CAMPING",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "COMERCIANTE DE ARTIGOS DE CAMA, MESA E BANHO INDEPENDENTE",
+     "cnae": "4755-5/03",
+     "descSubCnae": "COMERCIO VAREJISTA DE ARTIGOS DE CAMA, MESA E BANHO",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "COMERCIANTE DE ARTIGOS DE COLCHOARIA INDEPENDENTE",
+     "cnae": "4754-7/02",
+     "descSubCnae": "COMÉRCIO VAREJISTA DE ARTIGOS DE COLCHOARIA",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "COMERCIANTE DE ARTIGOS DE CUTELARIA INDEPENDENTE",
+     "cnae": "4759-8/99",
+     "descSubCnae": "COMÉRCIO VAREJISTA DE OUTROS ARTIGOS DE USO PESSOAL E DOMÉSTICO NÃO ESPECIFICADOS ANTERIORMENTE",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "COMERCIANTE DE ARTIGOS DE ILUMINAÇÃO INDEPENDENTE",
+     "cnae": "4754-7/03",
+     "descSubCnae": "COMÉRCIO VAREJISTA DE ARTIGOS DE ILUMINAÇÃO",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "COMERCIANTE DE ARTIGOS DE JOALHERIA INDEPENDENTE",
+     "cnae": "4783-1/01",
+     "descSubCnae": "COMÉRCIO VAREJISTA DE ARTIGOS DE JOALHERIA",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "COMERCIANTE DE ARTIGOS DE ÓPTICA INDEPENDENTE",
+     "cnae": "4774-1/00",
+     "descSubCnae": "COMÉRCIO VAREJISTA DE ARTIGOS DE ÓPTICA",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "COMERCIANTE DE ARTIGOS DE RELOJOARIA INDEPENDENTE",
+     "cnae": "4783-1/02",
+     "descSubCnae": "COMÉRCIO VAREJISTA DE ARTIGOS DE RELOJOARIA",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "COMERCIANTE DE ARTIGOS DE TAPEÇARIA, CORTINAS E PERSIANAS INDEPENDENTE",
+     "cnae": "4759-8/01",
+     "descSubCnae": "COMÉRCIO VAREJISTA DE ARTIGOS DE TAPEÇARIA, CORTINAS E PERSIANAS",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "COMERCIANTE DE ARTIGOS DE VIAGEM INDEPENDENTE",
+     "cnae": "4782-2/02",
+     "descSubCnae": "COMÉRCIO VAREJISTA DE ARTIGOS DE VIAGEM",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "COMERCIANTE DE ARTIGOS DO VESTUÁRIO E ACESSÓRIOS INDEPENDENTE",
+     "cnae": "4781-4/00",
+     "descSubCnae": "COMÉRCIO VAREJISTA DE ARTIGOS DO VESTUÁRIO E ACESSÓRIOS",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "COMERCIANTE DE ARTIGOS ERÓTICOS INDEPENDENTE",
+     "cnae": "4789-0/99",
+     "descSubCnae": "COMÉRCIO VAREJISTA DE OUTROS PRODUTOS NÃO ESPECIFICADOS ANTERIORMENTE",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "COMERCIANTE DE ARTIGOS ESPORTIVOS INDEPENDENTE",
+     "cnae": "4763-6/02",
+     "descSubCnae": "COMÉRCIO VAREJISTA DE ARTIGOS ESPORTIVOS",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "COMERCIANTE DE ARTIGOS FOTOGRÁFICOS E PARA FILMAGEM INDEPENDENTE",
+     "cnae": "4789-0/08",
+     "descSubCnae": "COMÉRCIO VAREJISTA DE ARTIGOS FOTOGRÁFICOS E PARA FILMAGEM",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "COMERCIANTE DE ARTIGOS FUNERÁRIOS INDEPENDENTE",
+     "cnae": "4789-0/99",
+     "descSubCnae": "COMÉRCIO VAREJISTA DE OUTROS PRODUTOS NÃO ESPECIFICADOS ANTERIORMENTE",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "COMERCIANTE DE ARTIGOS MÉDICOS E ORTOPÉDICOS INDEPENDENTE",
+     "cnae": "4773-3/00",
+     "descSubCnae": "COMÉRCIO VAREJISTA DE ARTIGOS MÉDICOS E ORTOPÉDICOS",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "COMERCIANTE DE ARTIGOS PARA HABITAÇÃO INDEPENDENTE",
+     "cnae": "4759-8/99",
+     "descSubCnae": "COMÉRCIO VAREJISTA DE OUTROS ARTIGOS DE USO PESSOAL E DOMÉSTICO NÃO ESPECIFICADOS ANTERIORMENTE",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "COMERCIANTE DE ARTIGOS USADOS INDEPENDENTE",
+     "cnae": "4785-7/99",
+     "descSubCnae": "COMÉRCIO VAREJISTA DE OUTROS ARTIGOS USADOS",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "COMERCIANTE DE BEBIDAS INDEPENDENTE",
+     "cnae": "4723-7/00",
+     "descSubCnae": "COMÉRCIO VAREJISTA DE BEBIDAS",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "COMERCIANTE DE BICICLETAS E TRICICLOS; PEÇAS E ACESSÓRIOS INDEPENDENTE",
+     "cnae": "4763-6/03",
+     "descSubCnae": "COMÉRCIO VAREJISTA DE BICICLETAS E TRICICLOS; PEÇAS E ACESSÓRIOS",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "COMERCIANTE DE SUVENIRES, BIJUTERIAS E ARTESANATOS INDEPENDENTE",
+     "cnae": "4789-0/01",
+     "descSubCnae": "COMÉRCIO VAREJISTA DE SUVENIRES, BIJUTERIAS E ARTESANATOS",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "COMERCIANTE DE BRINQUEDOS E ARTIGOS RECREATIVOS INDEPENDENTE",
+     "cnae": "4763-6/01",
+     "descSubCnae": "COMÉRCIO VAREJISTA DE BRINQUEDOS E ARTIGOS RECREATIVOS",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "COMERCIANTE DE CAL, AREIA, PEDRA BRITADA, TIJOLOS E TELHAS INDEPENDENTE",
+     "cnae": "4744-0/04",
+     "descSubCnae": "COMÉRCIO VAREJISTA DE CAL, AREIA, PEDRA BRITADA, TIJOLOS E TELHAS",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "COMERCIANTE DE CALÇADOS INDEPENDENTE",
+     "cnae": "4782-2/01",
+     "descSubCnae": "COMÉRCIO VAREJISTA DE CALÇADOS",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "COMERCIANTE DE CARVÃO E LENHA INDEPENDENTE",
+     "cnae": "4789-0/99",
+     "descSubCnae": "COMÉRCIO VAREJISTA DE OUTROS PRODUTOS NÃO ESPECIFICADOS ANTERIORMENTE",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "COMERCIANTE DE CESTAS DE CAFÉ DA MANHÃ INDEPENDENTE",
+     "cnae": "4729-6/99",
+     "descSubCnae": "COMÉRCIO VAREJISTA DE PRODUTOS ALIMENTÍCIOS EM GERAL OU ESPECIALIZADO EM PRODUTOS ALIMENTÍCIOS NÃO ESPECIFICADOS ANTERIORMENTE",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "COMERCIANTE DE COSMÉTICOS E ARTIGOS DE PERFUMARIA INDEPENDENTE",
+     "cnae": "4772-5/00",
+     "descSubCnae": "COMÉRCIO VAREJISTA DE COSMÉTICOS, PRODUTOS DE PERFUMARIA E DE HIGIENE PESSOAL",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "COMERCIANTE DE DISCOS, CDS, DVDS E FITAS INDEPENDENTE",
+     "cnae": "4762-8/00",
+     "descSubCnae": "COMÉRCIO VAREJISTA DE DISCOS, CDS, DVDS E FITAS",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "COMERCIANTE DE ELETRODOMÉSTICOS E EQUIPAMENTOS DE ÁUDIO E VÍDEO INDEPENDENTE",
+     "cnae": "4753-9/00",
+     "descSubCnae": "COMÉRCIO VAREJISTA ESPECIALIZADO DE ELETRODOMÉSTICOS E EQUIPAMENTOS DE ÁUDIO E VÍDEO",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "COMERCIANTE DE EMBALAGENS INDEPENDENTE",
+     "cnae": "4789-0/99",
+     "descSubCnae": "COMÉRCIO VAREJISTA DE OUTROS PRODUTOS NÃO ESPECIFICADOS ANTERIORMENTE",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "COMERCIANTE DE EQUIPAMENTOS DE TELEFONIA E COMUNICAÇÃO INDEPENDENTE",
+     "cnae": "4752-1/00",
+     "descSubCnae": "COMÉRCIO VAREJISTA ESPECIALIZADO DE EQUIPAMENTOS DE TELEFONIA E COMUNICAÇÃO",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "COMERCIANTE DE EQUIPAMENTOS E SUPRIMENTOS DE INFORMÁTICA INDEPENDENTE",
+     "cnae": "4751-2/01",
+     "descSubCnae": "COMÉRCIO VAREJISTA ESPECIALIZADO DE EQUIPAMENTOS E SUPRIMENTOS DE INFORMÁTICA",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "COMERCIANTE DE EQUIPAMENTOS PARA ESCRITÓRIO INDEPENDENTE",
+     "cnae": "4789-0/07",
+     "descSubCnae": "COMÉRCIO VAREJISTA DE EQUIPAMENTOS PARA ESCRITÓRIO",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "COMERCIANTE DE FERRAGENS E FERRAMENTAS INDEPENDENTE",
+     "cnae": "4744-0/01",
+     "descSubCnae": "COMÉRCIO VAREJISTA DE FERRAGENS E FERRAMENTAS",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "COMERCIANTE DE FLORES, PLANTAS E FRUTAS ARTIFICIAIS INDEPENDENTE",
+     "cnae": "4789-0/99",
+     "descSubCnae": "COMÉRCIO VAREJISTA DE OUTROS PRODUTOS NÃO ESPECIFICADOS ANTERIORMENTE",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "COMERCIANTE DE INSTRUMENTOS MUSICAIS E ACESSÓRIOS INDEPENDENTE",
+     "cnae": "4756-3/00",
+     "descSubCnae": "COMÉRCIO VAREJISTA ESPECIALIZADO DE INSTRUMENTOS MUSICAIS E ACESSÓRIOS",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "COMERCIANTE DE LATICÍNIOS INDEPENDENTE",
+     "cnae": "4721-1/03",
+     "descSubCnae": "COMÉRCIO VAREJISTA DE LATICÍNIOS E FRIOS",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "COMERCIANTE DE LUBRIFICANTES INDEPENDENTE",
+     "cnae": "4732-6/00",
+     "descSubCnae": "COMÉRCIO VAREJISTA DE LUBRIFICANTES",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "COMERCIANTE DE MADEIRA E ARTEFATOS INDEPENDENTE",
+     "cnae": "4744-0/02",
+     "descSubCnae": "COMÉRCIO VAREJISTA DE MADEIRA E ARTEFATOS",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "COMERCIANTE DE MATERIAIS DE CONSTRUÇÃO EM GERAL INDEPENDENTE",
+     "cnae": "4744-0/99",
+     "descSubCnae": "COMÉRCIO VAREJISTA DE MATERIAIS DE CONSTRUÇÃO EM GERAL",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "COMERCIANTE DE MATERIAIS HIDRÁULICOS INDEPENDENTE",
+     "cnae": "4744-0/03",
+     "descSubCnae": "COMÉRCIO VAREJISTA DE MATERIAIS HIDRÁULICOS",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "COMERCIANTE DE MATERIAL ELÉTRICO INDEPENDENTE",
+     "cnae": "4742-3/00",
+     "descSubCnae": "COMÉRCIO VAREJISTA DE MATERIAL ELÉTRICO",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "COMERCIANTE DE MIUDEZAS E QUINQUILHARIAS INDEPENDENTE",
+     "cnae": "4713-0/02",
+     "descSubCnae": "LOJAS DE VARIEDADES, EXCETO LOJAS DE DEPARTAMENTOS OU MAGAZINES",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "COMERCIANTE DE MOLDURAS E QUADROS INDEPENDENTE",
+     "cnae": "4789-0/99",
+     "descSubCnae": "COMÉRCIO VAREJISTA DE OUTROS PRODUTOS NÃO ESPECIFICADOS ANTERIORMENTE",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "COMERCIANTE DE MÓVEIS INDEPENDENTE",
+     "cnae": "4754-7/01",
+     "descSubCnae": "COMÉRCIO VAREJISTA DE MÓVEIS",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "COMERCIANTE DE OBJETOS DE ARTE INDEPENDENTE",
+     "cnae": "4789-0/03",
+     "descSubCnae": "COMÉRCIO VAREJISTA DE OBJETOS DE ARTE",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "COMERCIANTE DE PEÇAS E ACESSÓRIOS NOVOS PARA MOTOCICLETAS E MOTONONETAS INDEPENDENTE",
+     "cnae": "4541-2/06",
+     "descSubCnae": "COMÉRCIO A VAREJO DE PEÇAS E ACESSÓRIOS NOVOS PARA MOTOCICLETAS E MOTONETAS",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "COMERCIANTE DE PEÇAS E ACESSÓRIOS NOVOS PARA VEÍCULOS AUTOMOTORES INDEPENDENTE",
+     "cnae": "4530-7/03",
+     "descSubCnae": "COMÉRCIO A VAREJO DE PEÇAS E ACESSÓRIOS NOVOS PARA VEÍCULOS AUTOMOTORES",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "COMERCIANTE DE PEÇAS E ACESSÓRIOS PARA APARELHOS ELETROELETRÔNICOS PARA USO DOMÉSTICO INDEPENDENTE",
+     "cnae": "4757-1/00",
+     "descSubCnae": "COMÉRCIO VAREJISTA ESPECIALIZADO DE PEÇAS E ACESSÓRIOS PARA APARELHOS ELETROELETRÔNICOS PARA USO DOMÉSTICO, EXCETO INFORMÁTICA E COMUNICAÇÃO",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "COMERCIANTE DE PEÇAS E ACESSÓRIOS USADOS PARA MOTOCICLETAS E MOTONONETAS INDEPENDENTE",
+     "cnae": "4541-2/07",
+     "descSubCnae": "COMÉRCIO A VAREJO DE PEÇAS E ACESSÓRIOS USADOS PARA MOTOCICLETAS E MOTONETAS",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "COMERCIANTE DE PEÇAS E ACESSÓRIOS USADOS PARA VEÍCULOS AUTOMOTORES INDEPENDENTE",
+     "cnae": "4530-7/04",
+     "descSubCnae": "COMÉRCIO A VAREJO DE PEÇAS E ACESSÓRIOS USADOS PARA VEÍCULOS AUTOMOTORES",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "COMERCIANTE DE PERUCAS INDEPENDENTE",
+     "cnae": "4789-0/99",
+     "descSubCnae": "COMÉRCIO VAREJISTA DE OUTROS PRODUTOS NÃO ESPECIFICADOS ANTERIORMENTE",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "COMERCIANTE DE PLANTAS, FLORES NATURAIS, VASOS E ADUBOS INDEPENDENTE",
+     "cnae": "4789-0/02",
+     "descSubCnae": "COMÉRCIO VAREJISTA DE PLANTAS E FLORES NATURAIS",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "COMERCIANTE DE PNEUMÁTICOS E CÂMARAS-DE-AR INDEPENDENTE",
+     "cnae": "4530-7/05",
+     "descSubCnae": "COMÉRCIO A VAREJO DE PNEUMÁTICOS E CÂMARAS-DE-AR",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "COMERCIANTE DE PRODUTOS DE HIGIENE PESSOAL INDEPENDENTE",
+     "cnae": "4772-5/00",
+     "descSubCnae": "COMÉRCIO VAREJISTA DE COSMÉTICOS, PRODUTOS DE PERFUMARIA E DE HIGIENE PESSOAL",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "COMERCIANTE DE PRODUTOS DE LIMPEZA INDEPENDENTE",
+     "cnae": "4789-0/05",
+     "descSubCnae": "COMÉRCIO VAREJISTA DE PRODUTOS SANEANTES DOMissANITÁRIOS",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "COMERCIANTE DE PRODUTOS DE PANIFICAÇÃO INDEPENDENTE",
+     "cnae": "4721-1/02",
+     "descSubCnae": "PADARIA E CONFEITARIA COM PREDOMINÂNCIA DE REVENDA",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "COMERCIANTE DE PRODUTOS DE TABACARIA INDEPENDENTE",
+     "cnae": "4729-6/01",
+     "descSubCnae": "TABACARIA",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "COMERCIANTE DE PRODUTOS NATURAIS INDEPENDENTE",
+     "cnae": "4729-6/99",
+     "descSubCnae": "COMÉRCIO VAREJISTA DE PRODUTOS ALIMENTÍCIOS EM GERAL OU ESPECIALIZADO EM PRODUTOS ALIMENTÍCIOS NÃO ESPECIFICADOS ANTERIORMENTE",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "COMERCIANTE DE PRODUTOS PARA FESTAS E NATAL INDEPENDENTE",
+     "cnae": "4789-0/99",
+     "descSubCnae": "COMÉRCIO VAREJISTA DE OUTROS PRODUTOS NÃO ESPECIFICADOS ANTERIORMENTE",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "COMERCIANTE DE PRODUTOS RELIGIOSOS INDEPENDENTE",
+     "cnae": "4789-0/99",
+     "descSubCnae": "COMÉRCIO VAREJISTA DE OUTROS PRODUTOS NÃO ESPECIFICADOS ANTERIORMENTE",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "COMERCIANTE DE REDES PARA DORMIR INDEPENDENTE",
+     "cnae": "4789-0/99",
+     "descSubCnae": "COMÉRCIO VAREJISTA DE OUTROS PRODUTOS NÃO ESPECIFICADOS ANTERIORMENTE",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "COMERCIANTE DE SISTEMA DE SEGURANÇA RESIDENCIAL INDEPENDENTE",
+     "cnae": "4759-8/99",
+     "descSubCnae": "COMÉRCIO VAREJISTA DE OUTROS ARTIGOS DE USO PESSOAL E DOMÉSTICO NÃO ESPECIFICADOS ANTERIORMENTE",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "COMERCIANTE DE TECIDOS INDEPENDENTE",
+     "cnae": "4755-5/01",
+     "descSubCnae": "COMÉRCIO VAREJISTA DE TECIDOS",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "COMERCIANTE DE TINTAS E MATERIAIS PARA PINTURA INDEPENDENTE",
+     "cnae": "4741-5/00",
+     "descSubCnae": "COMÉRCIO VAREJISTA DE TINTAS E MATERIAIS PARA PINTURA",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "COMERCIANTE DE TOLDOS E PAPEL DE PAREDE INDEPENDENTE",
+     "cnae": "4759-8/99",
+     "descSubCnae": "COMÉRCIO VAREJISTA DE OUTROS ARTIGOS DE USO PESSOAL E DOMÉSTICO NÃO ESPECIFICADOS ANTERIORMENTE",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "COMERCIANTE DE VIDROS INDEPENDENTE",
+     "cnae": "4743-1/00",
+     "descSubCnae": "COMÉRCIO VAREJISTA DE VIDROS",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "COMPOTEIRO(A) INDEPENDENTE",
+     "cnae": "1031-7/00",
+     "descSubCnae": "FABRICAÇÃO DE CONSERVAS DE FRUTAS",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "CONFECCIONADOR(A) DE CARIMBOS INDEPENDENTE",
+     "cnae": "3299-0/02",
+     "descSubCnae": "FABRICAÇÃO DE CANETAS, LÁPIS E OUTROS ARTIGOS PARA ESCRITÓRIO",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "CONFEITEIRO(A) INDEPENDENTE",
+     "cnae": "1091-1/02",
+     "descSubCnae": "FABRICAÇÃO DE PRODUTOS DE PADARIA E CONFEITARIA COM PREDOMINÂNCIA DE PRODUÇÃO PRÓPRIA.",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "COSTUREIRO(A) DE ROUPAS, EXCETO SOB MEDIDA, INDEPENDENTE",
+     "cnae": "1412-6/01",
+     "descSubCnae": "CONFECÇÃO DE PEÇAS DE VESTUÁRIO, EXCETO ROUPAS ÍNTIMAS E AS CONFECCIONADAS SOB MEDIDA",
+     "iss": "S",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "COSTUREIRO(A) DE ROUPAS SOB MEDIDA INDEPENDENTE",
+     "cnae": "1412-6/02",
+     "descSubCnae": "CONFECÇÃO SOB MEDIDA DE PEÇAS DO VESTUÁRIO, EXCETO ROUPAS ÍNTIMAS",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "COZINHEIRO(A) QUE FORNECE REFEIÇÕES PRONTAS E EMBALADAS PARA CONSUMO INDEPENDENTE",
+     "cnae": "5620-1/04",
+     "descSubCnae": "FORNECIMENTO DE ALIMENTOS PREPARADOS PREPONDERANTEMENTE PARA CONSUMO DOMICILIAR",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "CRIADOR(A) DE ANIMAIS DOMÉSTICOS INDEPENDENTE",
+     "cnae": "0159-8/02",
+     "descSubCnae": "CRIAÇÃO DE ANIMAIS DE ESTIMAÇÃO",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "CRIADOR(A) DE PEIXES ORNAMENTAIS EM ÁGUA DOCE INDEPENDENTE",
+     "cnae": "0322-1/04",
+     "descSubCnae": "CRIAÇÃO DE PEIXES ORNAMENTAIS EM ÁGUA DOCE",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "CRIADOR(A) DE PEIXES ORNAMENTAIS EM ÁGUA SALGADA INDEPENDENTE",
+     "cnae": "0321-3/04",
+     "descSubCnae": "CRIAÇÃO DE PEIXES ORNAMENTAIS EM ÁGUA SALGADA E SALOBRA",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "CROCHETEIRO(A) INDEPENDENTE",
+     "cnae": "1422-3/00",
+     "descSubCnae": "FABRICAÇÃO DE ARTIGOS DO VESTUÁRIO, PRODUZIDOS EM MALHARIAS E TRICOTAGENS, EXCETO MEIAS",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "CUIDADOR(A) DE ANIMAIS (PET SITTER) INDEPENDENTE",
+     "cnae": "9609-2/08",
+     "descSubCnae": "HIGIENE E EMBELEZAMENTO DE ANIMAIS DOMÉSTICOS",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "CUIDADOR(A) DE IDOSOS E ENFERMOS INDEPENDENTE",
+     "cnae": "8712-3/00",
+     "descSubCnae": "ATIVIDADES DE FORNECIMENTO DE INFRA-ESTRUTURA DE APOIO E ASSISTÊNCIA A PACIENTE NO DOMICÍLIO",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "CUNHADOR(A) DE MOEDAS E MEDALHAS INDEPENDENTE",
+     "cnae": "3211-6/03",
+     "descSubCnae": "CUNHAGEM DE MOEDAS E MEDALHAS",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "CURTIDOR DE COURO INDEPENDENTE",
+     "cnae": "1510-6/00",
+     "descSubCnae": "CURTIMENTO E OUTRAS PREPARAÇÕES DE COURO",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "CUSTOMIZADOR(A) DE ROUPAS INDEPENDENTE",
+     "cnae": "1340-5/99",
+     "descSubCnae": "OUTROS SERVIÇOS DE ACABAMENTO EM FIOS, TECIDOS, ARTEFATOS TÊXTEIS E PEÇAS DO VESTUÁRIO",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "DEPILADOR(A) INDEPENDENTE",
+     "cnae": "9602-5/02",
+     "descSubCnae": "ATIVIDADES DE ESTÉTICA E OUTROS SERVIÇOS DE CUIDADOS COM A BELEZA",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "DIARISTA INDEPENDENTE",
+     "cnae": "9700-5/00",
+     "descSubCnae": "SERVIÇOS DOMÉSTICOS",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "DIGITADOR(A) INDEPENDENTE",
+     "cnae": "8219-9/99",
+     "descSubCnae": "PREPARAÇÃO DE DOCUMENTOS E SERVIÇOS ESPECIALIZADOS DE APOIO ADMINISTRATIVO NÃO ESPECIFICADOS ANTERIORMENTE",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "DISC JOCKEY (DJ) OU VIDEO JOCKEY (VJ) INDEPENDENTE",
+     "cnae": "9001-9/06",
+     "descSubCnae": "ATIVIDADES DE SONORIZAÇÃO E DE ILUMINAÇÃO",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "DISTRIBUIDOR(A) DE ÁGUA POTÁVEL EM CAMINHÃO PIPA INDEPENDENTE",
+     "cnae": "3600-6/02",
+     "descSubCnae": "DISTRIBUIÇÃO DE ÁGUA POR CAMINHÕES",
+     "iss": "S",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "DOCEIRO(A) INDEPENDENTE",
+     "cnae": "5620-1/04",
+     "descSubCnae": "FORNECIMENTO DE ALIMENTOS PREPARADOS PREPONDERANTEMENTE PARA CONSUMO DOMICILIAR",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "DUBLADOR(A) INDEPENDENTE",
+     "cnae": "5912-0/01",
+     "descSubCnae": "SERVIÇOS DE DUBLAGEM",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "EDITOR(A) DE JORNAIS DIÁRIOS INDEPENDENTE",
+     "cnae": "5812-3/01",
+     "descSubCnae": "EDITOR DE JORNAIS DIÁRIOS",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "EDITOR(A) DE JORNAIS NÃO DIÁRIOS INDEPENDENTE",
+     "cnae": "5812-3/02",
+     "descSubCnae": "EDITOR DE JORNAIS NÃO DIÁRIOS",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "EDITOR(A) DE LISTA DE DADOS E DE OUTRAS INFORMAÇÕES INDEPENDENTE",
+     "cnae": "5819-1/00",
+     "descSubCnae": "EDIÇÃO DE CADASTROS, LISTAS E DE OUTROS PRODUTOS GRÁFICOS",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "EDITOR(A) DE LIVROS INDEPENDENTE",
+     "cnae": "5811-5/00",
+     "descSubCnae": "EDIÇÃO DE LIVROS",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "EDITOR(A) DE REVISTAS INDEPENDENTE",
+     "cnae": "5813-1/00",
+     "descSubCnae": "EDIÇÃO DE REVISTAS",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "EDITOR(A) DE VÍDEO INDEPENDENTE",
+     "cnae": "5912-0/99",
+     "descSubCnae": "ATIVIDADES DE PÓS-PRODUÇÃO CINEMATOGRÁFICA, DE VÍDEOS E DE PROGRAMAS DE TELEVISÃO NÃO ESPECIFICADAS ANTERIORMENTE",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "ELETRICISTA DE AUTOMÓVEIS INDEPENDENTE",
+     "cnae": "4520-0/03",
+     "descSubCnae": "SERVIÇOS DE MANUTENÇÃO E REPARAÇÃO ELÉTRICA DE VEÍCULOS AUTOMOTORES",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "ELETRICISTA EM RESIDÊNCIAS E ESTABELECIMENTOS COMERCIAIS INDEPENDENTE",
+     "cnae": "4321-5/00",
+     "descSubCnae": "INSTALAÇÃO E MANUTENÇÃO ELÉTRICA",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "ENCADERNADOR(A)/  PLASTIFICADOR(A) INDEPENDENTE",
+     "cnae": "1822-9/01",
+     "descSubCnae": "SERVIÇOS DE ENCADERNAÇÃO E PLASTIFICAÇÃO",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "ENCANADOR INDEPENDENTE",
+     "cnae": "4322-3/01",
+     "descSubCnae": "INSTALAÇÕES HIDRÁULICAS, SANITÁRIAS E DE GÁS",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "ENGRAXATE INDEPENDENTE",
+     "cnae": "9609-2/99",
+     "descSubCnae": "OUTRAS ATIVIDADES DE SERVIÇOS PESSOAIS NÃO ESPECIFICADAS ANTERIORMENTE",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "ENTREGADOR DE MALOTES INDEPENDENTE",
+     "cnae": "5320-2/01",
+     "descSubCnae": "SERVIÇOS DE MALOTE NÃO REALIZADOS PELO CORREIO NACIONAL",
+     "iss": "S",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "ENVASADOR(A) E EMPACOTADOR(A) INDEPENDENTE",
+     "cnae": "8292-0/00",
+     "descSubCnae": "ENVASAMENTO E EMPACOTAMENTO SOB CONTRATO",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "ESTAMPADOR(A) DE PEÇAS DO VESTUÁRIO INDEPENDENTE",
+     "cnae": "1340-5/01",
+     "descSubCnae": "ESTAMPARIA E TEXTURIZAÇÃO EM FIOS, TECIDOS, ARTEFATOS TÊXTEIS E PEÇAS DO VESTUÁRIO",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "ESTETICISTA DE ANIMAIS DOMÉSTICOS INDEPENDENTE",
+     "cnae": "9609-2/08",
+     "descSubCnae": "HIGIENE E EMBELEZAMENTO DE ANIMAIS DOMÉSTICOS",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "ESTETICISTA INDEPENDENTE",
+     "cnae": "9602-5/02",
+     "descSubCnae": "ATIVIDADES DE ESTÉTICA E OUTROS SERVIÇOS DE CUIDADOS COM A BELEZA",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "ESTOFADOR(A) INDEPENDENTE",
+     "cnae": "9529-1/05",
+     "descSubCnae": "REPARAÇÃO DE ARTIGOS DO MOBILIÁRIO",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "FABRICANTE DE AÇÚCAR MASCAVO INDEPENDENTE",
+     "cnae": "1071-6/00",
+     "descSubCnae": "FABRICAÇÃO DE AÇÚCAR EM BRUTO",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "FABRICANTE DE AMENDOIM E CASTANHA DE CAJU TORRADOS E SALGADOS INDEPENDENTE",
+     "cnae": "1031-7/00",
+     "descSubCnae": "FABRICANTE DE CONSERVAS DE FRUTAS",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "FABRICANTE DE ALIMENTOS PRONTOS CONGELADOS INDEPENDENTE",
+     "cnae": "1096-1/00",
+     "descSubCnae": "FABRICAÇÃO DE ALIMENTOS E PRATOS PRONTOS",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "FABRICANTE DE AMIDO E FÉCULAS DE VEGETAIS INDEPENDENTE",
+     "cnae": "1065-1/01",
+     "descSubCnae": "FABRICAÇÃO DE AMIDOS E FÉCULAS DE VEGETAIS",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "FABRICANTE DE ARTEFATOS DE FUNILARIA INDEPENDENTE",
+     "cnae": "2532-2/01",
+     "descSubCnae": "PRODUÇÃO DE ARTEFATOS ESTAMPADOS DE METAL",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "FABRICANTE DE ARTEFATOS ESTAMPADOS DE METAL, SOB ENCOMENDA OU NÃO, INDEPENDENTE",
+     "cnae": "2532-2/01",
+     "descSubCnae": "PRODUÇÃO DE ARTEFATOS ESTAMPADOS DE METAL",
+     "iss": "S",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "FABRICANTE DE ARTEFATOS PARA PESCA E ESPORTE INDEPENDENTE",
+     "cnae": "3230-2/00",
+     "descSubCnae": "FABRICAÇÃO DE ARTEFATOS PARA PESCA E ESPORTE",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "FABRICANTE DE ARTEFATOS TÊXTEIS PARA USO DOMÉSTICO INDEPENDENTE",
+     "cnae": "1351-1/00",
+     "descSubCnae": "FABRICAÇÃO DE ARTEFATOS TÊXTEIS PARA USO DOMÉSTICO",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "FABRICANTE DE ARTIGOS DE CUTELARIA INDEPENDENTE",
+     "cnae": "2541-1/00",
+     "descSubCnae": "FABRICAÇÃO DE ARTIGOS DE CUTELARIA",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "FABRICANTE DE AVIAMENTOS PARA COSTURA INDEPENDENTE",
+     "cnae": "3299-0/05",
+     "descSubCnae": "FABRICAÇÃO DE AVIAMENTOS PARA COSTURA",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "FABRICANTE DE BALAS, CONFEITOS E FRUTAS CRISTALIZADAS INDEPENDENTE",
+     "cnae": "1093-7/02",
+     "descSubCnae": "FABRICAÇÃO DE FRUTAS CRISTALIZADAS, BALAS E SEMELHANTES",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "FABRICANTE DE BOLSAS/BOLSEIRO INDEPENDENTE",
+     "cnae": "1521-1/00",
+     "descSubCnae": "FABRICAÇÃO DE ARTIGOS PARA VIAGEM, BOLSAS E SEMELHANTES DE QUALQUER MATERIAL",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "FABRICANTE DE BRINQUEDOS NÃO ELETRÔNICOS INDEPENDENTE",
+     "cnae": "3240-0/99",
+     "descSubCnae": "FABRICAÇÃO DE OUTROS BRINQUEDOS E JOGOS RECREATIVOS NÃO ESPECIFICADOS ANTERIORMENTE",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "FABRICANTE DE CALÇADOS DE BORRACHA, MADEIRA E TECIDOS E FIBRAS INDEPENDENTE",
+     "cnae": "1539-4/00",
+     "descSubCnae": "FABRICAÇÃO DE CALÇADOS DE MATERIAIS NÃO ESPECIFICADOS ANTERIORMENTE",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "FABRICANTE DE CALÇADOS DE COURO INDEPENDENTE",
+     "cnae": "1531-9/01",
+     "descSubCnae": "FABRICAÇÃO DE CALÇADOS DE COURO",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "FABRICANTE DE CHÁ INDEPENDENTE",
+     "cnae": "1099-6/05",
+     "descSubCnae": "FABRICAÇÃO DE PRODUTOS PARA INFUSÃO (CHÁ, MATE ETC.)",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "FABRICANTE DE CINTOS/CINTEIRO INDEPENDENTE",
+     "cnae": "1414-2/00",
+     "descSubCnae": "FABRICAÇÃO DE ACESSÓRIOS DO VESTUÁRIO, EXCETO PARA SEGURANÇA E PROTEÇÃO",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "FABRICANTE DE CONSERVAS DE FRUTAS INDEPENDENTE",
+     "cnae": "1031-7/00",
+     "descSubCnae": "FABRICAÇÃO DE CONSERVAS DE FRUTAS",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "FABRICANTE DE CONSERVAS DE LEGUMES E OUTROS VEGETAIS INDEPENDENTE",
+     "cnae": "1032-5/99",
+     "descSubCnae": "FABRICAÇÃO DE CONSERVAS DE LEGUMES E OUTROS VEGETAIS, EXCETO PALMITO",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "FABRICANTE DE EMBALAGENS DE CARTOLINA E PAPEL-CARTÃO INDEPENDENTE",
+     "cnae": "1732-0/00",
+     "descSubCnae": "FABRICAÇÃO DE EMBALAGENS DE CARTOLINA E PAPEL-CARTÃO",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "FABRICANTE DE EMBALAGENS DE MADEIRA INDEPENDENTE",
+     "cnae": "1623-4/00",
+     "descSubCnae": "FABRICAÇÃO DE ARTEFATOS DE TANOARIA E DE EMBALAGENS DE MADEIRA",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "FABRICANTE DE EMBALAGENS DE PAPEL INDEPENDENTE",
+     "cnae": "1731-1/00",
+     "descSubCnae": "FABRICAÇÃO DE EMBALAGENS DE PAPEL",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "FABRICANTE DE ESPECIARIAS INDEPENDENTE",
+     "cnae": "1095-3/00",
+     "descSubCnae": "FABRICAÇÃO DE ESPECIARIAS, MOLHOS, TEMPEROS E CONDIMENTOS",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "FABRICANTE DE ESQUADRIAS METÁLICAS, SOB ENCOMENDA OU NÃO, INDEPENDENTE",
+     "cnae": "2512-8/00",
+     "descSubCnae": "FABRICAÇÃO DE ESQUADRIAS DE METAL",
+     "iss": "S",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "FABRICANTE DE FIOS DE ALGODÃO INDEPENDENTE",
+     "cnae": "1311-1/00",
+     "descSubCnae": "PREPARAÇÃO E FIAÇÃO DE FIBRAS DE ALGODÃO",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "FABRICANTE DE FIOS DE LINHO, RAMI, JUTA, SEDA E LÃ INDEPENDENTE",
+     "cnae": "1312-0/00",
+     "descSubCnae": "PREPARAÇÃO E FIAÇÃO DE FIBRAS TÊXTEIS NATURAIS, EXCETO ALGODÃO",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "FABRICANTE DE FUMO E DERIVADOS DO FUMO INDEPENDENTE",
+     "cnae": "1220-4/99",
+     "descSubCnae": "FABRICAÇÃO DE OUTROS PRODUTOS DO FUMO, EXCETO CIGARROS, CIGARRILHAS E CHARUTOS",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "FABRICANTE DE GELÉIA DE MOCOTÓ INDEPENDENTE",
+     "cnae": "1099-6/99",
+     "descSubCnae": "FABRICAÇÃO DE OUTROS PRODUTOS ALIMENTÍCIOS NÃO ESPECIFICADOS ANTERIORMENTE",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "FABRICANTE DE GELO COMUM INDEPENDENTE",
+     "cnae": "1099-6/04",
+     "descSubCnae": "FABRICAÇÃO DE GELO COMUM",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "FABRICANTE DE GUARDA-CHUVAS E SIMILARES INDEPENDENTE",
+     "cnae": "3299-0/01",
+     "descSubCnae": "FABRICAÇÃO DE GUARDA-CHUVAS E SIMILARES",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "FABRICANTE DE GUARDANAPOS E COPOS DE PAPEL INDEPENDENTE",
+     "cnae": "1742-7/99",
+     "descSubCnae": "FABRICAÇÃO DE PRODUTOS DE PAPEL PARA USO DOMÉSTICO E HIGIÊNICO-SANITÁRIO NÃO ESPECIFICADOS ANTERIORMENTE",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "FABRICANTE DE INSTRUMENTOS MUSICAIS INDEPENDENTE",
+     "cnae": "3220-5/00",
+     "descSubCnae": "FABRICAÇÃO DE INSTRUMENTOS MUSICAIS, PEÇAS E ACESSÓRIOS",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "FABRICANTE DE JOGOS RECREATIVOS INDEPENDENTE",
+     "cnae": "3240-0/99",
+     "descSubCnae": "FABRICAÇÃO DE OUTROS BRINQUEDOS E JOGOS RECREATIVOS NÃO ESPECIFICADOS ANTERIORMENTE",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "FABRICANTE DE LATICÍNIOS INDEPENDENTE",
+     "cnae": "1052-0/00",
+     "descSubCnae": "FABRICAÇÃO DE LATICÍNIOS",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "FABRICANTE DE LETREIROS, PLACAS E PAINÉIS NÃO LUMINOSOS, SOB ENCOMENDA OU NÃO, INDEPENDENTE",
+     "cnae": "3299-0/03",
+     "descSubCnae": "FABRICAÇÃO DE LETRAS, LETREIROS E PLACAS DE QUALQUER MATERIAL, EXCETO LUMINOSOS",
+     "iss": "S",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "FABRICANTE DE LUMINÁRIAS E OUTROS EQUIPAMENTOS DE ILUMINAÇÃO INDEPENDENTE",
+     "cnae": "2740-6/02",
+     "descSubCnae": "FABRICAÇÃO DE LUMINÁRIAS E OUTROS EQUIPAMENTOS DE ILUMINAÇÃO",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "FABRICANTE DE MALAS INDEPENDENTE",
+     "cnae": "1521-1/00",
+     "descSubCnae": "FABRICAÇÃO DE ARTIGOS PARA VIAGEM, BOLSAS E SEMELHANTES DE QUALQUER MATERIAL",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "FABRICANTE DE MASSAS ALIMENTÍCIAS INDEPENDENTE",
+     "cnae": "1094-5/00",
+     "descSubCnae": "FABRICAÇÃO DE MASSAS ALIMENTÍCIAS",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "FABRICANTE DE MEIAS INDEPENDENTE",
+     "cnae": "1421-5/00",
+     "descSubCnae": "FABRICAÇÃO DE MEIAS",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "FABRICANTE DE MOCHILAS E CARTEIRAS INDEPENDENTE",
+     "cnae": "1521-1/00",
+     "descSubCnae": "FABRICAÇÃO DE ARTIGOS PARA VIAGEM, BOLSAS E SEMELHANTES DE QUALQUER MATERIAL",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "FABRICANTE DE PAINÉIS E LETREIROS LUMINOSOS INDEPENDENTE",
+     "cnae": "3299-0/04",
+     "descSubCnae": "FABRICAÇÃO DE PAINÉIS E LETREIROS LUMINOSOS",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "FABRICANTE DE PÃO DE QUEIJO CONGELADO INDEPENDENTE",
+     "cnae": "1091-1/01",
+     "descSubCnae": "FABRICAÇÃO DE PRODUTOS DE PANIFICAÇÃO INDUSTRIAL",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "FABRICANTE DE PAPEL INDEPENDENTE",
+     "cnae": "1721-4/00",
+     "descSubCnae": "FABRICAÇÃO DE PAPEL",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "FABRICANTE DE PARTES DE PEÇAS DO VESTUÁRIO - FACÇÃO INDEPENDENTE",
+     "cnae": "1412-6/03",
+     "descSubCnae": "FACÇÃO DE PEÇAS DO VESTUÁRIO, EXCETO ROUPAS ÍNTIMAS",
+     "iss": "S",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "FABRICANTE DE PARTES DE ROUPAS ÍNTIMAS - FACÇÃO INDEPENDENTE",
+     "cnae": "1411-8/02",
+     "descSubCnae": "FACÇÃO DE ROUPAS ÍNTIMAS",
+     "iss": "S",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "FABRICANTE DE PARTES DE ROUPAS PROFissIONAIS - FACÇÃO INDEPENDENTE",
+     "cnae": "1413-4/03",
+     "descSubCnae": "FACÇÃO DE ROUPAS PROFissIONAIS",
+     "iss": "S",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "FABRICANTE DE PARTES PARA CALÇADOS INDEPENDENTE",
+     "cnae": "1540-8/00",
+     "descSubCnae": "FABRICAÇÃO DE PARTES PARA CALÇADOS, DE QUALQUER MATERIAL",
+     "iss": "S",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "FABRICANTE DE POLPAS DE FRUTAS INDEPENDENTE",
+     "cnae": "1031-7/00",
+     "descSubCnae": "FABRICAÇÃO DE CONSERVAS DE FRUTAS",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "FABRICANTE DE PRODUTOS DE SOJA INDEPENDENTE",
+     "cnae": "1099-6/99",
+     "descSubCnae": "FABRICAÇÃO DE OUTROS PRODUTOS ALIMENTÍCIOS NÃO ESPECIFICADOS ANTERIORMENTE",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "FABRICANTE DE PRODUTOS DE TECIDO NÃO TECIDO PARA USO ODONTO-MÉDICO-HOSPITALAR INDEPENDENTE",
+     "cnae": "3292-2/02",
+     "descSubCnae": "FABRICAÇÃO DE EQUIPAMENTOS E ACESSÓRIOS PARA SEGURANÇA PESSOAL E PROFissIONAL",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "FABRICANTE DE PRODUTOS DERIVADOS DE CARNE INDEPENDENTE",
+     "cnae": "1013-9/01",
+     "descSubCnae": "FABRICAÇÃO DE PRODUTOS DE CARNE",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "FABRICANTE DE PRODUTOS DERIVADOS DO ARROZ INDEPENDENTE",
+     "cnae": "1061-9/02",
+     "descSubCnae": "FABRICAÇÃO DE PRODUTOS DO ARROZ",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "FABRICANTE DE RAPADURA E MELAÇO INDEPENDENTE",
+     "cnae": "1071-6/00",
+     "descSubCnae": "FABRICAÇÃO DE AÇÚCAR EM BRUTO",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "FABRICANTE DE REFRESCOS, XAROPES E PÓS PARA REFRESCOS INDEPENDENTE",
+     "cnae": "1122-4/03",
+     "descSubCnae": "FABRICAÇÃO DE REFRESCOS, XAROPES E PÓS PARA REFRESCOS, EXCETO REFRESCOS DE FRUTAS",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "FABRICANTE DE ROUPAS ÍNTIMAS INDEPENDENTE",
+     "cnae": "1411-8/01",
+     "descSubCnae": "CONFECÇÃO DE ROUPAS ÍNTIMAS",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "FABRICANTE DE SUCOS CONCENTRADOS DE FRUTAS, HORTALIÇAS E LEGUMES INDEPENDENTE",
+     "cnae": "1033-3/01",
+     "descSubCnae": "FABRICAÇÃO DE SUCOS CONCENTRADOS DE FRUTAS, HORTALIÇAS E LEGUMES",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "FABRICANTE DE SUCOS DE FRUTAS, HORTALIÇAS E LEGUMES INDEPENDENTE",
+     "cnae": "1033-3/02",
+     "descSubCnae": "FABRICAÇÃO DE SUCOS DE FRUTAS, HORTALIÇAS E LEGUMES, EXCETO CONCENTRADOS",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "FABRICANTE DE VELAS, INCLUSIVE DECORATIVAS INDEPENDENTE",
+     "cnae": "3299-0/06",
+     "descSubCnae": "FABRICAÇÃO DE VELAS, INCLUSIVE DECORATIVAS",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "FARINHEIRO DE MANDIOCA INDEPENDENTE",
+     "cnae": "1063-5/00",
+     "descSubCnae": "FABRICAÇÃO DE FARINHA DE MANDIOCA E DERIVADOS",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "FARINHEIRO DE MILHO INDEPENDENTE",
+     "cnae": "1064-3/00",
+     "descSubCnae": "FABRICAÇÃO DE FARINHA DE MILHO E DERIVADOS, EXCETO ÓLEOS DE MILHO",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "FERRAMENTEIRO(A) INDEPENDENTE",
+     "cnae": "2543-8/00",
+     "descSubCnae": "FABRICAÇÃO DE FERRAMENTAS",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "FERREIRO/FORJADOR INDEPENDENTE",
+     "cnae": "2543-8/00",
+     "descSubCnae": "FABRICAÇÃO DE FERRAMENTAS",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "FILMADOR(A) INDEPENDENTE",
+     "cnae": "7420-0/04",
+     "descSubCnae": "FILMAGEM DE FESTAS E EVENTOS",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "FORNECEDOR(A) DE ALIMENTOS PREPARADOS PARA EMPRESAS INDEPENDENTE",
+     "cnae": "5620-1/01",
+     "descSubCnae": "FORNECIMENTO DE ALIMENTOS PREPARADOS PREPONDERANTEMENTE PARA EMPRESAS",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "FOSSEIRO (LIMPADOR DE FOSSA) INDEPENDENTE",
+     "cnae": "3702-9/00",
+     "descSubCnae": "ATIVIDADES RELACIONADAS A ESGOTO, EXCETO A GESTÃO DE REDES",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "FOTOCOPIADOR(A) INDEPENDENTE",
+     "cnae": "8219-9/01",
+     "descSubCnae": "FOTOCÓPIAS",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "FOTÓGRAFO(A) INDEPENDENTE",
+     "cnae": "7420-0/01",
+     "descSubCnae": "ATIVIDADES DE PRODUÇÃO DE FOTOGRAFIAS, EXCETO AÉREA E SUBMARINA",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "FOTÓGRAFO(A) AÉREO INDEPENDENTE",
+     "cnae": "7420-0/02",
+     "descSubCnae": "ATIVIDADES DE PRODUÇÃO DE FOTOGRAFIAS AÉREAS E SUBMARINAS",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "FOTÓGRAFO(A) SUBMARINO INDEPENDENTE",
+     "cnae": "7420-0/02",
+     "descSubCnae": "ATIVIDADES DE PRODUÇÃO DE FOTOGRAFIAS AÉREAS E SUBMARINAS",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "FUNILEIRO/LANTERNEIRO INDEPENDENTE",
+     "cnae": "4520-0/02",
+     "descSubCnae": "SERVIÇOS DE LANTERNAGEM OU FUNILARIA E PINTURA DE VEÍCULOS AUTOMOTORES",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "GALVANIZADOR(A) INDEPENDENTE",
+     "cnae": "2539-0/02",
+     "descSubCnae": "SERVIÇOS DE TRATAMENTO E REVESTIMENTO EM METAIS",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "GESSEIRO(A) INDEPENDENTE",
+     "cnae": "4330-4/03",
+     "descSubCnae": "OBRAS DE ACABAMENTO EM GESSO E ESTUQUE",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "GRAVADOR(A) DE CARIMBOS INDEPENDENTE",
+     "cnae": "8299-7/03",
+     "descSubCnae": "SERVIÇOS DE GRAVAÇÃO DE CARIMBOS, EXCETO CONFECÇÃO",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "GUARDADOR(A) DE MÓVEIS INDEPENDENTE",
+     "cnae": "5211-7/02",
+     "descSubCnae": "GUARDA-MÓVEIS",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "GUIA DE TURISMO INDEPENDENTE",
+     "cnae": "7912-1/00",
+     "descSubCnae": "OPERADORES TURÍSTICOS",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "GUINCHEIRO INDEPENDENTE (REBOQUE DE VEÍCULOS)",
+     "cnae": "5229-0/02",
+     "descSubCnae": "SERVIÇOS DE REBOQUE DE VEÍCULOS",
+     "iss": "S",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "HUMORISTA E CONTADOR DE HISTÓRIAS INDEPENDENTE",
+     "cnae": "9001-9/01",
+     "descSubCnae": "PRODUÇÃO TEATRAL",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "INSTALADOR(A) DE ANTENAS DE TV INDEPENDENTE",
+     "cnae": "4321-5/00",
+     "descSubCnae": "INSTALAÇÃO E MANUTENÇÃO ELÉTRICA",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "INSTALADOR(A) DE EQUIPAMENTOS DE SEGURANÇA DOMICILIAR E EMPRESARIAL, SEM PRESTAÇÃO DE SERVIÇOS DE VIGILÂNCIA E SEGURANÇA INDEPENDENTE",
+     "cnae": "4321-5/00",
+     "descSubCnae": "INSTALAÇÃO E MANUTENÇÃO ELÉTRICA",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "INSTALADOR(A) DE EQUIPAMENTOS PARA ORIENTAÇÃO À NAVEGAÇÃO MARÍTIMA, FLUVIAL E LACUSTRE INDEPENDENTE",
+     "cnae": "4329-1/02",
+     "descSubCnae": "INSTALAÇÃO DE EQUIPAMENTOS PARA ORIENTAÇÃO À NAVEGAÇÃO MARÍTIMA, FLUVIAL E LACUSTRE",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "INSTALADOR(A) DE ISOLANTES ACÚSTICOS E DE VIBRAÇÃO INDEPENDENTE",
+     "cnae": "4329-1/05",
+     "descSubCnae": "TRATAMENTOS TÉRMICOS, ACÚSTICOS OU DE VIBRAÇÃO",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "INSTALADOR(A) DE ISOLANTES TÉRMICOS INDEPENDENTE",
+     "cnae": "4329-1/05",
+     "descSubCnae": "TRATAMENTOS TÉRMICOS, ACÚSTICOS OU DE VIBRAÇÃO",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "INSTALADOR(A) DE MÁQUINAS E EQUIPAMENTOS INDUSTRIAIS INDEPENDENTE",
+     "cnae": "3321-0/00",
+     "descSubCnae": "INSTALAÇÃO DE MÁQUINAS E EQUIPAMENTOS INDUSTRIAIS",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "INSTALADOR(A) DE PAINÉIS PUBLICITÁRIOS INDEPENDENTE",
+     "cnae": "4329-1/01",
+     "descSubCnae": "INSTALAÇÃO DE PAINÉIS PUBLICITÁRIOS",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "INSTALADOR(A) DE REDE DE COMPUTADORES INDEPENDENTE",
+     "cnae": "6190-6/99",
+     "descSubCnae": "OUTRAS ATIVIDADES DE TELECOMUNICAÇÕES NÃO ESPECIFICADAS ANTERIORMENTE",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "INSTALADOR(A) DE SISTEMA DE PREVENÇÃO CONTRA INCÊNDIO INDEPENDENTE",
+     "cnae": "4322-3/03",
+     "descSubCnae": "INSTALAÇÕES DE SISTEMA DE PREVENÇÃO CONTRA INCÊNDIO",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "INSTALADOR(A) E REPARADOR (A) DE ACESSÓRIOS AUTOMOTIVOS INDEPENDENTE",
+     "cnae": "4520-0/07",
+     "descSubCnae": "SERVIÇOS DE INSTALAÇÃO, MANUTENÇÃO E REPARAÇÃO DE ACESSÓRIOS PARA VEÍCULOS AUTOMOTORES",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "INSTALADOR(A) E REPARADOR(A) DE ELEVADORES, ESCADAS E ESTEIRAS ROLANTES INDEPENDENTE",
+     "cnae": "4329-1/03",
+     "descSubCnae": "INSTALAÇÃO, MANUTENÇÃO E REPARAÇÃO DE ELEVADORES, ESCADAS E ESTEIRAS ROLANTES",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "INSTALADOR(A) E REPARADOR DE COFRES, TRANCAS E TRAVAS DE SEGURANÇA INDEPENDENTE",
+     "cnae": "8020-0/02",
+     "descSubCnae": "OUTRAS ATIVIDADES DE SERVIÇOS DE SEGURANÇA",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "INSTALADOR(A) E REPARADOR(A) DE SISTEMAS CENTRAIS DE AR CONDICIONADO, DE VENTILAÇÃO E REFRIGERAÇÃO INDEPENDENTE",
+     "cnae": "4322-3/02",
+     "descSubCnae": "INSTALAÇÃO E MANUTENÇÃO DE SISTEMAS CENTRAIS DE AR CONDICIONADO, DE VENTILAÇÃO E REFRIGERAÇÃO",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "INSTRUTOR(A) DE ARTE E CULTURA EM GERAL INDEPENDENTE",
+     "cnae": "8592-9/99",
+     "descSubCnae": "ENSINO DE ARTE E CULTURA NÃO ESPECIFICADO ANTERIORMENTE",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "INSTRUTOR(A) DE ARTES CÊNICAS INDEPENDENTE",
+     "cnae": "8592-9/02",
+     "descSubCnae": "ENSINO DE ARTES CÊNICAS, EXCETO DANÇA",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "INSTRUTOR(A) DE CURSOS GERENCIAIS INDEPENDENTE",
+     "cnae": "8599-6/04",
+     "descSubCnae": "TREINAMENTO EM DESENVOLVIMENTO PROFissIONAL E GERENCIAL",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "INSTRUTOR(A) DE CURSOS PREPARATÓRIOS INDEPENDENTE",
+     "cnae": "8599-6/05",
+     "descSubCnae": "CURSOS PREPARATÓRIOS PARA CONCURSOS",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "INSTRUTOR(A) DE IDIOMAS INDEPENDENTE",
+     "cnae": "8593-7/00",
+     "descSubCnae": "ENSINO DE IDIOMAS",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "INSTRUTOR(A) DE INFORMÁTICA INDEPENDENTE",
+     "cnae": "8599-6/03",
+     "descSubCnae": "TREINAMENTO EM INFORMÁTICA",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "INSTRUTOR(A) DE MÚSICA INDEPENDENTE",
+     "cnae": "8592-9/03",
+     "descSubCnae": "ENSINO DE MÚSICA",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "JARDINEIRO(A) INDEPENDENTE",
+     "cnae": "8130-3/00",
+     "descSubCnae": "ATIVIDADES PAISAGÍSTICAS",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "JORNALEIRO(A) INDEPENDENTE",
+     "cnae": "4761-0/02",
+     "descSubCnae": "COMÉRCIO VAREJISTA DE JORNAIS E REVISTAS",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "LAPIDADOR(A) INDEPENDENTE",
+     "cnae": "3211-6/01",
+     "descSubCnae": "LAPIDAÇÃO DE GEMAS",
+     "iss": "S",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "LAVADEIRO(A) DE ROUPAS INDEPENDENTE",
+     "cnae": "9601-7/01",
+     "descSubCnae": "LAVANDERIAS",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "LAVADEIRO(A) DE ROUPAS PROFissIONAIS INDEPENDENTE",
+     "cnae": "9601-7/03",
+     "descSubCnae": "TOALHEIROS",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "LAVADOR(A) E POLIDOR DE CARRO INDEPENDENTE",
+     "cnae": "4520-0/05",
+     "descSubCnae": "SERVIÇOS DE LAVAGEM, LUBRIFICAÇÃO E POLIMENTO DE VEÍCULOS AUTOMOTORES",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "LAVADOR(A) DE ESTOFADO E SOFÁ INDEPENDENTE",
+     "cnae": "9609-2/99",
+     "descSubCnae": "OUTRAS ATIVIDADES DE SERVIÇOS PESSOAIS NÃO ESPECIFICADAS ANTERIORMENTE",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "LIVREIRO(A) INDEPENDENTE",
+     "cnae": "4761-0/01",
+     "descSubCnae": "COMÉRCIO VAREJISTA DE LIVROS",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "LOCADOR DE ANDAIMES INDEPENDENTE",
+     "cnae": "7732-2/02",
+     "descSubCnae": "ALUGUEL DE ANDAIMES",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "LOCADOR(A) DE APARELHOS DE JOGOS ELETRÔNICOS INDEPENDENTE",
+     "cnae": "7729-2/01",
+     "descSubCnae": "ALUGUEL DE APARELHOS DE JOGOS ELETRÔNICOS",
+     "iss": "N",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "LOCADOR(A) DE BICICLETAS, INDEPENDENTE",
+     "cnae": "7721-7/00",
+     "descSubCnae": "ALUGUEL DE EQUIPAMENTOS RECREATIVOS E ESPORTIVOS",
+     "iss": "N",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "LOCADOR(A) DE EQUIPAMENTOS CIENTÍFICOS, MÉDICOS E HOSPITALARES, SEM OPERADOR INDEPENDENTE",
+     "cnae": "7739-0/02",
+     "descSubCnae": "ALUGUEL DE EQUIPAMENTOS CIENTÍFICOS, MÉDICOS E HOSPITALARES, SEM OPERADOR",
+     "iss": "N",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "LOCADOR(A) DE EQUIPAMENTOS RECREATIVOS E ESPORTIVOS INDEPENDENTE",
+     "cnae": "7721-7/00",
+     "descSubCnae": "ALUGUEL DE EQUIPAMENTOS RECREATIVOS E ESPORTIVOS",
+     "iss": "N",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "LOCADOR(A) DE FITAS DE VÍDEO, DVDS E SIMILARES INDEPENDENTE",
+     "cnae": "7722-5/00",
+     "descSubCnae": "ALUGUEL DE FITAS DE VÍDEO, DVDS E SIMILARES",
+     "iss": "N",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "LOCADOR(A) DE LIVROS, REVISTAS, PLANTAS E FLORES INDEPENDENTE",
+     "cnae": "7729-2/99",
+     "descSubCnae": "ALUGUEL DE OUTROS OBJETOS PESSOAIS E DOMÉSTICOS NÃO ESPECIFICADOS ANTERIORMENTE",
+     "iss": "N",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "LOCADOR(A) DE MÁQUINAS E EQUIPAMENTOS AGRÍCOLAS SEM OPERADOR INDEPENDENTE",
+     "cnae": "7731-4/00",
+     "descSubCnae": "ALUGUEL DE MÁQUINAS E EQUIPAMENTOS AGRÍCOLAS SEM OPERADOR",
+     "iss": "N",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "LOCADOR(A) DE MÁQUINAS E EQUIPAMENTOS PARA CONSTRUÇÃO SEM OPERADOR, EXCETO ANDAIMES INDEPENDENTE",
+     "cnae": "7732-2/01",
+     "descSubCnae": "ALUGUEL DE MÁQUINAS E EQUIPAMENTOS PARA CONSTRUÇÃO SEM OPERADOR, EXCETO ANDAIMES",
+     "iss": "N",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "LOCADOR(A) DE MÁQUINAS E EQUIPAMENTOS PARA ESCRITÓRIO INDEPENDENTE",
+     "cnae": "7733-1/00",
+     "descSubCnae": "ALUGUEL DE MÁQUINAS E EQUIPAMENTOS PARA ESCRITÓRIO",
+     "iss": "N",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "LOCADOR(A) DE MATERIAL E EQUIPAMENTO ESPORTIVO, INDEPENDENTE",
+     "cnae": "7721-7/00",
+     "descSubCnae": "ALUGUEL DE EQUIPAMENTOS RECREATIVOS E ESPORTIVOS",
+     "iss": "N",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "LOCADOR(A) DE MATERIAL MÉDICO INDEPENDENTE",
+     "cnae": "7729-2/03",
+     "descSubCnae": "ALUGUEL DE MATERIAL MÉDICO",
+     "iss": "N",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "LOCADOR(A) DE MOTOCICLETA, SEM CONDUTOR, INDEPENDENTE",
+     "cnae": "7719-5/99",
+     "descSubCnae": "LOCAÇÃO DE OUTROS MEIOS DE TRANSPORTE NÃO ESPECIFICADOS ANTERIORMENTE, SEM CONDUTOR",
+     "iss": "N",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "LOCADOR(A) DE MÓVEIS E UTENSÍLIOS, INCLUSIVE PARA FESTAS INDEPENDENTE",
+     "cnae": "7729-2/02",
+     "descSubCnae": "ALUGUEL DE MÓVEIS, UTENSÍLIOS E APARELHOS DE USO DOMÉSTICO E PESSOAL; INSTRUMENTOS MUSICAIS",
+     "iss": "N",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "LOCADOR(A) DE INSTRUMENTOS MUSICAIS INDEPENDENTE",
+     "cnae": "7729-2/02",
+     "descSubCnae": "ALUGUEL DE MÓVEIS, UTENSÍLIOS E APARELHOS DE USO DOMÉSTICO E PESSOAL; INSTRUMENTOS MUSICAIS",
+     "iss": "N",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "LOCADOR(A) DE OBJETOS DO VESTUÁRIO, JÓIAS E ACESSÓRIOS INDEPENDENTE",
+     "cnae": "7723-3/00",
+     "descSubCnae": "ALUGUEL DE OBJETOS DO VESTUÁRIO, JÓIAS E ACESSÓRIOS",
+     "iss": "N",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "LOCADOR(A) DE OUTRAS MÁQUINAS E EQUIPAMENTOS COMERCIAIS E INDUSTRIAIS NÃO ESPECIFICADOS ANTERIORMENTE, SEM OPERADOR INDEPENDENTE",
+     "cnae": "7739-0/99",
+     "descSubCnae": "ALUGUEL DE OUTRAS MÁQUINAS E EQUIPAMENTOS COMERCIAIS E INDUSTRIAIS NÃO ESPECIFICADOS ANTERIORMENTE, SEM OPERADOR",
+     "iss": "N",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "LOCADOR(A) DE PALCOS, COBERTURAS E OUTRAS ESTRUTURAS DE USO TEMPORÁRIO, EXCETO ANDAIMES INDEPENDENTE",
+     "cnae": "7739-0/03",
+     "descSubCnae": "ALUGUEL DE PALCOS, COBERTURAS E OUTRAS ESTRUTURAS DE USO TEMPORÁRIO, EXCETO ANDAIMES",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "LOCADOR(A) DE VÍDEO GAMES, INDEPENDENTE",
+     "cnae": "7722-5/00",
+     "descSubCnae": "ALUGUEL DE FITAS DE VIDEO, DVDS E SIMILARES",
+     "iss": "N",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "LOCUTOR(A) DE MENSAGENS FONADAS E AO VIVO INDEPENDENTE",
+     "cnae": "9609-2/99",
+     "descSubCnae": "OUTRAS ATIVIDADES DE SERVIÇOS PESSOAIS NÃO ESPECIFICADAS ANTERIORMENTE",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "MÁGICO(A) INDEPENDENTE",
+     "cnae": "9329-8/99",
+     "descSubCnae": "OUTRAS ATIVIDADES DE RECREAÇÃO E LAZER NÃO ESPECIFICADAS ANTERIORMENTE",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "MANICURE/PEDICURE INDEPENDENTE",
+     "cnae": "9602-5/01",
+     "descSubCnae": "CABELEIREIROS, MANICURE E PEDICURE",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "MAQUIADOR(A) INDEPENDENTE",
+     "cnae": "9602-5/02",
+     "descSubCnae": "ATIVIDADES DE ESTÉTICA E OUTROS SERVIÇOS DE CUIDADOS COM A BELEZA",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "MARCENEIRO(A) SOB ENCOMENDA OU NÃO, INDEPENDENTE",
+     "cnae": "3101-2/00",
+     "descSubCnae": "FABRICAÇÃO DE MÓVEIS COM PREDOMINÂNCIA DE MADEIRA",
+     "iss": "S",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "MARMITEIRO(A) INDEPENDENTE",
+     "cnae": "5620-1/04",
+     "descSubCnae": "FORNECIMENTO DE ALIMENTOS PREPARADOS PREPONDERANTEMENTE PARA CONSUMO DOMICILIAR",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "MECÂNICO(A) DE MOTOCICLETAS E MOTONETAS INDEPENDENTE",
+     "cnae": "4543-9/00",
+     "descSubCnae": "MANUTENÇÃO E REPARAÇÃO DE MOTOCICLETAS E MOTONETAS",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "MECÂNICO(A) DE VEÍCULOS INDEPENDENTE",
+     "cnae": "4520-0/01",
+     "descSubCnae": "SERVIÇOS DE MANUTENÇÃO E REPARAÇÃO MECÂNICA DE VEÍCULOS AUTOMOTORES",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "MERCEEIRO(A)/VENDEIRO(A) INDEPENDENTE",
+     "cnae": "4712-1/00",
+     "descSubCnae": "COMÉRCIO VAREJISTA DE MERCADORIAS EM GERAL, COM PREDOMINÂNCIA DE PRODUTOS ALIMENTÍCIOS - MINIMERCADOS, MERCEARIAS E ARMAZÉNS",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "MERGULHADOR(A) (ESCAFANDRISTA) INDEPENDENTE",
+     "cnae": "7490-1/02",
+     "descSubCnae": "ESCAFANDRIA E MERGULHO",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "MOENDEIRO(A) INDEPENDENTE",
+     "cnae": "1069-4/00",
+     "descSubCnae": "MOAGEM E FABRICAÇÃO DE PRODUTOS DE ORIGEM VEGETAL NÃO ESPECIFICADOS ANTERIORMENTE",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "MONTADOR(A) DE MÓVEIS INDEPENDENTE",
+     "cnae": "3329-5/01",
+     "descSubCnae": "SERVIÇOS DE MONTAGEM DE MÓVEIS DE QUALQUER MATERIAL",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "MONTADOR(A) E INSTALADOR DE SISTEMAS E EQUIPAMENTOS DE ILUMINAÇÃO E SINALIZAÇÃO EM VIAS PÚBLICAS, PORTOS E AEROPORTOS INDEPENDENTE",
+     "cnae": "4329-1/04",
+     "descSubCnae": "MONTAGEM E INSTALAÇÃO DE SISTEMAS E EQUIPAMENTOS DE ILUMINAÇÃO E SINALIZAÇÃO EM VIAS PÚBLICAS, PORTOS E AEROPORTOS",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "MOTOBOY INDEPENDENTE",
+     "cnae": "5320-2/02",
+     "descSubCnae": "SERVIÇOS DE ENTREGA RÁPIDA",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "MOTORISTA (POR APLICATIVO OU NÃO) INDEPENDENTE",
+     "cnae": "5229-0/99",
+     "descSubCnae": "OUTRAS ATIVIDADES AUXILIARES DOS TRANSPORTES TERRESTRES NÃO ESPECIFICADAS ANTERIORMENTE",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "MOTOTAXISTA INDEPENDENTE",
+     "cnae": "4923-0/01",
+     "descSubCnae": "SERVIÇO DE TÁXI",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "MOVELEIRO(A) INDEPENDENTE",
+     "cnae": "3103-9/00",
+     "descSubCnae": "FABRICAÇÃO DE MÓVEIS DE OUTROS MATERIAIS, EXCETO MADEIRA E METAL",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "MOVELEIRO(A) DE MÓVEIS METÁLICOS INDEPENDENTE",
+     "cnae": "3102-1/00",
+     "descSubCnae": "FABRICAÇÃO DE MÓVEIS COM PREDOMINÂNCIA DE METAL",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "OLEIRO(A) INDEPENDENTE",
+     "cnae": "2342-7/02",
+     "descSubCnae": "FABRICAÇÃO DE ARTEFATOS DE CERÂMICA E BARRO COZIDO PARA USO NA CONSTRUÇÃO, EXCETO AZULEJOS E PISOS",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "ORGANIZADOR(A) DE EXCURSÕES EM VEÍCULO PRÓPRIO, MUNICIPAL INDEPENDENTE",
+     "cnae": "4929-9/03",
+     "descSubCnae": "ORGANIZAÇÃO DE EXCURSÕES EM VEÍCULOS RODOVIÁRIOS PRÓPRIOS, MUNICIPAL",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "OURIVES INDEPENDENTE",
+     "cnae": "9529-1/06",
+     "descSubCnae": "REPARAÇÃO DE JÓIAS",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "PADEIRO(A) INDEPENDENTE",
+     "cnae": "1091-1/01",
+     "descSubCnae": "FABRICAÇÃO DE PRODUTOS DE PANIFICAÇÃO",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "PANFLETEIRO(A) INDEPENDENTE",
+     "cnae": "7319-0/02",
+     "descSubCnae": "PROMOÇÃO DE VENDAS",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "PAPELEIRO(A) INDEPENDENTE",
+     "cnae": "4761-0/03",
+     "descSubCnae": "COMÉRCIO VAREJISTA DE ARTIGOS DE PAPELARIA",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "PASTILHEIRO(A) INDEPENDENTE",
+     "cnae": "4330-4/05",
+     "descSubCnae": "APLICAÇÃO DE REVESTIMENTOS E DE RESINAS EM INTERIORES E EXTERIORES",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "PEDREIRO INDEPENDENTE",
+     "cnae": "4399-1/03",
+     "descSubCnae": "OBRAS DE ALVENARIA",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "PEIXEIRO(A) INDEPENDENTE",
+     "cnae": "4722-9/02",
+     "descSubCnae": "PEIXARIA",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "PINTOR(A) DE AUTOMÓVEIS INDEPENDENTE",
+     "cnae": "4520-0/02",
+     "descSubCnae": "SERVIÇOS DE LANTERNAGEM OU FUNILARIA E PINTURA DE VEÍCULOS AUTOMOTORES",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "PINTOR(A) DE PAREDE INDEPENDENTE",
+     "cnae": "4330-4/04",
+     "descSubCnae": "SERVIÇOS DE PINTURA DE EDIFÍCIOS EM GERAL",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "PIPOQUEIRO(A) INDEPENDENTE",
+     "cnae": "5612-1/00",
+     "descSubCnae": "SERVIÇOS AMBULANTES DE ALIMENTAÇÃO",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "PISCINEIRO(A) INDEPENDENTE",
+     "cnae": "8129-0/00",
+     "descSubCnae": "ATIVIDADES DE LIMPEZA NÃO ESPECIFICADAS ANTERIORMENTE",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "PIZZAIOLO(A) EM DOMICÍLIO INDEPENDENTE",
+     "cnae": "5620-1/02",
+     "descSubCnae": "SERVIÇOS DE ALIMENTAÇÃO PARA EVENTOS E RECEPÇÕES - BUFÊ",
+     "iss": "S",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "POCEIRO/CISTERNEIRO/  CACIMBEIRO INDEPENDENTE",
+     "cnae": "4399-1/05",
+     "descSubCnae": "PERFURAÇÃO E CONSTRUÇÃO DE POÇOS DE ÁGUA",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "PRESTADOR(A) DE SERVIÇOS DE COLHEITA SOB CONTRATO DE EMPREITADA INDEPENDENTE",
+     "cnae": "0161-0/03",
+     "descSubCnae": "SERVIÇO DE PREPARAÇÃO DE TERRENO, CULTIVO E COLHEITA",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "PRESTADOR(A) DE SERVIÇOS DE PODA SOB CONTRATO DE EMPREITADA INDEPENDENTE",
+     "cnae": "0161-0/02",
+     "descSubCnae": "SERVIÇO DE PODA DE ARVORES PARA LAVOURA",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "PRESTADOR(A) DE SERVIÇOS DE PREPARAÇÃO DE TERRENOS SOB CONTRATO DE EMPREITADA INDEPENDENTE",
+     "cnae": "0161-0/03",
+     "descSubCnae": "SERVIÇO DE PREPARAÇÃO DE TERRENO, CULTIVO E COLHEITA",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "PRESTADOR(A) DE SERVIÇOS DE ROÇAGEM, DESTOCAMENTO, LAVRAÇÃO, GRADAGEM E SULCAMENTO SOB CONTRATO DE EMPREITADA INDEPENDENTE",
+     "cnae": "0161-0/03",
+     "descSubCnae": "SERVIÇO DE PREPARAÇÃO DE TERRENO, CULTIVO E COLHEITA",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "PRESTADOR(A) DE SERVIÇOS DE SEMEADURA SOB CONTRATO DE EMPREITADA INDEPENDENTE",
+     "cnae": "0161-0/03",
+     "descSubCnae": "SERVIÇO DE PREPARAÇÃO DE TERRENO, CULTIVO E COLHEITA",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "PROFESSOR(A) PARTICULAR INDEPENDENTE",
+     "cnae": "8599-6/99",
+     "descSubCnae": "OUTRAS ATIVIDADES DE ENSINO NÃO ESPECIFICADAS ANTERIORMENTE",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "PROMOTOR(A) DE EVENTOS INDEPENDENTE",
+     "cnae": "8230-0/01",
+     "descSubCnae": "SERVIÇOS DE ORGANIZAÇÃO DE FEIRAS, CONGRESSOS, EXPOSIÇÕES E FESTAS",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "PROMOTOR(A) DE TURISMO LOCAL INDEPENDENTE",
+     "cnae": "7990-2/00",
+     "descSubCnae": "SERVIÇOS DE RESERVAS E OUTROS SERVIÇOS DE TURISMO NÃO ESPECIFICADOS ANTERIORMENTE",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "PROMOTOR(A) DE VENDAS INDEPENDENTE",
+     "cnae": "7319-0/02",
+     "descSubCnae": "PROMOÇÃO DE VENDAS",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "PROPRIETÁRIO(A) DE ALBERGUE NÃO ASSISTENCIAL INDEPENDENTE",
+     "cnae": "5590-6/01",
+     "descSubCnae": "ALBERGUES, EXCETO ASSISTENCIAIS",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "PROPRIETÁRIO(A) DE BAR E CONGÊNERES, COM ENTRETENIMENTO, INDEPENDENTE",
+     "cnae": "5611-2/05",
+     "descSubCnae": "BARES E OUTROS ESTABELECIMENTOS ESPECIALIZADOS EM SERVIR BEBIDAS, COM ENTRETENIMENTO",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "PROPRIETÁRIO(A) DE BAR E CONGÊNERES, SEM ENTRETENIMENTO, INDEPENDENTE",
+     "cnae": "5611-2/04",
+     "descSubCnae": "BARES E OUTROS ESTABELECIMENTOS ESPECIALIZADOS EM SERVIR BEBIDAS, SEM ENTRETENIMENTO",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "PROPRIETÁRIO(A) DE CAMPING INDEPENDENTE",
+     "cnae": "5590-6/02",
+     "descSubCnae": "CAMPINGS",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "PROPRIETÁRIO(A) DE CANTINAS INDEPENDENTE",
+     "cnae": "5620-1/03",
+     "descSubCnae": "CANTINAS - SERVIÇOS DE ALIMENTAÇÃO PRIVATIVOS",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "PROPRIETÁRIO(A) DE CARRO DE SOM PARA FINS PUBLICITÁRIOS INDEPENDENTE",
+     "cnae": "7319-0/99",
+     "descSubCnae": "OUTRAS ATIVIDADES DE PUBLICIDADE NÃO ESPECIFICADAS ANTERIORMENTE",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "PROPRIETÁRIO(A) DE CASA DE CHÁ INDEPENDENTE",
+     "cnae": "5611-2/03",
+     "descSubCnae": "LANCHONETES, CASAS DE CHÁ, DE SUCOS E SIMILARES",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "PROPRIETÁRIO(A) DE CASA DE SUCOS INDEPENDENTE",
+     "cnae": "5611-2/03",
+     "descSubCnae": "LANCHONETES, CASAS DE CHÁ, DE SUCOS E SIMILARES",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "PROPRIETÁRIO(A) DE CASAS DE FESTAS E EVENTOS INDEPENDENTE",
+     "cnae": "8230-0/02",
+     "descSubCnae": "CASAS DE FESTAS E EVENTOS",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "PROPRIETÁRIO(A) DE ESTACIONAMENTO DE VEÍCULOS INDEPENDENTE",
+     "cnae": "5223-1/00",
+     "descSubCnae": "ESTACIONAMENTO DE VEÍCULOS",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "PROPRIETÁRIO(A) DE FLIPERAMA INDEPENDENTE",
+     "cnae": "9329-8/04",
+     "descSubCnae": "EXPLORAÇÃO DE JOGOS ELETRÔNICOS RECREATIVOS",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "PROPRIETÁRIO(A) DE HOSPEDARIA INDEPENDENTE",
+     "cnae": "5590-6/99",
+     "descSubCnae": "OUTROS ALOJAMENTOS NÃO ESPECIFICADOS ANTERIORMENTE",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "PROPRIETÁRIO(A) DE LANCHONETE INDEPENDENTE",
+     "cnae": "5611-2/03",
+     "descSubCnae": "LANCHONETES, CASAS DE CHÁ, DE SUCOS E SIMILARES",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "PROPRIETÁRIO(A) DE PENSÃO INDEPENDENTE",
+     "cnae": "5590-6/03",
+     "descSubCnae": "PENSÕES (ALOJAMENTO)",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "PROPRIETÁRIO(A) DE RESTAURANTE INDEPENDENTE",
+     "cnae": "5611-2/01",
+     "descSubCnae": "RESTAURANTES E SIMILARES",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "PROPRIETÁRIO(A) DE SALA DE ACESSO À INTERNET INDEPENDENTE",
+     "cnae": "8299-7/07",
+     "descSubCnae": "SALAS DE ACESSO À INTERNET",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "PROPRIETÁRIO(A) DE SALÃO DE JOGOS DE SINUCA E BILHAR INDEPENDENTE",
+     "cnae": "9329-8/03",
+     "descSubCnae": "EXPLORAÇÃO DE JOGOS DE SINUCA, BILHAR E SIMILARES",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "QUEIJEIRO(A)/MANTEIGUEIRO(A) INDEPENDENTE",
+     "cnae": "1052-0/00",
+     "descSubCnae": "FABRICAÇÃO DE LATICÍNIOS",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "QUITANDEIRO(A) INDEPENDENTE",
+     "cnae": "4724-5/00",
+     "descSubCnae": "COMÉRCIO VAREJISTA DE HORTIFRUTIGRANJEIROS",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "QUITANDEIRO(A) AMBULANTE INDEPENDENTE",
+     "cnae": "5612-1/00",
+     "descSubCnae": "SERVIÇOS AMBULANTES DE ALIMENTAÇÃO",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "RECARREGADOR(A) DE CARTUCHOS PARA EQUIPAMENTOS DE INFORMÁTICA INDEPENDENTE",
+     "cnae": "4751-2/02",
+     "descSubCnae": "RECARGA DE CARTUCHOS PARA EQUIPAMENTOS DE INFORMÁTICA",
+     "iss": "S",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "RECICLADOR(A) DE BORRACHA, MADEIRA, PAPEL E VIDRO INDEPENDENTE",
+     "cnae": "3839-4/99",
+     "descSubCnae": "RECUPERAÇÃO DE MATERIAIS NÃO ESPECIFICADOS ANTERIORMENTE",
+     "iss": "S",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "RECICLADOR (A) DE MATERIAIS METÁLICOS, EXCETO ALUMÍNIO INDEPENDENTE",
+     "cnae": "3831-9/99",
+     "descSubCnae": "RECUPERAÇÃO DE MATERIAIS METÁLICOS, EXCETO ALUMÍNIO",
+     "iss": "S",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "RECICLADOR (A) DE MATERIAIS PLÁSTICOS INDEPENDENTE",
+     "cnae": "3832-7/00",
+     "descSubCnae": "RECUPERAÇÃO DE MATERIAIS PLÁSTICOS",
+     "iss": "S",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "RECICLADOR (A) DE SUCATAS DE ALUMÍNIO INDEPENDENTE",
+     "cnae": "3831-9/01",
+     "descSubCnae": "RECUPERAÇÃO DE SUCATAS DE ALUMÍNIO",
+     "iss": "S",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "REDEIRO(A) INDEPENDENTE",
+     "cnae": "1353-7/00",
+     "descSubCnae": "FABRICAÇÃO DE ARTEFATOS DE CORDOARIA",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "RELOJOEIRO(A) INDEPENDENTE",
+     "cnae": "9529-1/03",
+     "descSubCnae": "REPARAÇÃO DE RELÓGIOS",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "RENDEIRO(A) INDEPENDENTE",
+     "cnae": "1359-6/00",
+     "descSubCnae": "FABRICAÇÃO DE OUTROS PRODUTOS TÊXTEIS NÃO ESPECIFICADOS ANTERIORMENTE",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "REPARADOR(A) DE APARELHOS E EQUIPAMENTOS PARA DISTRIBUIÇÃO E CONTROLE DE ENERGIA ELÉTRICA INDEPENDENTE",
+     "cnae": "3313-9/99",
+     "descSubCnae": "MANUTENÇÃO E REPARAÇÃO DE MÁQUINAS, APARELHOS E MATERIAIS ELÉTRICOS NÃO ESPECIFICADOS ANTERIORMENTE",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "REPARADOR (A) DE ARTIGOS DE TAPEÇARIA INDEPENDENTE",
+     "cnae": "9529-1/05",
+     "descSubCnae": "REPARAÇÃO DE ARTIGOS DO MOBILIÁRIO",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "REPARADOR(A) DE ARTIGOS E ACESSÓRIOS DO VESTUÁRIO INDEPENDENTE",
+     "cnae": "9529-1/99",
+     "descSubCnae": "REPARAÇÃO E MANUTENÇÃO DE OUTROS OBJETOS E EQUIPAMENTOS PESSOAIS E DOMÉSTICOS NÃO ESPECIFICADOS ANTERIORMENTE",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "REPARADOR(A) DE BALANÇAS INDUSTRIAIS E COMERCIAIS INDEPENDENTE",
+     "cnae": "3314-7/10",
+     "descSubCnae": "MANUTENÇÃO E REPARAÇÃO DE MÁQUINAS E EQUIPAMENTOS PARA USO GERAL NÃO ESPECIFICADOS ANTERIORMENTE",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "REPARADOR(A) DE BATERIAS E ACUMULADORES ELÉTRICOS, EXCETO PARA VEÍCULOS, INDEPENDENTE",
+     "cnae": "3313-9/02",
+     "descSubCnae": "MANUTENÇÃO E REPARAÇÃO DE BATERIAS E ACUMULADORES ELÉTRICOS, EXCETO PARA VEÍCULOS",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "REPARADOR(A) DE BICICLETA INDEPENDENTE",
+     "cnae": "9529-1/04",
+     "descSubCnae": "REPARAÇÃO DE BICICLETAS, TRICICLOS E OUTROS VEÍCULOS NÃO MOTORIZADOS",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "REPARADOR(A) DE BRINQUEDOS INDEPENDENTE",
+     "cnae": "9529-1/99",
+     "descSubCnae": "REPARAÇÃO E MANUTENÇÃO DE OUTROS OBJETOS E EQUIPAMENTOS PESSOAIS E DOMÉSTICOS NÃO ESPECIFICADOS ANTERIORMENTE",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "REPARADOR(A) DE CORDAS, VELAMES E LONAS INDEPENDENTE",
+     "cnae": "3319-8/00",
+     "descSubCnae": "MANUTENÇÃO E REPARAÇÃO DE EQUIPAMENTOS E PRODUTOS NÃO ESPECIFICADOS ANTERIORMENTE",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "REPARADOR(A) DE EMBARCAÇÕES PARA ESPORTE E LAZER INDEPENDENTE",
+     "cnae": "3317-1/02",
+     "descSubCnae": "MANUTENÇÃO E REPARAÇÃO DE EMBARCAÇÕES PARA ESPORTE E LAZER",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "REPARADOR(A) DE EQUIPAMENTOS ESPORTIVOS INDEPENDENTE",
+     "cnae": "9529-1/99",
+     "descSubCnae": "REPARAÇÃO E MANUTENÇÃO DE OUTROS OBJETOS E EQUIPAMENTOS PESSOAIS E DOMÉSTICOS NÃO ESPECIFICADOS ANTERIORMENTE",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "REPARADOR(A) DE EQUIPAMENTOS HIDRÁULICOS E PNEUMÁTICOS, EXCETO VÁLVULAS, INDEPENDENTE",
+     "cnae": "3314-7/02",
+     "descSubCnae": "MANUTENÇÃO E REPARAÇÃO DE EQUIPAMENTOS HIDRÁULICOS E PNEUMÁTICOS, EXCETO VÁLVULAS",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "REPARADOR(A) DE EQUIPAMENTOS MÉDICO-HOSPITALARES NÃO ELETRÔNICOS INDEPENDENTE",
+     "cnae": "3319-8/00",
+     "descSubCnae": "MANUTENÇÃO E REPARAÇÃO DE EQUIPAMENTOS E PRODUTOS NÃO ESPECIFICADOS ANTERIORMENTE",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "REPARADOR(A) DE EXTINTOR DE INCÊNDIO INDEPENDENTE",
+     "cnae": "3314-7/10",
+     "descSubCnae": "MANUTENÇÃO E REPARAÇÃO DE MÁQUINAS E EQUIPAMENTOS PARA USO GERAL NÃO ESPECIFICADOS ANTERIORMENTE",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "REPARADOR(A) DE FILTROS INDUSTRIAIS INDEPENDENTE",
+     "cnae": "3314-7/10",
+     "descSubCnae": "MANUTENÇÃO E REPARAÇÃO DE MÁQUINAS E EQUIPAMENTOS PARA USO GERAL NÃO ESPECIFICADOS ANTERIORMENTE",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "REPARADOR(A) DE GERADORES, TRANSFORMADORES E MOTORES ELÉTRICOS INDEPENDENTE",
+     "cnae": "3313-9/01",
+     "descSubCnae": "MANUTENÇÃO E REPARAÇÃO DE GERADORES, TRANSFORMADORES E MOTORES ELÉTRICOS",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "REPARADOR(A) DE GUARDA CHUVA E SOMBRINHAS INDEPENDENTE",
+     "cnae": "9529-1/99",
+     "descSubCnae": "REPARAÇÃO E MANUTENÇÃO DE OUTROS OBJETOS E EQUIPAMENTOS PESSOAIS E DOMÉSTICOS NÃO ESPECIFICADOS ANTERIORMENTE",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "REPARADOR(A) DE INSTRUMENTOS MUSICAIS INDEPENDENTE",
+     "cnae": "9529-1/99",
+     "descSubCnae": "REPARAÇÃO E MANUTENÇÃO DE OUTROS OBJETOS E EQUIPAMENTOS PESSOAIS E DOMÉSTICOS NÃO ESPECIFICADOS ANTERIORMENTE",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "REPARADOR(A) DE MÁQUINAS DE ESCREVER, CALCULAR E DE OUTROS EQUIPAMENTOS NÃO ELETRÔNICOS PARA ESCRITÓRIO INDEPENDENTE",
+     "cnae": "3314-7/09",
+     "descSubCnae": "MANUTENÇÃO E REPARAÇÃO DE MÁQUINAS DE ESCREVER, CALCULAR E DE OUTROS EQUIPAMENTOS NÃO ELETRÔNICOS PARA ESCRITÓRIO",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "REPARADOR(A) DE MÁQUINAS E APARELHOS DE REFRIGERAÇÃO E VENTILAÇÃO PARA USO INDUSTRIAL E COMERCIAL INDEPENDENTE",
+     "cnae": "3314-7/07",
+     "descSubCnae": "MANUTENÇÃO E REPARAÇÃO DE MÁQUINAS E APARELHOS DE REFRIGERAÇÃO E VENTILAÇÃO PARA USO INDUSTRIAL E COMERCIAL",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "REPARADOR(A) DE MÁQUINAS GRÁFICA INDEPENDENTE",
+     "cnae": "3314-7/99",
+     "descSubCnae": "MANUTENÇÃO E REPARAÇÃO DE OUTRAS MÁQUINAS E EQUIPAMENTOS PARA USOS INDUSTRIAIS NÃO ESPECIFICADOS ANTERIORMENTE",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "REPARADOR(A) DE MÁQUINAS E EQUIPAMENTOS PARA A INDÚSTRIA DA MADEIRA INDEPENDENTE",
+     "cnae": "3314-7/99",
+     "descSubCnae": "MANUTENÇÃO E REPARAÇÃO DE OUTRAS MÁQUINAS E EQUIPAMENTOS PARA USOS INDUSTRIAIS NÃO ESPECIFICADOS ANTERIORMENTE",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "REPARADOR(A) DE MÁQUINAS E EQUIPAMENTOS PARA A INDÚSTRIA TÊXTIL, DO VESTUÁRIO, DO COURO E CALÇADOS INDEPENDENTE",
+     "cnae": "3314-7/20",
+     "descSubCnae": "MANUTENÇÃO E REPARAÇÃO DE MÁQUINAS E EQUIPAMENTOS PARA A  INDÚSTRIA TÊXTIL, DO VESTUÁRIO, DO COURO E CALÇADOS",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "REPARADOR(A) DE MÁQUINAS E EQUIPAMENTOS PARA AGRICULTURA E PECUÁRIA INDEPENDENTE",
+     "cnae": "3314-7/11",
+     "descSubCnae": "MANUTENÇÃO E REPARAÇÃO DE MÁQUINAS E EQUIPAMENTOS PARA AGRICULTURA E PECUÁRIA",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "REPARADOR(A) DE MÁQUINAS E EQUIPAMENTOS PARA AS INDÚSTRIAS DE ALIMENTOS, BEBIDAS E FUMO INDEPENDENTE",
+     "cnae": "3314-7/19",
+     "descSubCnae": "MANUTENÇÃO E REPARAÇÃO DE MÁQUINAS E EQUIPAMENTOS PARA AS INDÚSTRIAS DE ALIMENTOS, BEBIDAS E FUMO",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "REPARADOR(A) INDEPENDENTE",
+     "cnae": "3314-7/01",
+     "descSubCnae": "MANUTENÇÃO E REPARAÇÃO DE MÁQUINAS MOTRIZES NÃO ELÉTRICAS",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "REPARADOR(A) INDEPENDENTE",
+     "cnae": "3314-7/10",
+     "descSubCnae": "MANUTENÇÃO E REPARAÇÃO DE MÁQUINAS E EQUIPAMENTOS PARA USO GERAL NÃO ESPECIFICADOS ANTERIORMENTE",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "REPARADOR(A) DE MÁQUINAS PARA ENCADERNAÇÃO INDEPENDENTE",
+     "cnae": "3314-7/99",
+     "descSubCnae": "MANUTENÇÃO E REPARAÇÃO DE OUTRAS MÁQUINAS E EQUIPAMENTOS PARA USOS INDUSTRIAIS NÃO ESPECIFICADOS ANTERIORMENTE",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "REPARADOR(A) DE MÁQUINAS, APARELHOS E EQUIPAMENTOS PARA INSTALAÇÕES TÉRMICAS INDEPENDENTE",
+     "cnae": "3314-7/06",
+     "descSubCnae": "MANUTENÇÃO E REPARAÇÃO DE MÁQUINAS, E EQUIPAMENTOS PARA INSTALAÇÕES TÉRMICAS",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "REPARADOR(A) DE MÓVEIS INDEPENDENTE",
+     "cnae": "9529-1/05",
+     "descSubCnae": "REPARAÇÃO DE ARTIGOS DO MOBILIÁRIO",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "REPARADOR(A) DE PANELAS (PANELEIRO) INDEPENDENTE",
+     "cnae": "9529-1/99",
+     "descSubCnae": "REPARAÇÃO E MANUTENÇÃO DE OUTROS OBJETOS E EQUIPAMENTOS PESSOAIS E DOMÉSTICOS NÃO ESPECIFICADOS ANTERIORMENTE",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "REPARADOR(A) DE TANQUES, RESERVATÓRIOS METÁLICOS E CALDEIRAS, EXCETO PARA VEÍCULOS, INDEPENDENTE",
+     "cnae": "3311-2/00",
+     "descSubCnae": "MANUTENÇÃO E REPARAÇÃO DE TANQUES, RESERVATÓRIOS METÁLICOS E CALDEIRAS, EXCETO PARA VEÍCULOS",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "REPARADOR(A) DE TOLDOS E PERSIANAS INDEPENDENTE",
+     "cnae": "9529-1/05",
+     "descSubCnae": "REPARAÇÃO DE ARTIGOS DO MOBILIÁRIO",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "REPARADOR(A) DE TONÉIS, BARRIS E PALETES DE MADEIRA INDEPENDENTE",
+     "cnae": "3319-8/00",
+     "descSubCnae": "MANUTENÇÃO E REPARAÇÃO DE EQUIPAMENTOS E PRODUTOS NÃO ESPECIFICADOS ANTERIORMENTE",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "REPARADOR(A) DE TRATORES AGRÍCOLAS INDEPENDENTE",
+     "cnae": "3314-7/12",
+     "descSubCnae": "MANUTENÇÃO E REPARAÇÃO DE TRATORES AGRÍCOLAS",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "REPARADOR(A) DE VEÍCULOS DE TRAÇÃO ANIMAL INDEPENDENTE",
+     "cnae": "3319-8/00",
+     "descSubCnae": "MANUTENÇÃO E REPARAÇÃO DE EQUIPAMENTOS E PRODUTOS NÃO ESPECIFICADOS ANTERIORMENTE",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "RESTAURADOR(A) DE INSTRUMENTOS MUSICAIS HISTÓRICOS INDEPENDENTE",
+     "cnae": "3319-8/00",
+     "descSubCnae": "MANUTENÇÃO E REPARAÇÃO DE EQUIPAMENTOS E PRODUTOS NÃO ESPECIFICADOS ANTERIORMENTE",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "RESTAURADOR(A) INDEPENDENTE",
+     "cnae": "3319-8/00",
+     "descSubCnae": "MANUTENÇÃO E REPARAÇÃO DE EQUIPAMENTOS E PRODUTOS NÃO ESPECIFICADOS ANTERIORMENTE",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "RESTAURADOR(A) DE LIVROS INDEPENDENTE",
+     "cnae": "9529-1/99",
+     "descSubCnae": "REPARAÇÃO E MANUTENÇÃO DE OUTROS OBJETOS E EQUIPAMENTOS PESSOAIS E DOMÉSTICOS NÃO ESPECIFICADOS ANTERIORMENTE",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "RESTAURADOR(A) DE OBRAS DE ARTE INDEPENDENTE",
+     "cnae": "9002-7/02",
+     "descSubCnae": "RESTAURAÇÃO DE OBRAS DE ARTE",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "RETIFICADOR(A) DE MOTORES PARA VEÍCULOS AUTOMOTORES INDEPENDENTE",
+     "cnae": "2950-6/00",
+     "descSubCnae": "RECONDICIONAMENTO E RECUPERAÇÃO DE MOTORES PARA VEÍCULOS AUTOMOTORES",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "REVELADOR(A) FOTOGRÁFICO INDEPENDENTE",
+     "cnae": "7420-0/03",
+     "descSubCnae": "LABORATÓRIOS FOTOGRÁFICOS",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "SALGADEIRO(A) INDEPENDENTE",
+     "cnae": "5620-1/04",
+     "descSubCnae": "FORNECIMENTO DE ALIMENTOS PREPARADOS PREPONDERANTEMENTE PARA CONSUMO DOMICILIAR",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "SALINEIRO/EXTRATOR DE SAL MARINHO INDEPENDENTE",
+     "cnae": "0892-4/01",
+     "descSubCnae": "EXTRAÇÃO DE SAL MARINHO",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "SALSICHEIRO(A)/LINGUICEIRO(A) INDEPENDENTE",
+     "cnae": "1013-9/01",
+     "descSubCnae": "FABRICAÇÃO DE PRODUTOS DE CARNE",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "SAPATEIRO(A)",
+     "cnae": "9529-1/01",
+     "descSubCnae": "REPARAÇÃO DE CALÇADOS, DE BOLSAS E ARTIGOS DE VIAGEM",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "SELEIRO(A) INDEPENDENTE",
+     "cnae": "1529-7/00",
+     "descSubCnae": "FABRICAÇÃO DE ARTEFATOS DE COURO NÃO ESPECIFICADOS ANTERIORMENTE",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "SERIGRAFISTA INDEPENDENTE",
+     "cnae": "1813-0/99",
+     "descSubCnae": "IMPRESSÃO DE MATERIAL PARA OUTROS USOS",
+     "iss": "S",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "SERIGRAFISTA PUBLICITÁRIO INDEPENDENTE",
+     "cnae": "1813-0/01",
+     "descSubCnae": "IMPRESSÃO DE MATERIAL PARA USO PUBLICITÁRIO",
+     "iss": "S",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "SERRALHEIRO(A), EXCETO PARA ESQUADRIAS, SOB ENCOMENDA OU NÃO, INDEPENDENTE",
+     "cnae": "2542-0/00",
+     "descSubCnae": "FABRICAÇÃO DE ARTIGOS DE SERRALHERIA, EXCETO ESQUADRIAS",
+     "iss": "S",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "SINTEQUEIRO(A) INDEPENDENTE",
+     "cnae": "4330-4/05",
+     "descSubCnae": "APLICAÇÃO DE REVESTIMENTOS E DE RESINAS EM INTERIORES E EXTERIORES",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "SOLDADOR(A)/BRASADOR(A) INDEPENDENTE",
+     "cnae": "2539-0/01",
+     "descSubCnae": "SERVIÇOS DE USINAGEM, TORNEARIA E SOLDA",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "SORVETEIRO(A) INDEPENDENTE",
+     "cnae": "4729-6/99",
+     "descSubCnae": "COMÉRCIO VAREJISTA DE PRODUTOS ALIMENTÍCIOS EM GERAL OU ESPECIALIZADO EM PRODUTOS ALIMENTÍCIOS NÃO ESPECIFICADOS ANTERIORMENTE",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "SORVETEIRO(A) AMBULANTE INDEPENDENTE",
+     "cnae": "5612-1/00",
+     "descSubCnae": "SERVIÇOS AMBULANTES DE ALIMENTAÇÃO",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "TANOEIRO(A) INDEPENDENTE",
+     "cnae": "1623-4/00",
+     "descSubCnae": "FABRICAÇÃO DE ARTEFATOS DE TANOARIA E DE EMBALAGENS DE MADEIRA",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "TAPECEIRO(A) INDEPENDENTE",
+     "cnae": "1352-9/00",
+     "descSubCnae": "FABRICAÇÃO DE ARTEFATOS DE TAPEÇARIA",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "TATUADOR(A) INDEPENDENTE",
+     "cnae": "9609-2/06",
+     "descSubCnae": "SERVIÇOS DE TATUAGEM E COLOCAÇÃO DE PIERCING",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "TAXISTA INDEPENDENTE",
+     "cnae": "4923-0/01",
+     "descSubCnae": "SERVIÇO DE TÁXI",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "TECELÃO(Ã) INDEPENDENTE",
+     "cnae": "1322-7/00",
+     "descSubCnae": "TECELAGEM DE FIOS DE FIBRAS TÊXTEIS NATURAIS, EXCETO ALGODÃO",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "TECELÃO(Ã) DE ALGODÃO INDEPENDENTE",
+     "cnae": "1321-9/00",
+     "descSubCnae": "TECELAGEM DE FIOS DE ALGODÃO",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "TÉCNICO(A) DE SONORIZAÇÃO E DE ILUMINAÇÃO INDEPENDENTE",
+     "cnae": "9001-9/06",
+     "descSubCnae": "ATIVIDADES DE SONORIZAÇÃO E DE ILUMINAÇÃO",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "TÉCNICO(A) DE MANUTENÇÃO DE COMPUTADOR INDEPENDENTE",
+     "cnae": "9511-8/00",
+     "descSubCnae": "REPARAÇÃO E MANUTENÇÃO DE COMPUTADORES E DE EQUIPAMENTOS PERIFÉRICOS",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "TÉCNICO(A) DE MANUTENÇÃO DE ELETRODOMÉSTICOS INDEPENDENTE",
+     "cnae": "9521-5/00",
+     "descSubCnae": "REPARAÇÃO E MANUTENÇÃO DE EQUIPAMENTOS ELETROELETRÔNICOS DE USO PESSOAL E DOMÉSTICO",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "TÉCNICO(A) DE MANUTENÇÃO DE TELEFONIA INDEPENDENTE",
+     "cnae": "9512-6/00",
+     "descSubCnae": "REPARAÇÃO E MANUTENÇÃO DE EQUIPAMENTOS DE COMUNICAÇÃO",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "TELHADOR(A) INDEPENDENTE",
+     "cnae": "4399-1/99",
+     "descSubCnae": "SERVIÇOS ESPECIALIZADOS PARA CONSTRUÇÃO NÃO ESPECIFICADOS ANTERIORMENTE",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "TINTUREIRO(A) INDEPENDENTE",
+     "cnae": "9601-7/02",
+     "descSubCnae": "TINTURARIAS",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "TORNEIRO(A) MECÂNICO INDEPENDENTE",
+     "cnae": "2539-0/01",
+     "descSubCnae": "SERVIÇOS DE USINAGEM, TORNEARIA E SOLDA",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "TOSADOR(A) DE ANIMAIS DOMÉSTICOS INDEPENDENTE",
+     "cnae": "9609-2/08",
+     "descSubCnae": "HIGIENE E EMBELEZAMENTO DE ANIMAIS DOMÉSTICOS",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "TOSQUIADOR(A) INDEPENDENTE",
+     "cnae": "0162-8/02",
+     "descSubCnae": "SERVIÇO DE TOSQUIAMENTO DE OVINOS",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "TRANSPORTADOR(A) AQUAVIÁRIO PARA PASSEIOS TURÍSTICOS INDEPENDENTE",
+     "cnae": "5099-8/01",
+     "descSubCnae": "TRANSPORTE AQUAVIÁRIO PARA PASSEIOS TURÍSTICOS",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "TRANSPORTADOR(A) ESCOLAR INDEPENDENTE",
+     "cnae": "4924-8/00",
+     "descSubCnae": "TRANSPORTE ESCOLAR",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "TRANSPORTADOR(A) DE MUDANÇAS INDEPENDENTE",
+     "cnae": "4930-2/04",
+     "descSubCnae": "TRANSPORTE RODOVIÁRIO DE MUDANÇAS",
+     "iss": "S",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "TRANSPORTADOR(A) INTERMUNICIPAL COLETIVO DE PASSAGEIROS SOB FRETE EM REGIÃO METROPOLITANA INDEPENDENTE",
+     "cnae": "4929-9/02",
+     "descSubCnae": "TRANSPORTE RODOVIÁRIO COLETIVO DE PASSAGEIROS, SOB REGIME DE FRETAMENTO, INTERMUNICIPAL, INTERESTADUAL E INTERNACIONAL",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "TRANSPORTADOR(A) INTERMUNICIPAL E INTERESTADUAL DE TRAVESSIA POR NAVEGAÇÃO FLUVIAL INDEPENDENTE",
+     "cnae": "5091-2/02",
+     "descSubCnae": "TRANSPORTE POR NAVEGAÇÃO DE TRAVESSIA, INTERMUNICIPAL, INTERESTADUAL E INTERNACIONAL",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "TRANSPORTADOR(A) MARÍTIMO DE CARGA INDEPENDENTE",
+     "cnae": "5011-4/01",
+     "descSubCnae": "TRANSPORTE MARÍTIMO DE CABOTAGEM - CARGA",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "TRANSPORTADOR(A) MUNICIPAL DE CARGAS NÃO PERIGOSAS (CARRETO) INDEPENDENTE",
+     "cnae": "4930-2/01",
+     "descSubCnae": "TRANSPORTE RODOVIÁRIO DE CARGA, EXCETO PRODUTOS PERIGOSOS E MUDANÇAS, MUNICIPAL",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "TRANSPORTADOR(A) MUNICIPAL COLETIVO DE PASSAGEIROS SOB FRETE INDEPENDENTE",
+     "cnae": "4929-9/01",
+     "descSubCnae": "TRANSPORTE RODOVIÁRIO COLETIVO DE PASSAGEIROS SOB REGIME DE FRETAMENTO, MUNICIPAL",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "TRANSPORTADOR(A) MUNICIPAL DE TRAVESSIA POR NAVEGAÇÃO INDEPENDENTE",
+     "cnae": "5091-2/01",
+     "descSubCnae": "TRANSPORTE POR NAVEGAÇÃO DE TRAVESSIA, MUNICIPAL",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "TRANSPORTADOR(A) MUNICIPAL HIDROVIÁRIO DE CARGAS INDEPENDENTE",
+     "cnae": "5021-1/01",
+     "descSubCnae": "TRANSPORTE POR NAVEGAÇÃO INTERIOR DE CARGA, MUNICIPAL, EXCETO TRAVESSIA",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "TRICOTEIRO(A) INDEPENDENTE",
+     "cnae": "1422-3/00",
+     "descSubCnae": "FABRICAÇÃO DE ARTIGOS DO VESTUÁRIO, PRODUZIDOS EM MALHARIAS E TRICOTAGENS, EXCETO MEIAS",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "VASSOUREIRO(A) INDEPENDENTE",
+     "cnae": "3291-4/00",
+     "descSubCnae": "FABRICAÇÃO DE ESCOVAS, PINCÉIS E VASSOURAS",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "VENDEDOR(A) AMBULANTE DE PRODUTOS ALIMENTÍCIOS INDEPENDENTE",
+     "cnae": "5612-1/00",
+     "descSubCnae": "SERVIÇOS AMBULANTES DE ALIMENTAÇÃO",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "VENDEDOR(A) DE AVES VIVAS, COELHOS E OUTROS PEQUENOS ANIMAIS PARA ALIMENTAÇÃO INDEPENDENTE",
+     "cnae": "4724-5/00",
+     "descSubCnae": "COMÉRCIO VAREJISTA DE HORTIFRUTIGRANJEIROS",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "VERDUREIRO INDEPENDENTE",
+     "cnae": "4724-5/00",
+     "descSubCnae": "COMÉRCIO VAREJISTA DE HORTIFRUTIGRANJEIROS",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "VIDRACEIRO DE AUTOMÓVEIS INDEPENDENTE",
+     "cnae": "4520-0/01",
+     "descSubCnae": "SERVIÇOS DE MANUTENÇÃO E REPARAÇÃO MECÂNICA DE VEÍCULOS AUTOMOTORES",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "VIDRACEIRO DE EDIFICAÇÕES INDEPENDENTE",
+     "cnae": "4330-4/99",
+     "descSubCnae": "OUTRAS OBRAS DE ACABAMENTO DA CONSTRUÇÃO",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "VINAGREIRO INDEPENDENTE",
+     "cnae": "1099-6/01",
+     "descSubCnae": "FABRICAÇÃO DE VINAGRES",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "VIVEIRISTA INDEPENDENTE",
+     "cnae": "0121-1/01",
+     "descSubCnae": "HORTICULTURA, EXCETO MORANGO",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "TRANSPORTADOR AUTÔNOMO DE CARGA - MUNICIPAL",
+     "cnae": "4930-2/01",
+     "descSubCnae": "TRANSPORTE RODOVIÁRIO DE CARGA, EXCETO PRODUTOS PERIGOSOS E MUDANÇAS, MUNICIPAL",
+     "iss": "S",
+     "icms": "N"
+    },
+    {
+     "ocupacao": "TRANSPORTADOR AUTÔNOMO DE CARGA INTERMUNICIPAL, INTERESTADUAL E INTERNACIONAL",
+     "cnae": "4930-2/02",
+     "descSubCnae": "TRANSPORTE RODOVIÁRIO DE CARGA, EXCETO PRODUTOS PERIGOSOS E MUDANÇAS, INTERMUNICIPAL, INTERESTADUAL E INTERNACIONAL",
+     "iss": "N",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "TRANSPORTADOR AUTÔNOMO DE CARGA - PRODUTOS PERIGOSOS",
+     "cnae": "4930-2/03",
+     "descSubCnae": "TRANSPORTE RODOVIÁRIO DE PRODUTOS PERIGOSOS",
+     "iss": "S",
+     "icms": "S"
+    },
+    {
+     "ocupacao": "TRANSPORTADOR AUTÔNOMO DE CARGA - MUDANÇAS",
+     "cnae": "4930-2/04",
+     "descSubCnae": "TRANSPORTE RODOVIÁRIO DE MUDANÇAS",
+     "iss": "S",
+     "icms": "S"
+    }
+   ]

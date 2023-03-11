@@ -1,0 +1,112 @@
+[
+    {
+        "ni": "40442820135",
+        "nome": "Joaquim da Silva",
+        "situacao": {
+          "codigo": "0",
+          "descricao": "Regular"
+        },
+        "nascimento": "14111970",
+        "NaturezaOcupacao": "01"
+    },      
+    {
+        "ni": "63017285995",
+        "nome": "Francisco Santos",
+        "situacao": {
+          "codigo": "0",
+          "descricao": "Regular"
+        },
+        "nascimento": "28041979",
+        "NaturezaOcupacao": "11"
+    },
+    {
+        "ni": "91708635203",
+        "nome": "Eduardo Fonseca",
+        "situacao": {
+          "codigo": "0",
+          "descricao": "Regular"
+        },
+        "nascimento": "01032006",
+        "NaturezaOcupacao": "11"
+    },
+    {
+        "ni": "40532176871",
+        "nome": "Marta Rocha",
+        "situacao": {
+          "codigo": "0",
+          "descricao": "Regular"
+        },
+        "nascimento": "22092002",
+        "NaturezaOcupacao": "12"
+    },
+    {
+        "ni": "10975384600",
+        "nome": "Paula Lopes",
+        "situacao": {
+          "codigo": "0",
+          "descricao": "Regular"
+        },
+        "nascimento": "22092002",
+        "NaturezaOcupacao": "22"
+    },
+    {
+        "ni": "01648527949",
+        "nome": "Edson Bezerra",
+        "situacao": {
+          "codigo": "5",
+          "descricao": "Cancelada por Multiplicidade"
+        },
+        "nascimento": "10031989",
+        "NaturezaOcupacao": "01"
+    },
+    {
+        "ni": "18025346790",
+        "nome": "Edson Bezerra",
+        "situacao": {
+          "codigo": "8",
+          "descricao": "Nula"
+        },
+        "nascimento": "10121999",
+        "NaturezaOcupacao": "11"
+    },
+    {
+        "ni": "52389071686",
+        "nome": "Juca Torres",
+        "situacao": {
+          "codigo": "9",
+          "descricao": "Cancelada de Ofício"
+        },
+        "nascimento": "15021998",
+        "NaturezaOcupacao": "11"
+    },
+    {
+        "ni": "05137518743",
+        "nome": "Patricia Antunes",
+        "situacao": {
+          "codigo": "3",
+          "descricao": "Titular Falecido"
+        },
+        "nascimento": "30122000",
+        "NaturezaOcupacao": "12"
+    },
+    {
+        "ni": "47123586964",
+        "nome": "José Guimarães",
+        "situacao": {
+          "codigo": "2",
+          "descricao": "Suspensa"
+        },
+        "nascimento": "01011954",
+        "NaturezaOcupacao": "22"
+    },
+    {
+        "ni": "64913872591",
+        "nome": "Aline Barbosa",
+        "situacao": {
+          "codigo": "4",
+          "descricao": "Pendente de Regularização"
+        },
+        "nascimento": "05012974",
+        "NaturezaOcupacao": "01"
+    }                         
+]

@@ -1,0 +1,69 @@
+- O registro do MEI no Portal do Governo é gratuito porém muitas empresas cobram por serviços de assessoria;
+- A falta de uma interface amigável e intuitiva cria uma barreira inicial para o cadastro inicial e acompanhamento de um grupo relevante de futuros MEIs;
+- Existe uma grande dificuldade de acesso ou cadastro dos futuros MEIs a plataforma gov br. Geralmente buscam ajuda na Praça do Cidadão;
+	- O acesso a plataforma gov br é pré requisito para o cadastro do MEI na seção Portal do Empreendedor;
+
+- Criar página HTML para facilitar e filtrar possíveis interessados na adesão ao MEI
+	- Telas amigáveis e responsivas - Desktop e Mobile
+	- Acesso a página por QRCode, link página Prefeitura, link via WhatsApp
+	- Roteiro para cadastro
+		- Validações básicas iniciais - Cadastro específico para avaliar viabilidade contendo status da consulta (Apto ou Inapto - motivo)
+			+ simular API de consulta ao CPF	
+				+ Consulta se sócio ou funcionário público (a pessoa não pode ser sócio, MEI ativo ou funcionário público federal. Algumas excessões estadual, municipal)
+				+ Consulta simples idade (não pode ser inferior a 18 anos)
+				+ Consulta situação atual do usuário via cpf
+			+ Ocupações permitidas (json)
+			+ Teto anual orçado (não pode ser superior a R$81.000,00)
+			+ Previsão de custos (não pode ser superior a 80% do teto anual);
+			+ Nr de contrataçoes previstas (permitido no máximo 1);
+			+ Pretensão de abrir filiais (não é permitido);
+			+ Endereço do MEI - simular API de viabilidade (informar nr Cadastro IPTU e dados complementares)
+			+ Benefícios previdenciários (perderá benefícios na adesão ao MEI)
+				- aposentadoria por invalidez
+				- auxílio-doença
+				- salário maternidade
+			+ Benefícios assistencialistas (poderá perder os benefícios na adesão ao MEI)
+				- seguro desemprego 
+				- BPC-LOAS
+				- Prouni
+				- FIES
+				- Bolsa Família			
+	- Roteiro de orientação
+		- Após a conclusão da analise será realizado o cadastro do formulário via API.
+		- Após obter status Apto, o usuário poderá receber uma tela com dados cadastrados para auxiliar no preenchimento do seu cadastro MEI. 
+			- Em caso de Inapto o funcionário responsável na Prefeitura poderá auxiliar o futuro MEI avaliando o motivo Inapto, tomando ações 
+		  	  colaborativas para esclarecimentos e orientações. Ele terá a acesso a esta API de cadastros a qual poderá ser integrada ao sistema
+			  Prefeitura se necessário.
+		- Cadastro ativo na Plataforma gov.br
+				- Em caso negativo redirecionamento para https://www.gov.br/governodigital/pt-br/conta-gov-br/conta-gov-br/
+		- O usuário recebe orientações para realizar o seu cadastro a medida que avança nas telas do Portal do Empreendedor;				
+		- Direcionamento para o Portal do Empreededor - https://www.gov.br/empresas-e-negocios/pt-br/empreendedor
+		- Complemento de cadastro com dados do MEI (status Concluido)
+
+Sites úteis
+- Passo a passo Cadastro MEI - https://sebrae.com.br/sites/PortalSebrae/artigos/decidiu-empreender-em-2022-veja-como-abrir-um-mei-de-graca,6c688d756edbf710VgnVCM100000d701210aRCRD#:~:text=Passo%20a%20passo%20%E2%80%93%20como%20Abrir%20um%20MEI%20Gr%C3%A1tis%20em%202023&text=Se%20o%20empreendedor%20n%C3%A3o%20tem,instru%C3%A7%C3%B5es%20fornecendo%20as%20informa%C3%A7%C3%B5es%20solicitadas.
+- API CPF Light - https://www.gov.br/conecta/catalogo/apis/cadastro-base-do-cidadao-cbc-cpf/swagger-v2.json/swagger_view
+- API Consulta CPF - https://apicenter.estaleiro.serpro.gov.br/documentacao/consulta-cpf/pt/quick_start/
+- API BPC e Bolsa Familia - https://api.portaldatransparencia.gov.br/swagger-ui.html#/
+- API de Dados Cadastro - https://portaldatransparencia.gov.br/api-de-dados/cadastrar-email
+- API InfoSimples Seguro Desemprego - https://infosimples.com/consultas/mte-seguro-desemprego/
+- Consulta Pedido Viabilidade - http://www.blumenau.sc.gov.br/pedidoviabilidade/ConsultaDireta.aspx
+- Consulta Pública CPF - https://servicos.receita.fazenda.gov.br/Servicos/CPF/ConsultaSituacao/ConsultaPublica.asp
+
+Etapas e implementações
+- Criar QRCode Site
+- Captcha
+- Validar campos formulário de validação
+- API CPF - Spring Boot (formato arquivo cpf.json)
++ Json Atividades permitidas (atividadesMEI.json)
+- API Consulta viabilidade - Spring Boot (formato arquivo consultaViabilidade.json)
+- Tabela Consultas Validações - Spring Boot - PostGreSQL (formato arquivo consultaPessoaFisica.json)
+- Hospedar site
+- Telas - Figma e Angular-Bootstrap
+- Serviços - Angular Typescript
+- Continuação tela de validações 
+	- Orientações para cadastro/acesso na plataforma gov.br
+	- Orientações para cadastro/acesso MEI
+- Apresentação final agendada para 17/03.
+
+
