@@ -1,6 +1,6 @@
 // Rota: /consultacpf
-// Opções: / - Retorna lista com todos os dados dos individuo contidos no objeto Listas
-//         /(cpf) - Retorna objeto contendo os dados de um individuo por CPF
+// Opções: GET - / - Retorna lista com todos os dados dos individuo contidos no objeto Listas
+//         GET - /(cpf) - Retorna objeto contendo os dados de um individuo por CPF
 package com.example.appMEI.controllers;
 
 import com.example.appMEI.dtos.CPFDto;
