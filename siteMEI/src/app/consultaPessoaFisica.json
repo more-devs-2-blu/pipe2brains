@@ -3,6 +3,8 @@
         "dtConsulta": "10/03/2023",
         "nome": "Joaquim da Silva",
         "ni": "40442820135",
+        "nascimento": "10/12/2000",
+        "email": "joaquim@hotmail.com",
         "benefPrev": {"aposenInvalid": "false", "auxDoenca": "false", "salMater": "false"},
         "benefAssist": {"segDes": "false", "bpc": "false", "proUNI": "false", "fies": "false", "bolsaFam": "false"},
         "cnae": "4722901",

@@ -9,7 +9,7 @@ public class CPFDto {
     private String nome;
     private SituacaoDto situacao;
     private String nascimento;
-    private String NaturezaOcupacao;
+    private String naturezaOcupacao;
 
     public CPFDto() {
     }
@@ -19,6 +19,6 @@ public class CPFDto {
         this.nome = nome;
         this.situacao = situacao;
         this.nascimento = nascimento;
-        NaturezaOcupacao = naturezaOcupacao;
+        this.naturezaOcupacao = naturezaOcupacao;
     }
 }

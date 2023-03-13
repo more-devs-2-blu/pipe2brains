@@ -22,7 +22,8 @@ public class Listas {
     // Carrega lista pré-definida com dados de cadastro de contribuintes.
     public void carregaListaCpf()  {
         this.listaCpf.add(new CPFDto("40442820135","Joaquim da Silva",new SituacaoDto("0", "Regular"), "14111970", "01"));
-        this.listaCpf.add(new CPFDto("63017285995","Francisco Santos",new SituacaoDto("0", "Regular"),"28041979","11"));
+
+        this.listaCpf.add(new CPFDto("63017285995","Francisco Santos",new SituacaoDto("0", "Regular"),"28041979", "11"));
         this.listaCpf.add(new CPFDto("91708635203","Eduardo Fonseca",new SituacaoDto("0","Regular"),"01032006","11"));
         this.listaCpf.add(new CPFDto("40532176871","Marta Rocha",new SituacaoDto("0","Regular"),"22092002","12"));
         this.listaCpf.add(new CPFDto("10975384600","Paula Lopes",new SituacaoDto("0","Regular"),"22092002","22"));
@@ -51,12 +52,12 @@ public class Listas {
 
     // Carrega lista pré-definida com dados de cadastro de imoveis.
     public void carregaListaCadIPTU() {
-        this.listaCadIPTU.add(new CadIPTUDto("241500022554",new ArrayList<String>(),true));
-        this.listaCadIPTU.add(new CadIPTUDto("241500021987",new ArrayList<String>(),false));
+        this.listaCadIPTU.add(new CadIPTUDto("241500022554",new ArrayList<String>(),"Rua Governador Jorge Lacerda, 1890, Velha, 89045337",true));
+        this.listaCadIPTU.add(new CadIPTUDto("241500021987",new ArrayList<String>(),"Rua 7 de Setembro, 720, Centro, 89010200", false));
         ArrayList<String> proibAux1 = new ArrayList<String>(); proibAux1.add("0159801"); proibAux1.add("2599301");
-        this.listaCadIPTU.add(new CadIPTUDto("241500021666",proibAux1,true));
+        this.listaCadIPTU.add(new CadIPTUDto("241500021666",proibAux1,"Rua Progresso, 1200, Progresso, 89026202", true));
         ArrayList<String> proibAux2 = new ArrayList<String>(); proibAux2.add("5099899"); proibAux2.add("4744099");
-        this.listaCadIPTU.add(new CadIPTUDto("241500026123",proibAux2,false));
+        this.listaCadIPTU.add(new CadIPTUDto("241500026123",proibAux2,"Rua João Pessoa, 200, Velha, 89036000", false));
     }
 
     // Retorna objeto contendo dados de um registro baseado no cadstro de IPTU informado

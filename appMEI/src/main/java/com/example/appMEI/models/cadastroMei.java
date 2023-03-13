@@ -1,13 +1,12 @@
 package com.example.appMEI.models;
 
 import jakarta.persistence.*;
-
 import java.io.Serializable;
+import java.util.Date;
 import java.util.UUID;
 
 @Entity(name = "TB_CADASTRO_MEI")
 public class cadastroMei implements Serializable {
-
     private static final long serialVersionUID = 1L;
 
     @Id
@@ -16,35 +15,18 @@ public class cadastroMei implements Serializable {
     private UUID id;
     private String nome;
     private String cpf;
+    private String statusCpf;   //Contém a situação do CPF, Regular, Cancelada por Multiplicidade, Nulo
     private String dataNascimento;
     private String email;
     private String telefone1;
     private String telefone2;
 
-    private String enderecoResPais;
-    private String enderecoResCep;
-    private String enderecoResEstado;
-    private String enderecoResCidade;
-    private String enderecoResLogradouro;
-    private String enderecoResNumero;
-    private String enderecoResComplemento;
-    private String enderecoResBairro;
-
-    private String enderecoEmpPais;
-    private String enderecoEmpCep;
-    private String enderecoEmpEstado;
-    private String enderecoEmpCidade;
-    private String enderecoEmpLogradouro;
-    private String enderecoEmpNumero;
-    private String enderecoEmpComplemento;
-    private String enderecoEmpBairro;
     private String cnaePrimario;
-    private String cnaesSecundarios;
+    private String cnaePrimarioOcupacao; //Descrição da ocupação relacionada ao CNAE
 
     private boolean eFuncPublico;
     private boolean eSocio;
     private boolean eMeiAtivo;
-    private boolean temFiliais;
     private boolean temAposentadoriaInvalidez;
     private boolean temAuxilioDoenca;
     private boolean temSalarioMaternidade;
@@ -54,42 +36,35 @@ public class cadastroMei implements Serializable {
     private boolean temFies;
     private boolean temBolsaFamilia;
 
+    private boolean temFiliais;
     private long previsaoFaturamento;
     private long previsaoCustos;
     private int nrFuncionarios;
 
+    private String nrCadastroIPTU;  //Contém o número de 6 digitos na página frontal do carne de IPTU
+    private String enderecoIPTU;    //Contém o endereço cadastrado no nr IPTU
+    private Integer areaEmpreendimento; //Contém a área do empreendimento
+
+    private Date dataConsulta;  //Data de realização da consulta
+    private boolean statusConsultaMEI;  //Contem o resultado final da consulta. Dados (true Apto) (false Inapto)
+    private boolean statusConsultaIPTU; //Contém o status da consulta de viabilidade do Imovel obtida pelo nr cadastro IPTU
+
     public cadastroMei (){}
 
-    public cadastroMei(UUID id, String nome, String cpf, String dataNascimento, String email, String telefone1, String telefone2, String enderecoResPais, String enderecoResCep, String enderecoResEstado, String enderecoResCidade, String enderecoResLogradouro, String enderecoResNumero, String enderecoResComplemento, String enderecoResBairro, String enderecoEmpPais, String enderecoEmpCep, String enderecoEmpEstado, String enderecoEmpCidade, String enderecoEmpLogradouro, String enderecoEmpNumero, String enderecoEmpComplemento, String enderecoEmpBairro, String cnaePrimario, String cnaesSecundarios, boolean eFuncPublico, boolean eSocio, boolean eMeiAtivo, boolean temFiliais, boolean temAposentadoriaInvalidez, boolean temAuxilioDoenca, boolean temSalarioMaternidade, boolean temSegDesemprego, boolean temBpcLoas, boolean temProuni, boolean temFies, boolean temBolsaFamilia, long previsaoFaturamento, long previsaoCustos, int nrFuncionarios) {
+    public cadastroMei(UUID id, String nome, String cpf, String statusCpf, String dataNascimento, String email, String telefone1, String telefone2, String cnaePrimario, String cnaePrimarioOcupacao, boolean eFuncPublico, boolean eSocio, boolean eMeiAtivo, boolean temAposentadoriaInvalidez, boolean temAuxilioDoenca, boolean temSalarioMaternidade, boolean temSegDesemprego, boolean temBpcLoas, boolean temProuni, boolean temFies, boolean temBolsaFamilia, boolean temFiliais, long previsaoFaturamento, long previsaoCustos, int nrFuncionarios, String nrCadastroIPTU, String enderecoIPTU, Integer areaEmpreendimento, Date dataConsulta, boolean statusConsultaMEI, boolean statusConsultaIPTU) {
         this.id = id;
         this.nome = nome;
         this.cpf = cpf;
+        this.statusCpf = statusCpf;
         this.dataNascimento = dataNascimento;
         this.email = email;
         this.telefone1 = telefone1;
         this.telefone2 = telefone2;
-        this.enderecoResPais = enderecoResPais;
-        this.enderecoResCep = enderecoResCep;
-        this.enderecoResEstado = enderecoResEstado;
-        this.enderecoResCidade = enderecoResCidade;
-        this.enderecoResLogradouro = enderecoResLogradouro;
-        this.enderecoResNumero = enderecoResNumero;
-        this.enderecoResComplemento = enderecoResComplemento;
-        this.enderecoResBairro = enderecoResBairro;
-        this.enderecoEmpPais = enderecoEmpPais;
-        this.enderecoEmpCep = enderecoEmpCep;
-        this.enderecoEmpEstado = enderecoEmpEstado;
-        this.enderecoEmpCidade = enderecoEmpCidade;
-        this.enderecoEmpLogradouro = enderecoEmpLogradouro;
-        this.enderecoEmpNumero = enderecoEmpNumero;
-        this.enderecoEmpComplemento = enderecoEmpComplemento;
-        this.enderecoEmpBairro = enderecoEmpBairro;
         this.cnaePrimario = cnaePrimario;
-        this.cnaesSecundarios = cnaesSecundarios;
+        this.cnaePrimarioOcupacao = cnaePrimarioOcupacao;
         this.eFuncPublico = eFuncPublico;
         this.eSocio = eSocio;
         this.eMeiAtivo = eMeiAtivo;
-        this.temFiliais = temFiliais;
         this.temAposentadoriaInvalidez = temAposentadoriaInvalidez;
         this.temAuxilioDoenca = temAuxilioDoenca;
         this.temSalarioMaternidade = temSalarioMaternidade;
@@ -98,9 +73,16 @@ public class cadastroMei implements Serializable {
         this.temProuni = temProuni;
         this.temFies = temFies;
         this.temBolsaFamilia = temBolsaFamilia;
+        this.temFiliais = temFiliais;
         this.previsaoFaturamento = previsaoFaturamento;
         this.previsaoCustos = previsaoCustos;
         this.nrFuncionarios = nrFuncionarios;
+        this.nrCadastroIPTU = nrCadastroIPTU;
+        this.enderecoIPTU = enderecoIPTU;
+        this.areaEmpreendimento = areaEmpreendimento;
+        this.dataConsulta = dataConsulta;
+        this.statusConsultaMEI = statusConsultaMEI;
+        this.statusConsultaIPTU = statusConsultaIPTU;
     }
 
     public UUID getId() {
@@ -125,6 +107,14 @@ public class cadastroMei implements Serializable {
 
     public void setCpf(String cpf) {
         this.cpf = cpf;
+    }
+
+    public String getStatusCpf() {
+        return statusCpf;
+    }
+
+    public void setStatusCpf(String statusCpf) {
+        this.statusCpf = statusCpf;
     }
 
     public String getDataNascimento() {
@@ -159,134 +149,6 @@ public class cadastroMei implements Serializable {
         this.telefone2 = telefone2;
     }
 
-    public String getEnderecoResPais() {
-        return enderecoResPais;
-    }
-
-    public void setEnderecoResPais(String enderecoResPais) {
-        this.enderecoResPais = enderecoResPais;
-    }
-
-    public String getEnderecoResCep() {
-        return enderecoResCep;
-    }
-
-    public void setEnderecoResCep(String enderecoResCep) {
-        this.enderecoResCep = enderecoResCep;
-    }
-
-    public String getEnderecoResEstado() {
-        return enderecoResEstado;
-    }
-
-    public void setEnderecoResEstado(String enderecoResEstado) {
-        this.enderecoResEstado = enderecoResEstado;
-    }
-
-    public String getEnderecoResCidade() {
-        return enderecoResCidade;
-    }
-
-    public void setEnderecoResCidade(String enderecoResCidade) {
-        this.enderecoResCidade = enderecoResCidade;
-    }
-
-    public String getEnderecoResLogradouro() {
-        return enderecoResLogradouro;
-    }
-
-    public void setEnderecoResLogradouro(String enderecoResLogradouro) {
-        this.enderecoResLogradouro = enderecoResLogradouro;
-    }
-
-    public String getEnderecoResNumero() {
-        return enderecoResNumero;
-    }
-
-    public void setEnderecoResNumero(String enderecoResNumero) {
-        this.enderecoResNumero = enderecoResNumero;
-    }
-
-    public String getEnderecoResComplemento() {
-        return enderecoResComplemento;
-    }
-
-    public void setEnderecoResComplemento(String enderecoResComplemento) {
-        this.enderecoResComplemento = enderecoResComplemento;
-    }
-
-    public String getEnderecoResBairro() {
-        return enderecoResBairro;
-    }
-
-    public void setEnderecoResBairro(String enderecoResBairro) {
-        this.enderecoResBairro = enderecoResBairro;
-    }
-
-    public String getEnderecoEmpPais() {
-        return enderecoEmpPais;
-    }
-
-    public void setEnderecoEmpPais(String enderecoEmpPais) {
-        this.enderecoEmpPais = enderecoEmpPais;
-    }
-
-    public String getEnderecoEmpCep() {
-        return enderecoEmpCep;
-    }
-
-    public void setEnderecoEmpCep(String enderecoEmpCep) {
-        this.enderecoEmpCep = enderecoEmpCep;
-    }
-
-    public String getEnderecoEmpEstado() {
-        return enderecoEmpEstado;
-    }
-
-    public void setEnderecoEmpEstado(String enderecoEmpEstado) {
-        this.enderecoEmpEstado = enderecoEmpEstado;
-    }
-
-    public String getEnderecoEmpCidade() {
-        return enderecoEmpCidade;
-    }
-
-    public void setEnderecoEmpCidade(String enderecoEmpCidade) {
-        this.enderecoEmpCidade = enderecoEmpCidade;
-    }
-
-    public String getEnderecoEmpLogradouro() {
-        return enderecoEmpLogradouro;
-    }
-
-    public void setEnderecoEmpLogradouro(String enderecoEmpLogradouro) {
-        this.enderecoEmpLogradouro = enderecoEmpLogradouro;
-    }
-
-    public String getEnderecoEmpNumero() {
-        return enderecoEmpNumero;
-    }
-
-    public void setEnderecoEmpNumero(String enderecoEmpNumero) {
-        this.enderecoEmpNumero = enderecoEmpNumero;
-    }
-
-    public String getEnderecoEmpComplemento() {
-        return enderecoEmpComplemento;
-    }
-
-    public void setEnderecoEmpComplemento(String enderecoEmpComplemento) {
-        this.enderecoEmpComplemento = enderecoEmpComplemento;
-    }
-
-    public String getEnderecoEmpBairro() {
-        return enderecoEmpBairro;
-    }
-
-    public void setEnderecoEmpBairro(String enderecoEmpBairro) {
-        this.enderecoEmpBairro = enderecoEmpBairro;
-    }
-
     public String getCnaePrimario() {
         return cnaePrimario;
     }
@@ -295,12 +157,12 @@ public class cadastroMei implements Serializable {
         this.cnaePrimario = cnaePrimario;
     }
 
-    public String getCnaesSecundarios() {
-        return cnaesSecundarios;
+    public String getCnaePrimarioOcupacao() {
+        return cnaePrimarioOcupacao;
     }
 
-    public void setCnaesSecundarios(String cnaesSecundarios) {
-        this.cnaesSecundarios = cnaesSecundarios;
+    public void setCnaePrimarioOcupacao(String cnaePrimarioOcupacao) {
+        this.cnaePrimarioOcupacao = cnaePrimarioOcupacao;
     }
 
     public boolean iseFuncPublico() {
@@ -325,14 +187,6 @@ public class cadastroMei implements Serializable {
 
     public void seteMeiAtivo(boolean eMeiAtivo) {
         this.eMeiAtivo = eMeiAtivo;
-    }
-
-    public boolean isTemFiliais() {
-        return temFiliais;
-    }
-
-    public void setTemFiliais(boolean temFiliais) {
-        this.temFiliais = temFiliais;
     }
 
     public boolean isTemAposentadoriaInvalidez() {
@@ -399,6 +253,14 @@ public class cadastroMei implements Serializable {
         this.temBolsaFamilia = temBolsaFamilia;
     }
 
+    public boolean isTemFiliais() {
+        return temFiliais;
+    }
+
+    public void setTemFiliais(boolean temFiliais) {
+        this.temFiliais = temFiliais;
+    }
+
     public long getPrevisaoFaturamento() {
         return previsaoFaturamento;
     }
@@ -421,5 +283,53 @@ public class cadastroMei implements Serializable {
 
     public void setNrFuncionarios(int nrFuncionarios) {
         this.nrFuncionarios = nrFuncionarios;
+    }
+
+    public String getNrCadastroIPTU() {
+        return nrCadastroIPTU;
+    }
+
+    public void setNrCadastroIPTU(String nrCadastroIPTU) {
+        this.nrCadastroIPTU = nrCadastroIPTU;
+    }
+
+    public String getEnderecoIPTU() {
+        return enderecoIPTU;
+    }
+
+    public void setEnderecoIPTU(String enderecoIPTU) {
+        this.enderecoIPTU = enderecoIPTU;
+    }
+
+    public Integer getAreaEmpreendimento() {
+        return areaEmpreendimento;
+    }
+
+    public void setAreaEmpreendimento(Integer areaEmpreendimento) {
+        this.areaEmpreendimento = areaEmpreendimento;
+    }
+
+    public Date getDataConsulta() {
+        return dataConsulta;
+    }
+
+    public void setDataConsulta(Date dataConsulta) {
+        this.dataConsulta = dataConsulta;
+    }
+
+    public boolean isStatusConsultaMEI() {
+        return statusConsultaMEI;
+    }
+
+    public void setStatusConsultaMEI(boolean statusConsultaMEI) {
+        this.statusConsultaMEI = statusConsultaMEI;
+    }
+
+    public boolean isStatusConsultaIPTU() {
+        return statusConsultaIPTU;
+    }
+
+    public void setStatusConsultaIPTU(boolean statusConsultaIPTU) {
+        this.statusConsultaIPTU = statusConsultaIPTU;
     }
 }
