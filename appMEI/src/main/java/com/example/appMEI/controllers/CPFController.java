@@ -1,9 +1,12 @@
+// Rota: /consultacpf
+// Opções: / - Retorna lista com todos os dados dos individuo contidos no objeto Listas
+//         /(cpf) - Retorna objeto contendo os dados de um individuo por CPF
 package com.example.appMEI.controllers;
 
 import com.example.appMEI.dtos.CPFDto;
 import com.example.appMEI.services.CPFService;
 import org.springframework.web.bind.annotation.*;
-
+import java.util.List;
 import java.util.concurrent.ExecutionException;
 
 @RestController
@@ -16,13 +19,13 @@ public class CPFController {
         this.cpfService = cpfService;
     }
 
-    /*@GetMapping("/")
-    public List<TratamentoDTO> getTratamentos() throws ExecutionException, InterruptedException {
-        return tratamentoService.getTratamentos();
-    }*/
+    @GetMapping("/")
+    public List<CPFDto> getListaCpf() throws ExecutionException, InterruptedException {
+        return cpfService.getListaCpf();
+    }
 
-    @GetMapping("/{id}")
-    public CPFDto getCpf(@PathVariable(value = "id") String id) throws InterruptedException, ExecutionException {
-        return cpfService.getCpf(id);
+    @GetMapping("/{cpf}")
+    public CPFDto getCpf(@PathVariable(value = "cpf") String niAux) throws InterruptedException, ExecutionException {
+        return cpfService.getCpf(niAux);
     }
 }
