@@ -1,0 +1,45 @@
+
+.page-footer{
+    /* position: fixed; */
+    
+    /* width: 1442px;
+    height: 632px;
+    left: -2px;
+    top: 2130px; */
+
+    background-color: #002774;
+    margin-top: 25px;
+}
+
+.page-footer h3{
+    margin: 15px;
+    margin-bottom: 40px;
+    color: #92989F;
+    font-size: 20px;
+}
+.page-footer p{
+    margin: 15px;
+}
+.page-footer a{
+    text-decoration: none!important;
+    color: white;
+    margin: 20px;
+}
+
+.logoFooter{
+    padding: 50px;
+}
+
+
+
+/* 
+.page-footer .footer-copyright{
+    padding:20px 0;
+}
+.footer-copyright *{
+    color:#fff;
+    text-decoration: none;
+}
+.footer-copyright a:hover{
+    color:#000;
+} */
