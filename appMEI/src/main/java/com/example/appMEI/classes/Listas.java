@@ -32,7 +32,7 @@ public class Listas {
         this.listaCpf.add(new CPFDto("52389071686","Juca Torres",new SituacaoDto("9","Cancelada de Ofício"),"15021998","11"));
         this.listaCpf.add(new CPFDto("05137518743","Patricia Antunes",new SituacaoDto("3","Titular Falecido"),"30122000","12"));
         this.listaCpf.add(new CPFDto("47123586964","José Guimarães",new SituacaoDto("2","Suspensa"),"01011954","22"));
-        this.listaCpf.add(new CPFDto("64913872591","Aline Barbosa",new SituacaoDto("4","Pendente de Regularização"),"05012974","01"));
+        this.listaCpf.add(new CPFDto("64913872591","Aline Barbosa",new SituacaoDto("4","Pendente de Regularização"),"05011974","01"));
     }
 
     // Retorna objeto contendo dados de um registro baseado no cpf informado

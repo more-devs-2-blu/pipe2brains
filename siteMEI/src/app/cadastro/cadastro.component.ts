@@ -1,6 +1,8 @@
 import { Component } from '@angular/core';
 import cnaeImport from '../atividadesMEI.json';
 import { Cnae } from '../cnae';
+import { HttpCpfService } from '../httpcpf.service';
+import { CpfModel } from './cpfmodel';
 
 @Component({
   selector: 'app-cadastro',
@@ -11,13 +13,11 @@ export class CadastroComponent {
 
   public cnaeList:Cnae[] = cnaeImport;
   public cnaeResultadoBusca: Cnae[] = this.cnaeList;
-  public cnaeResultadoBusca2: Cnae[] = this.cnaeList;
+  public cpfAtual: CpfModel;
+ 
+  constructor(private httpCpfService: HttpCpfService) { }
 
-  buscaCnae1(key: string){
-    this.cnaeResultadoBusca = this.buscaCNAE(key)
-  }
-
-  buscaCNAE(key: string): Cnae[]{
+  buscaCNAE(key: string){
     const results: Cnae[] = [];
     for(const cnae of this.cnaeList){
       if(cnae.ocupacao.toLocaleLowerCase().indexOf(key.toLocaleLowerCase()) != -1 
@@ -25,19 +25,16 @@ export class CadastroComponent {
       results.push(cnae);
       }
     }
-    return results;
+    this.cnaeResultadoBusca = results
   }
 
-  preencheEndComl(checkbox:any){
-    if(checkbox.checked){
-      // document.getElementById('#enderecoEmpCep')!.value = document.getElementById('#enderecoResCep')!.value
-      console.log(document.getElementById('#enderecoEmpCep'));
-      
-
-
-
+  getCPF(cpf:string) {    
+    cpf = cpf.replace(/[^0-9]/g, '')
+    if (cpf) {
+      this.httpCpfService.getRequest(cpf).subscribe((response) => {        
+        this.cpfAtual = response;        
+      })
     }
-    
   }
 
 

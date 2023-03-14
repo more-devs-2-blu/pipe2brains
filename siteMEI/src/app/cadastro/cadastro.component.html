@@ -3,15 +3,15 @@
     <!-- dados pessoais -->
     <div class="mb-3">
         <label for="cpf" class="form-label">CPF: </label>
-        <input type="text" class="form-control" id="cpf">
+        <input type="text" class="form-control" id="cpf" #cpfValue (blur)="getCPF(cpfValue.value)">
     </div>
     <div class="mb-3">
         <label for="nome" class="form-label">Nome Completo: </label>
-        <input type="text" class="form-control" id="nome">
+        <input type="text" class="form-control" id="nome" value="{{cpfAtual == null || cpfAtual == undefined ? '' : cpfAtual.nome}}">
     </div>
     <div class="mb-3">
         <label for="dataNascimento" class="form-label">Data de Nascimento: </label>
-        <input type="text" class="form-control" id="dataNascimento">
+        <input type="text" class="form-control" id="dataNascimento" value="{{cpfAtual == null || cpfAtual == undefined ? '' : cpfAtual.nascimento | datapipe}}">
     </div>
     <div class="mb-3">
         <label for="email" class="form-label">Email: </label>
@@ -122,7 +122,7 @@
     <!-- definicao dos cnae -->
     <div class="mb-3">
         <label for="cnaePrimario">Selecione atividade principal: </label>
-        <input type="search" (ngModelChange)="buscaCnae1(key.value)" #key="ngModel" ngModel name="key" id="cnaePrimario"
+        <input type="search" (ngModelChange)="buscaCNAE(key.value)" #key="ngModel" ngModel name="key" id="cnaePrimario"
             class="" placeholder="Busca CNAE" required>
     </div>
     <div class="mb-3" id="" style="overflow:auto; height:50vh; width: 80vw; border: 2px solid;">
@@ -130,6 +130,21 @@
             <li *ngFor="let c of cnaeResultadoBusca" style="list-style-type: none"><input type="radio"
                     name="cnaeSelecionado">{{c.cnae}} - {{c.ocupacao}}</li>
         </ul>
+    </div>
+
+    <!-- dados do negócio -->
+
+    <div class="mb-3">
+        <label for="previsaoFaturamento" class="form-label">Previsão de faturamento (anual): </label>
+        <input type="text" class="form-control" id="previsaoFaturamento">
+    </div>
+    <div class="mb-3">
+        <label for="previsaoCustos" class="form-label">Previsão de custos (anual): </label>
+        <input type="text" class="form-control" id="previsaoCustos">
+    </div>
+    <div class="mb-3">
+        <label for="nrFuncionarios" class="form-label">Número de funcionários: </label>
+        <input type="text" class="form-control" id="nrFuncionarios">
     </div>
 
 
@@ -221,20 +236,7 @@
     </div>
 
 
-    <!-- dados do negócio -->
-
-    <div class="mb-3">
-        <label for="previsaoFaturamento" class="form-label">Previsão de faturamento (anual): </label>
-        <input type="text" class="form-control" id="previsaoFaturamento">
-    </div>
-    <div class="mb-3">
-        <label for="previsaoCustos" class="form-label">Previsão de custos (anual): </label>
-        <input type="text" class="form-control" id="previsaoCustos">
-    </div>
-    <div class="mb-3">
-        <label for="nrFuncionarios" class="form-label">Número de funcionários: </label>
-        <input type="text" class="form-control" id="nrFuncionarios">
-    </div>
+    
 
 
 
