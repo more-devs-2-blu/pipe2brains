@@ -3,7 +3,7 @@ import { CommonModule } from '@angular/common';
 
 import { CadastroRoutingModule } from './cadastro-routing.module';
 import { CadastroComponent } from './cadastro.component';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { DataPipe } from './datapipe';
 
@@ -17,6 +17,7 @@ import { DataPipe } from './datapipe';
     CommonModule,
     CadastroRoutingModule,
     FormsModule,
+    ReactiveFormsModule
   ]
 })
 export class CadastroModule { }

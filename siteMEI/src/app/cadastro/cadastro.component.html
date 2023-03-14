@@ -1,29 +1,31 @@
-<form>
+<form  #form="ngForm" (ngSubmit)="onSubmit(form)"  name="formzz">
 
     <!-- dados pessoais -->
     <div class="mb-3">
         <label for="cpf" class="form-label">CPF: </label>
-        <input type="text" class="form-control" id="cpf" #cpfValue (blur)="getCPF(cpfValue.value)">
+        <input type="text" class="form-control" name="cpf" #cpf="ngModel" ngModel id="cpf" #cpfValue (blur)="getCPF(cpfValue.value)">
     </div>
     <div class="mb-3">
         <label for="nome" class="form-label">Nome Completo: </label>
-        <input type="text" class="form-control" id="nome" value="{{cpfAtual == null || cpfAtual == undefined ? '' : cpfAtual.nome}}">
+        <input type="text" class="form-control" name="nome" #nome="ngModel" ngModel id="nome" [(ngModel)]="formModel.nome">
     </div>
+
+
     <div class="mb-3">
         <label for="dataNascimento" class="form-label">Data de Nascimento: </label>
         <input type="text" class="form-control" id="dataNascimento" value="{{cpfAtual == null || cpfAtual == undefined ? '' : cpfAtual.nascimento | datapipe}}">
     </div>
     <div class="mb-3">
         <label for="email" class="form-label">Email: </label>
-        <input type="email" class="form-control" id="email">
+        <input type="email" class="form-control" id="email" name="email" #email="ngModel" ngModel [(ngModel)]="formModel.email">
     </div>
     <div class="mb-3">
         <label for="telefone1" class="form-label">Telefone 1: </label>
-        <input type="text" class="form-control" id="telefone1">
+        <input type="text" class="form-control" id="telefone1" name="telefone1" #telefone1="ngModel" ngModel [(ngModel)]="formModel.telefone1">
     </div>
     <div class="mb-3">
         <label for="telefone2" class="form-label">Telefone 2: </label>
-        <input type="text" class="form-control" id="telefone2">
+        <input type="text" class="form-control" id="telefone2" name="telefone2" #telefone2="ngModel" ngModel [(ngModel)]="formModel.telefone2">
     </div>
 
     <!-- endereço residencial -->
@@ -83,11 +85,11 @@
         </div> -->
         <div class="mb-3">
             <label for="enderecoEmpCep" class="form-label">Número do cadastro IPTU: </label>
-            <input type="text" class="form-control" id="enderecoEmpCep">
+            <input type="text" class="form-control" id="nrCadastroIPTU" name="nrCadastroIPTU" #nrCadastroIPTU="ngModel" ngModel [(ngModel)]="formModel.nrCadastroIPTU">
         </div>
         <div class="mb-3">
             <label for="enderecoEmpCep" class="form-label">Área do empreendimento: </label>
-            <input type="text" class="form-control" id="enderecoEmpCep">
+            <input type="text" class="form-control" id="areaEmpreendimento" name="areaEmpreendimento" #areaEmpreendimento="ngModel" ngModel [(ngModel)]="formModel.areaEmpreendimento">
         </div>
         <!-- <div class="mb-3">
             <label for="enderecoEmpPais" class="form-label">País: </label>
@@ -125,7 +127,7 @@
         <input type="search" (ngModelChange)="buscaCNAE(key.value)" #key="ngModel" ngModel name="key" id="cnaePrimario"
             class="" placeholder="Busca CNAE" required>
     </div>
-    <div class="mb-3" id="" style="overflow:auto; height:50vh; width: 80vw; border: 2px solid;">
+    <div class="mb-3" id="containerCnae">
         <ul>
             <li *ngFor="let c of cnaeResultadoBusca" style="list-style-type: none"><input type="radio"
                     name="cnaeSelecionado">{{c.cnae}} - {{c.ocupacao}}</li>
@@ -136,15 +138,15 @@
 
     <div class="mb-3">
         <label for="previsaoFaturamento" class="form-label">Previsão de faturamento (anual): </label>
-        <input type="text" class="form-control" id="previsaoFaturamento">
+        <input type="text" class="form-control" id="previsaoFaturamento" name="previsaoFaturamento" #previsaoFaturamento="ngModel" ngModel [(ngModel)]="formModel.previsaoFaturamento">
     </div>
     <div class="mb-3">
         <label for="previsaoCustos" class="form-label">Previsão de custos (anual): </label>
-        <input type="text" class="form-control" id="previsaoCustos">
+        <input type="text" class="form-control" id="previsaoCustos" name="previsaoCustos" #previsaoCustos="ngModel" ngModel [(ngModel)]="formModel.previsaoCustos">
     </div>
     <div class="mb-3">
         <label for="nrFuncionarios" class="form-label">Número de funcionários: </label>
-        <input type="text" class="form-control" id="nrFuncionarios">
+        <input type="text" class="form-control" id="nrFuncionarios" name="nrFuncionarios" #nrFuncionarios="ngModel" ngModel [(ngModel)]="formModel.nrFuncionarios">
     </div>
 
 
@@ -153,89 +155,90 @@
     <div class="input-group mb-3">
         <div class="input-group-text">
             <input id="eFuncPublico" class="form-check-input me-1" type="checkbox" value="false"
-            aria-label="Checkbox for following text input" disabled>
+            name="eFuncPublico" #eFuncPublico="ngModel" ngModel [(ngModel)]="formModel.eFuncPublico">
             <label for="eFuncPublico">Você é funcionário público?</label>
         </div>
     </div>
     <div class="input-group mb-3">
         <div class="input-group-text">
             <input id="eSocio" class="form-check-input me-1" type="checkbox" value="false"
-            aria-label="Checkbox for following text input" disabled>
+            name="eSocio" #eSocio="ngModel" ngModel [(ngModel)]="formModel.eSocio">
             <label for="eSocio">Você é sócio em alguma outra  empresa?</label>
         </div>
     </div>
     <div class="input-group mb-3">
         <div class="input-group-text">
             <input id="eMeiAtivo" class="form-check-input me-1" type="checkbox" value="false"
-            aria-label="Checkbox for following text input" disabled>
+            name="eMeiAtivo" #eMeiAtivo="ngModel" ngModel [(ngModel)]="formModel.eMeiAtivo">
             <label for="eMeiAtivo">Você já tem MEI ativo?</label>
         </div>
     </div>
     <div class="input-group mb-3">
         <div class="input-group-text">
             <input id="temFiliais" class="form-check-input me-1" type="checkbox" value="false"
-            aria-label="Checkbox for following text input">
+            name="temFiliais" #temFiliais="ngModel" ngModel [(ngModel)]="formModel.temFiliais">
             <label for="temFiliais">Seu negócio tem filiais?</label>
         </div>
     </div>
     <div class="input-group mb-3">
         <div class="input-group-text">
             <input id="temAposentadoriaInvalidez" class="form-check-input me-1" type="checkbox" value="false"
-            aria-label="Checkbox for following text input">
+            name="temAposentadoriaInvalidez" #temAposentadoriaInvalidez="ngModel" ngModel [(ngModel)]="formModel.temAposentadoriaInvalidez">
             <label for="temAposentadoriaInvalidez">Você recebe aposentadoria por invalidez?</label>
         </div>
     </div>
     <div class="input-group mb-3">
         <div class="input-group-text">
             <input id="temAuxilioDoenca" class="form-check-input me-1" type="checkbox" value="false"
-            aria-label="Checkbox for following text input">
+            name="temAuxilioDoenca" #temAuxilioDoenca="ngModel" ngModel [(ngModel)]="formModel.temAuxilioDoenca">
             <label for="temAuxilioDoenca">Você recebe auxílio doença?</label>
         </div>
     </div>
     <div class="input-group mb-3">
         <div class="input-group-text">
             <input id="temSalarioMaternidade" class="form-check-input me-1" type="checkbox" value="false"
-            aria-label="Checkbox for following text input">
+            name="temSalarioMaternidade" #temSalarioMaternidade="ngModel" ngModel [(ngModel)]="formModel.temSalarioMaternidade">
             <label for="temSalarioMaternidade">Você recebe salário maternidade?</label>
         </div>
     </div>
     <div class="input-group mb-3">
         <div class="input-group-text">
             <input id="temSegDesemprego" class="form-check-input me-1" type="checkbox" value="false"
-            aria-label="Checkbox for following text input">
+            name="temSegDesemprego" #temSegDesemprego="ngModel" ngModel [(ngModel)]="formModel.temSegDesemprego">
             <label for="temSegDesemprego">Você recebe seguro desemprego?</label>
         </div>
     </div>
     <div class="input-group mb-3">
         <div class="input-group-text">
             <input id="temBpcLoas" class="form-check-input me-1" type="checkbox" value="false"
-            aria-label="Checkbox for following text input">
+            name="temBpcLoas" #temBpcLoas="ngModel" ngModel [(ngModel)]="formModel.temBpcLoas">
             <label for="temBpcLoas">Você recebe BPC-LOAS?</label>
         </div>
     </div>
     <div class="input-group mb-3">
         <div class="input-group-text">
             <input id="temProuni" class="form-check-input me-1" type="checkbox" value="false"
-            aria-label="Checkbox for following text input">
+            name="temProuni" #temProuni="ngModel" ngModel [(ngModel)]="formModel.temProuni">
             <label for="temProuni">Você recebe bolsa do PROUNI?</label>
         </div>
     </div>
     <div class="input-group mb-3">
         <div class="input-group-text">
             <input id="temFies" class="form-check-input me-1" type="checkbox" value="false"
-            aria-label="Checkbox for following text input">
+            name="temFies" #temFies="ngModel" ngModel [(ngModel)]="formModel.temFies">
             <label for="temFies">Você tem financiamento FIES?</label>
         </div>
     </div>
     <div class="input-group mb-3">
         <div class="input-group-text">
             <input id="temBolsaFamilia" class="form-check-input me-1" type="checkbox" value="false"
-            aria-label="Checkbox for following text input">
+            name="temBolsaFamilia" #temBolsaFamilia="ngModel" ngModel [(ngModel)]="formModel.temBolsaFamilia">
             <label for="temBolsaFamilia">Você é beneficiário do bolsa família?</label>
         </div>
     </div>
 
 
+    <button type="submit" class="btn btn-primary">Enviar</button>
     
 
 
@@ -243,5 +246,5 @@
 
 
 
-    <button type="submit" class="btn btn-primary">Enviar</button>
+    <!-- <button type="submit" class="btn btn-primary">Enviar</button> -->
 </form>

@@ -24,3 +24,12 @@
     color:var(--blue);  
     border: 2px solid var(--blue);
   }
+
+  #containerCnae{
+    overflow:auto; 
+    height:50vh; 
+    width: 80vw; 
+    border: 2px solid;
+    border-radius: 5px;
+    padding: 10px;
+  }
