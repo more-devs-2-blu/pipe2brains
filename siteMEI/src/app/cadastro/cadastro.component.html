@@ -1,102 +1,247 @@
-<div class="container-fluid" id="moduloCadastro">    
-    <div class="row">
-        <div class="col-sm">
-            <form id="formAnimal" class="row g-3 mb-4">
-                <div class="col-md-12">
-                    <label for="ocupacoes" class="form-label">Ocupações permitidas</label>
-                    <select type="text" ngModel name="ocupacoes" class="form-control" required>
-                        <option></option>
-                        <option id="op">4732-6/00 - COMERCIANTE DE LUBRIFICANTES INDEPENDENTE</option>
-                    </select>
-                </div>
+<form>
 
-                <div class="col-md-3">
-                    <label for="tetoAnual" class="form-label">Teto anual orçado</label>
-                    <input type="text" ngModel name="tetoAnual" class="form-control" id="tetoAnual">                    
-                </div>
-                
-                <div class="col-md-3">
-                    <label for="previsaoCustos" class="form-label">Previsão de custos</label>
-                    <input type="text" ngModel name="previsaoCustos" class="form-control" id="previsaoCustos">
-                </div>
-
-                <div class="col-md-3">
-                    <label for="nrContratacoes" class="form-label">Contratações previstas</label>
-                    <input type="text" ngModel name="nrContratacoes" class="form-control" id="nrContratacoes">
-                </div>        
-               
-                <div  class="col-md-3">
-                    <label for="nrFiliais" class="form-label">Filiais</label>
-                    <select type="text" ngModel name="nrFiliais" class="form-control" id="nrFiliais">
-                        <option></option>
-                        <option>0</option>
-                    </select>              
-                </div>
-        
-                <div  class="col-md-6">
-                    <label for="tipoPelPlumAnimal" class="form-label">Benefícios previdenciários</label>
-                    <select type="text" ngModel name="tipoPelPlum" class="form-control" id="tipoPelPlumAnimal">
-                        <option></option>
-                        <option>Aposentadoria por invalidez</option>
-                    </select> 
-                </div>
-        
-                <div  class="col-md-6">
-                    <label for="tratamentoAnimal" class="form-label">Benefícios assistencialistas</label>
-                    <select type="text" ngModel name="tratamento" class="form-control" id="tratamentoAnimal">                        
-                        <option></option>
-                        <option>Seguro Desemprego</option>
-                    </select>
-                </div>
-                
-                <div class="col-8" id="botaoSubmit">
-                    <button class="btn btn-primary">Enviar</button>  
-                </div>
-            </form>
-        </div>      
+    <!-- dados pessoais -->
+    <div class="mb-3">
+        <label for="cpf" class="form-label">CPF: </label>
+        <input type="text" class="form-control" id="cpf" #cpfValue (blur)="getCPF(cpfValue.value)">
     </div>
-    <!--
-    <div class="row">
-        <div id="tabelaAnimais">
-            <h2>Listagem de Animais</h2>
+    <div class="mb-3">
+        <label for="nome" class="form-label">Nome Completo: </label>
+        <input type="text" class="form-control" id="nome" value="{{cpfAtual == null || cpfAtual == undefined ? '' : cpfAtual.nome}}">
+    </div>
+    <div class="mb-3">
+        <label for="dataNascimento" class="form-label">Data de Nascimento: </label>
+        <input type="text" class="form-control" id="dataNascimento" value="{{cpfAtual == null || cpfAtual == undefined ? '' : cpfAtual.nascimento | datapipe}}">
+    </div>
+    <div class="mb-3">
+        <label for="email" class="form-label">Email: </label>
+        <input type="email" class="form-control" id="email">
+    </div>
+    <div class="mb-3">
+        <label for="telefone1" class="form-label">Telefone 1: </label>
+        <input type="text" class="form-control" id="telefone1">
+    </div>
+    <div class="mb-3">
+        <label for="telefone2" class="form-label">Telefone 2: </label>
+        <input type="text" class="form-control" id="telefone2">
+    </div>
+
+    <!-- endereço residencial -->
+    <!-- <fieldset>
+        <div class="mb-3">
+            <legend>Endereço Residencial</legend>
+        </div>
+        <div class="mb-3">
+            <label for="enderecoResCep" class="form-label">CEP: </label>
+            <input type="text" class="form-control" id="enderecoResCep">
+        </div>
+        <div class="mb-3">
+            <label for="enderecoResPais" class="form-label">País: </label>
+            <input type="text" class="form-control" id="enderecoResPais">
+        </div>
+        <div class="mb-3">
+            <label for="enderecoResEstado" class="form-label">Estado: </label>
+            <input type="text" class="form-control" id="enderecoResEstado">
+        </div>
+        <div class="mb-3">
+            <label for="enderecoResCidade" class="form-label">Cidade: </label>
+            <input type="text" class="form-control" id="enderecoResCidade">
+        </div>
+        <div class="mb-3">
+            <label for="enderecoResLogradouro" class="form-label">Logradouro: </label>
+            <input type="text" class="form-control" id="enderecoResLogradouro">
+        </div>
+        <div class="mb-3">
+            <label for="enderecoResNumero" class="form-label">Numero: </label>
+            <input type="text" class="form-control" id="enderecoResNumero">
+        </div>
+        <div class="mb-3">
+            <label for="enderecoResComplemento" class="form-label">Complemento: </label>
+            <input type="text" class="form-control" id="enderecoResComplemento">
+        </div>
+        <div class="mb-3">
+            <label for="enderecoResBairro" class="form-label">Bairro: </label>
+            <input type="text" class="form-control" id="enderecoResBairro">
+        </div>
+    </fieldset> -->
+
+    <!-- endereço da empresa -->
+    <fieldset>
+        <div class="mb-3">
+            <legend>Endereço da empresa</legend>
+        </div>
+        <!-- <div class="input-group mb-3">
+            <div class="input-group-text">
+                <input id="endIgual" #endIgual class="form-check-input me-1" type="checkbox" value="false"
+                aria-label="Checkbox for following text input" (change)="preencheEndComl(endIgual)">
+                <label for="endIgual">Endereço comercial é o mesmo que o residencial</label>
+            </div>
+        </div> -->
+        <!-- <div class="mb-3">
+            <label for="enderecoEmpCep" class="form-label">CEP: </label>
+            <input type="text" class="form-control" id="enderecoEmpCep">
+        </div> -->
+        <div class="mb-3">
+            <label for="enderecoEmpCep" class="form-label">Número do cadastro IPTU: </label>
+            <input type="text" class="form-control" id="enderecoEmpCep">
+        </div>
+        <div class="mb-3">
+            <label for="enderecoEmpCep" class="form-label">Área do empreendimento: </label>
+            <input type="text" class="form-control" id="enderecoEmpCep">
+        </div>
+        <!-- <div class="mb-3">
+            <label for="enderecoEmpPais" class="form-label">País: </label>
+            <input type="text" class="form-control" id="enderecoEmpPais">
+        </div>
+        <div class="mb-3">
+            <label for="enderecoEmpEstado" class="form-label">Estado: </label>
+            <input type="text" class="form-control" id="enderecoEmpEstado">
+        </div>
+        <div class="mb-3">
+            <label for="enderecoEmpCidade" class="form-label">Cidade: </label>
+            <input type="text" class="form-control" id="enderecoEmpCidade">
+        </div>
+        <div class="mb-3">
+            <label for="enderecoEmpLogradouro" class="form-label">Logradouro: </label>
+            <input type="text" class="form-control" id="enderecoEmpLogradouro">
+        </div>
+        <div class="mb-3">
+            <label for="enderecoEmpNumero" class="form-label">Numero: </label>
+            <input type="text" class="form-control" id="enderecoEmpNumero">
+        </div>
+        <div class="mb-3">
+            <label for="enderecoEmpComplemento" class="form-label">Complemento: </label>
+            <input type="text" class="form-control" id="enderecoEmpComplemento">
+        </div>
+        <div class="mb-3">
+            <label for="enderecoEmpBairro" class="form-label">Bairro: </label>
+            <input type="text" class="form-control" id="enderecoEmpBairro">
+        </div> -->
+    </fieldset>
+
+    <!-- definicao dos cnae -->
+    <div class="mb-3">
+        <label for="cnaePrimario">Selecione atividade principal: </label>
+        <input type="search" (ngModelChange)="buscaCNAE(key.value)" #key="ngModel" ngModel name="key" id="cnaePrimario"
+            class="" placeholder="Busca CNAE" required>
+    </div>
+    <div class="mb-3" id="" style="overflow:auto; height:50vh; width: 80vw; border: 2px solid;">
+        <ul>
+            <li *ngFor="let c of cnaeResultadoBusca" style="list-style-type: none"><input type="radio"
+                    name="cnaeSelecionado">{{c.cnae}} - {{c.ocupacao}}</li>
+        </ul>
+    </div>
+
+    <!-- dados do negócio -->
+
+    <div class="mb-3">
+        <label for="previsaoFaturamento" class="form-label">Previsão de faturamento (anual): </label>
+        <input type="text" class="form-control" id="previsaoFaturamento">
+    </div>
+    <div class="mb-3">
+        <label for="previsaoCustos" class="form-label">Previsão de custos (anual): </label>
+        <input type="text" class="form-control" id="previsaoCustos">
+    </div>
+    <div class="mb-3">
+        <label for="nrFuncionarios" class="form-label">Número de funcionários: </label>
+        <input type="text" class="form-control" id="nrFuncionarios">
+    </div>
+
+
+    <!-- questionario social -->
+
+    <div class="input-group mb-3">
+        <div class="input-group-text">
+            <input id="eFuncPublico" class="form-check-input me-1" type="checkbox" value="false"
+            aria-label="Checkbox for following text input" disabled>
+            <label for="eFuncPublico">Você é funcionário público?</label>
+        </div>
+    </div>
+    <div class="input-group mb-3">
+        <div class="input-group-text">
+            <input id="eSocio" class="form-check-input me-1" type="checkbox" value="false"
+            aria-label="Checkbox for following text input" disabled>
+            <label for="eSocio">Você é sócio em alguma outra  empresa?</label>
+        </div>
+    </div>
+    <div class="input-group mb-3">
+        <div class="input-group-text">
+            <input id="eMeiAtivo" class="form-check-input me-1" type="checkbox" value="false"
+            aria-label="Checkbox for following text input" disabled>
+            <label for="eMeiAtivo">Você já tem MEI ativo?</label>
+        </div>
+    </div>
+    <div class="input-group mb-3">
+        <div class="input-group-text">
+            <input id="temFiliais" class="form-check-input me-1" type="checkbox" value="false"
+            aria-label="Checkbox for following text input">
+            <label for="temFiliais">Seu negócio tem filiais?</label>
+        </div>
+    </div>
+    <div class="input-group mb-3">
+        <div class="input-group-text">
+            <input id="temAposentadoriaInvalidez" class="form-check-input me-1" type="checkbox" value="false"
+            aria-label="Checkbox for following text input">
+            <label for="temAposentadoriaInvalidez">Você recebe aposentadoria por invalidez?</label>
+        </div>
+    </div>
+    <div class="input-group mb-3">
+        <div class="input-group-text">
+            <input id="temAuxilioDoenca" class="form-check-input me-1" type="checkbox" value="false"
+            aria-label="Checkbox for following text input">
+            <label for="temAuxilioDoenca">Você recebe auxílio doença?</label>
+        </div>
+    </div>
+    <div class="input-group mb-3">
+        <div class="input-group-text">
+            <input id="temSalarioMaternidade" class="form-check-input me-1" type="checkbox" value="false"
+            aria-label="Checkbox for following text input">
+            <label for="temSalarioMaternidade">Você recebe salário maternidade?</label>
+        </div>
+    </div>
+    <div class="input-group mb-3">
+        <div class="input-group-text">
+            <input id="temSegDesemprego" class="form-check-input me-1" type="checkbox" value="false"
+            aria-label="Checkbox for following text input">
+            <label for="temSegDesemprego">Você recebe seguro desemprego?</label>
+        </div>
+    </div>
+    <div class="input-group mb-3">
+        <div class="input-group-text">
+            <input id="temBpcLoas" class="form-check-input me-1" type="checkbox" value="false"
+            aria-label="Checkbox for following text input">
+            <label for="temBpcLoas">Você recebe BPC-LOAS?</label>
+        </div>
+    </div>
+    <div class="input-group mb-3">
+        <div class="input-group-text">
+            <input id="temProuni" class="form-check-input me-1" type="checkbox" value="false"
+            aria-label="Checkbox for following text input">
+            <label for="temProuni">Você recebe bolsa do PROUNI?</label>
+        </div>
+    </div>
+    <div class="input-group mb-3">
+        <div class="input-group-text">
+            <input id="temFies" class="form-check-input me-1" type="checkbox" value="false"
+            aria-label="Checkbox for following text input">
+            <label for="temFies">Você tem financiamento FIES?</label>
+        </div>
+    </div>
+    <div class="input-group mb-3">
+        <div class="input-group-text">
+            <input id="temBolsaFamilia" class="form-check-input me-1" type="checkbox" value="false"
+            aria-label="Checkbox for following text input">
+            <label for="temBolsaFamilia">Você é beneficiário do bolsa família?</label>
         </div>
     </div>
 
-    <div class="row">
-        <div class="col-sm">            
-            <table class="table">
-                <thead>
-                    <tr>
-                        <th scope="col">Nome do animal</th>
-                        <th scope="col">Espécie</th>
-                        <th scope="col">Peso</th>
-                        <th scope="col">Altura</th>
-                        <th scope="col">Raça</th>
-                        <th scope="col">Pelagem/Plumagem</th>
-                        <th scope="col">Tratamento</th>
-                        <th scope="col">Ações</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>1</td>
-                        <td>2</td>
-                        <td>3</td>
-                        <td>4</td>
-                        <td>5</td>
-                        <td>6</td>
-                        <td>7</td>
-                        <td>
-                            <button class="btn btn-warning">Editar</button> 
-                            <button class="btn btn-danger btn-block">Deletar</button>
-                        </td> 
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-    </div>
-    -->
-</div>    
+
+    
 
 
 
+
+
+
+    <button type="submit" class="btn btn-primary">Enviar</button>
+</form>
