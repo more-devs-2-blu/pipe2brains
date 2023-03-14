@@ -1,0 +1,34 @@
+[
+    {
+        "nome": "Joaquim da Silva",
+        "cpf": "40442820135",
+        "statusCpf": "Regular",
+        "dataNascimento": "10/12/2000",
+        "email": "joaquim@hotmail.com",
+        "telefone1": "47999887766",
+        "telefone2": "47912345678",
+        "cnaePrimario": "4722901",
+        "cnaePrimarioOcupacao": "ABATEDOR(A) DE AVES COM COMERCIALIZAÇÃO DO PRODUTO INDEPENDENTE",
+        "eFuncPublico": false,
+        "eSocio": false,
+        "eMeiAtivo": false,
+        "temAposentadoriaInvalidez": false,
+        "temAuxilioDoenca": false,
+        "temSalarioMaternidade": false,
+        "temSegDesemprego": false,
+        "temBpcLoas": false,
+        "temProuni": false,
+        "temFies": false,
+        "temBolsaFamilia": false,
+        "temFiliais": false,
+        "previsaoFaturamento": 80000,
+        "previsaoCustos": 40000,
+        "nrFuncionarios": 0,
+        "nrCadastroIPTU": "222554",
+        "enderecoIPTU": "Rua Governador Jorge Lacerda, 1890, Velha, 89045337",
+        "areaEmpreend": 10,
+        "statusConsultaMEI": true,
+        "statusConsultaIPTU": true
+    }
+]
+

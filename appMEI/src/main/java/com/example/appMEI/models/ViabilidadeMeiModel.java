@@ -1,18 +1,18 @@
 package com.example.appMEI.models;
 
 import jakarta.persistence.*;
+import lombok.Data;
 import java.io.Serializable;
-import java.util.Date;
+import java.time.LocalDateTime;
 import java.util.UUID;
 
-@Entity(name = "TB_CADASTRO_MEI")
-public class cadastroMei implements Serializable {
+@Data
+@Entity
+@Table(name = "TB_CADASTRO_MEI")
+public class ViabilidadeMeiModel implements Serializable {
     private static final long serialVersionUID = 1L;
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    @Column(nullable = false, updatable = false)
-    private UUID id;
+    @Id @GeneratedValue(strategy = GenerationType.AUTO)  private UUID id;
     private String nome;
     private String cpf;
     private String statusCpf;   //Contém a situação do CPF, Regular, Cancelada por Multiplicidade, Nulo
@@ -20,13 +20,13 @@ public class cadastroMei implements Serializable {
     private String email;
     private String telefone1;
     private String telefone2;
-
     private String cnaePrimario;
     private String cnaePrimarioOcupacao; //Descrição da ocupação relacionada ao CNAE
 
     private boolean eFuncPublico;
     private boolean eSocio;
     private boolean eMeiAtivo;
+
     private boolean temAposentadoriaInvalidez;
     private boolean temAuxilioDoenca;
     private boolean temSalarioMaternidade;
@@ -43,15 +43,16 @@ public class cadastroMei implements Serializable {
 
     private String nrCadastroIPTU;  //Contém o número de 6 digitos na página frontal do carne de IPTU
     private String enderecoIPTU;    //Contém o endereço cadastrado no nr IPTU
-    private Integer areaEmpreendimento; //Contém a área do empreendimento
+    private Integer areaEmpreend; //Contém a área do empreendimento
 
-    private Date dataConsulta;  //Data de realização da consulta
+    private LocalDateTime dataConsulta;  //Data de realização da consulta
     private boolean statusConsultaMEI;  //Contem o resultado final da consulta. Dados (true Apto) (false Inapto)
     private boolean statusConsultaIPTU; //Contém o status da consulta de viabilidade do Imovel obtida pelo nr cadastro IPTU
 
-    public cadastroMei (){}
+    private Integer codStatusConsultaIPTU; //Contém o códido de retorno da API Viabilidade PMB
+    public ViabilidadeMeiModel (){}
 
-    public cadastroMei(UUID id, String nome, String cpf, String statusCpf, String dataNascimento, String email, String telefone1, String telefone2, String cnaePrimario, String cnaePrimarioOcupacao, boolean eFuncPublico, boolean eSocio, boolean eMeiAtivo, boolean temAposentadoriaInvalidez, boolean temAuxilioDoenca, boolean temSalarioMaternidade, boolean temSegDesemprego, boolean temBpcLoas, boolean temProuni, boolean temFies, boolean temBolsaFamilia, boolean temFiliais, long previsaoFaturamento, long previsaoCustos, int nrFuncionarios, String nrCadastroIPTU, String enderecoIPTU, Integer areaEmpreendimento, Date dataConsulta, boolean statusConsultaMEI, boolean statusConsultaIPTU) {
+    public ViabilidadeMeiModel(UUID id, String nome, String cpf, String statusCpf, String dataNascimento, String email, String telefone1, String telefone2, String cnaePrimario, String cnaePrimarioOcupacao, boolean eFuncPublico, boolean eSocio, boolean eMeiAtivo, boolean temAposentadoriaInvalidez, boolean temAuxilioDoenca, boolean temSalarioMaternidade, boolean temSegDesemprego, boolean temBpcLoas, boolean temProuni, boolean temFies, boolean temBolsaFamilia, boolean temFiliais, long previsaoFaturamento, long previsaoCustos, int nrFuncionarios, String nrCadastroIPTU, String enderecoIPTU, Integer areaEmpreendimento, LocalDateTime dataConsulta, boolean statusConsultaMEI, boolean statusConsultaIPTU, Integer codStatusConsultaIPTU) {
         this.id = id;
         this.nome = nome;
         this.cpf = cpf;
@@ -79,10 +80,11 @@ public class cadastroMei implements Serializable {
         this.nrFuncionarios = nrFuncionarios;
         this.nrCadastroIPTU = nrCadastroIPTU;
         this.enderecoIPTU = enderecoIPTU;
-        this.areaEmpreendimento = areaEmpreendimento;
+        this.areaEmpreend = areaEmpreendimento;
         this.dataConsulta = dataConsulta;
         this.statusConsultaMEI = statusConsultaMEI;
         this.statusConsultaIPTU = statusConsultaIPTU;
+        this.codStatusConsultaIPTU = codStatusConsultaIPTU;
     }
 
     public UUID getId() {
@@ -302,18 +304,18 @@ public class cadastroMei implements Serializable {
     }
 
     public Integer getAreaEmpreendimento() {
-        return areaEmpreendimento;
+        return areaEmpreend;
     }
 
     public void setAreaEmpreendimento(Integer areaEmpreendimento) {
-        this.areaEmpreendimento = areaEmpreendimento;
+        this.areaEmpreend = areaEmpreendimento;
     }
 
-    public Date getDataConsulta() {
+    public LocalDateTime getDataConsulta() {
         return dataConsulta;
     }
 
-    public void setDataConsulta(Date dataConsulta) {
+    public void setDataConsulta(LocalDateTime dataConsulta) {
         this.dataConsulta = dataConsulta;
     }
 
@@ -331,5 +333,21 @@ public class cadastroMei implements Serializable {
 
     public void setStatusConsultaIPTU(boolean statusConsultaIPTU) {
         this.statusConsultaIPTU = statusConsultaIPTU;
+    }
+
+    public Integer getAreaEmpreend() {
+        return areaEmpreend;
+    }
+
+    public void setAreaEmpreend(Integer areaEmpreend) {
+        this.areaEmpreend = areaEmpreend;
+    }
+
+    public Integer getCodStatusConsultaIPTU() {
+        return codStatusConsultaIPTU;
+    }
+
+    public void setCodStatusConsultIPTU(Integer codStatusConsultaIPTU) {
+        this.codStatusConsultaIPTU = codStatusConsultaIPTU;
     }
 }
