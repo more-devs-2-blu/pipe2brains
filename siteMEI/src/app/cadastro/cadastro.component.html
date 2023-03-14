@@ -10,10 +10,9 @@
         <input type="text" class="form-control" name="nome" #nome="ngModel" ngModel id="nome" [(ngModel)]="formModel.nome">
     </div>
 
-
     <div class="mb-3">
         <label for="dataNascimento" class="form-label">Data de Nascimento: </label>
-        <input type="text" class="form-control" id="dataNascimento" value="{{cpfAtual == null || cpfAtual == undefined ? '' : cpfAtual.nascimento | datapipe}}">
+        <input type="text" class="form-control" id="dataNascimento" name="dataNascimento" [(ngModel)]="formModel.dataNascimento">
     </div>
     <div class="mb-3">
         <label for="email" class="form-label">Email: </label>
@@ -28,97 +27,20 @@
         <input type="text" class="form-control" id="telefone2" name="telefone2" #telefone2="ngModel" ngModel [(ngModel)]="formModel.telefone2">
     </div>
 
-    <!-- endereço residencial -->
-    <!-- <fieldset>
-        <div class="mb-3">
-            <legend>Endereço Residencial</legend>
-        </div>
-        <div class="mb-3">
-            <label for="enderecoResCep" class="form-label">CEP: </label>
-            <input type="text" class="form-control" id="enderecoResCep">
-        </div>
-        <div class="mb-3">
-            <label for="enderecoResPais" class="form-label">País: </label>
-            <input type="text" class="form-control" id="enderecoResPais">
-        </div>
-        <div class="mb-3">
-            <label for="enderecoResEstado" class="form-label">Estado: </label>
-            <input type="text" class="form-control" id="enderecoResEstado">
-        </div>
-        <div class="mb-3">
-            <label for="enderecoResCidade" class="form-label">Cidade: </label>
-            <input type="text" class="form-control" id="enderecoResCidade">
-        </div>
-        <div class="mb-3">
-            <label for="enderecoResLogradouro" class="form-label">Logradouro: </label>
-            <input type="text" class="form-control" id="enderecoResLogradouro">
-        </div>
-        <div class="mb-3">
-            <label for="enderecoResNumero" class="form-label">Numero: </label>
-            <input type="text" class="form-control" id="enderecoResNumero">
-        </div>
-        <div class="mb-3">
-            <label for="enderecoResComplemento" class="form-label">Complemento: </label>
-            <input type="text" class="form-control" id="enderecoResComplemento">
-        </div>
-        <div class="mb-3">
-            <label for="enderecoResBairro" class="form-label">Bairro: </label>
-            <input type="text" class="form-control" id="enderecoResBairro">
-        </div>
-    </fieldset> -->
-
     <!-- endereço da empresa -->
     <fieldset>
         <div class="mb-3">
             <legend>Endereço da empresa</legend>
         </div>
-        <!-- <div class="input-group mb-3">
-            <div class="input-group-text">
-                <input id="endIgual" #endIgual class="form-check-input me-1" type="checkbox" value="false"
-                aria-label="Checkbox for following text input" (change)="preencheEndComl(endIgual)">
-                <label for="endIgual">Endereço comercial é o mesmo que o residencial</label>
-            </div>
-        </div> -->
-        <!-- <div class="mb-3">
-            <label for="enderecoEmpCep" class="form-label">CEP: </label>
-            <input type="text" class="form-control" id="enderecoEmpCep">
-        </div> -->
         <div class="mb-3">
             <label for="enderecoEmpCep" class="form-label">Número do cadastro IPTU: </label>
-            <input type="text" class="form-control" id="nrCadastroIPTU" name="nrCadastroIPTU" #nrCadastroIPTU="ngModel" ngModel [(ngModel)]="formModel.nrCadastroIPTU">
+            <input type="text" class="form-control" id="nrCadastroIPTU" name="nrCadastroIPTU" #nrCadastroIPTU="ngModel" ngModel [(ngModel)]="formModel.nrCadastroIPTU"
+            (blur)="getIPTU(nrCadastroIPTU.value)">
         </div>
         <div class="mb-3">
             <label for="enderecoEmpCep" class="form-label">Área do empreendimento: </label>
             <input type="text" class="form-control" id="areaEmpreendimento" name="areaEmpreendimento" #areaEmpreendimento="ngModel" ngModel [(ngModel)]="formModel.areaEmpreendimento">
         </div>
-        <!-- <div class="mb-3">
-            <label for="enderecoEmpPais" class="form-label">País: </label>
-            <input type="text" class="form-control" id="enderecoEmpPais">
-        </div>
-        <div class="mb-3">
-            <label for="enderecoEmpEstado" class="form-label">Estado: </label>
-            <input type="text" class="form-control" id="enderecoEmpEstado">
-        </div>
-        <div class="mb-3">
-            <label for="enderecoEmpCidade" class="form-label">Cidade: </label>
-            <input type="text" class="form-control" id="enderecoEmpCidade">
-        </div>
-        <div class="mb-3">
-            <label for="enderecoEmpLogradouro" class="form-label">Logradouro: </label>
-            <input type="text" class="form-control" id="enderecoEmpLogradouro">
-        </div>
-        <div class="mb-3">
-            <label for="enderecoEmpNumero" class="form-label">Numero: </label>
-            <input type="text" class="form-control" id="enderecoEmpNumero">
-        </div>
-        <div class="mb-3">
-            <label for="enderecoEmpComplemento" class="form-label">Complemento: </label>
-            <input type="text" class="form-control" id="enderecoEmpComplemento">
-        </div>
-        <div class="mb-3">
-            <label for="enderecoEmpBairro" class="form-label">Bairro: </label>
-            <input type="text" class="form-control" id="enderecoEmpBairro">
-        </div> -->
     </fieldset>
 
     <!-- definicao dos cnae -->
@@ -128,11 +50,13 @@
             class="" placeholder="Busca CNAE" required>
     </div>
     <div class="mb-3" id="containerCnae">
-        <ul>
+        <ul >
             <li *ngFor="let c of cnaeResultadoBusca" style="list-style-type: none"><input type="radio"
-                    name="cnaeSelecionado">{{c.cnae}} - {{c.ocupacao}}</li>
+                    (change)="atribuiCnae(cnaeSelecionado)" #cnaeSelecionado name="cnaeSelecionado" value="{{c.cnae}}" [attr.data-ocup]="c.ocupacao">{{c.cnae}} - {{c.ocupacao}}</li>
         </ul>
     </div>
+
+
 
     <!-- dados do negócio -->
 
@@ -238,13 +162,8 @@
     </div>
 
 
-    <button type="submit" class="btn btn-primary">Enviar</button>
     
+    <button type="submit" class="btn btn-primary">Enviar</button>
 
 
-
-
-
-
-    <!-- <button type="submit" class="btn btn-primary">Enviar</button> -->
 </form>

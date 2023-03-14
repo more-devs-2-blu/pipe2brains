@@ -3,8 +3,10 @@ import { FormControl, FormGroup, NgForm, NgModel } from '@angular/forms';
 import cnaeImport from '../atividadesMEI.json';
 import { Cnae } from '../cnae';
 import { HttpCpfService } from '../httpcpf.service';
+import { HttpIptuService } from '../httpiptu.service';
 import { CpfModel } from './cpfmodel';
 import { FormModel } from './formmodel';
+import { IptuResponseModel } from './ipturesponse';
 
 @Component({
   selector: 'app-cadastro',
@@ -16,6 +18,7 @@ export class CadastroComponent {
   public cnaeList:Cnae[] = cnaeImport;
   public cnaeResultadoBusca: Cnae[] = this.cnaeList;
   public cpfAtual: CpfModel;
+  public iptuResponse: IptuResponseModel;
 
   public formModel: FormModel = {
     nome:'',
@@ -55,7 +58,8 @@ export class CadastroComponent {
  
 
   constructor(
-    private httpCpfService: HttpCpfService
+    private httpCpfService: HttpCpfService,
+    private httpIptuService: HttpIptuService
     ) { }
 
   buscaCNAE(key: string){
@@ -82,12 +86,31 @@ export class CadastroComponent {
     }
   }
 
+  getIPTU(nrCadastroIPTU: string){
+    nrCadastroIPTU = nrCadastroIPTU.replace(/[^0-9]/g, '');
+    if (nrCadastroIPTU) {
+      this.httpIptuService.getRequest(nrCadastroIPTU).subscribe((response) => {        
+        this.iptuResponse = response;
+        this.formModel.enderecoIPTU = this.iptuResponse.endereco;
+        console.log(this.formModel);
+        console.log(this.iptuResponse);
+        
+      })
+    }
+  }
+
+  atribuiCnae(elem:any){
+
+    this.formModel.cnaePrimario = elem.value
+    this.formModel.cnaePrimarioOcupacao = elem.dataset.ocup
+  }
 
 
 
 
 
   onSubmit(form: NgForm){
+    
 
     console.log(this.formModel);
 
