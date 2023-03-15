@@ -1,4 +1,4 @@
-<form  #form="ngForm" (ngSubmit)="onSubmit(form)"  name="formzz">
+<form  #form="ngForm" name="form">
 
     <!-- dados pessoais -->
     <div class="mb-3">
@@ -163,7 +163,7 @@
 
 
     
-    <button type="submit" class="btn btn-primary" routerLink="/validacaocad">Enviar</button>
+    <button (click)="onSubmit(form)" type="button" class="btn btn-primary" routerLink="/validacaocad">Enviar</button>
 
 
 </form>

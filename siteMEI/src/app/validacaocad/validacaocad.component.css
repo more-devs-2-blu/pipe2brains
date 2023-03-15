@@ -1,0 +1,20 @@
+.validacao-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.aprovado{
+    color: green;
+}
+
+.alerta{
+    color: rgb(184, 150, 0);
+}
+
+.negado{
+    color: red;
+}
+
+#titulo{
+    color: rebeccapurple;
+}

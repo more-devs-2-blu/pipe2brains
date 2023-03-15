@@ -7,7 +7,7 @@ import java.io.Serializable;
 import java.time.LocalDateTime;
 import java.util.UUID;
 
-@Data
+
 @Entity
 @Table(name = "TB_CADASTRO_MEI")
 public class ViabilidadeMeiModel implements Serializable {
