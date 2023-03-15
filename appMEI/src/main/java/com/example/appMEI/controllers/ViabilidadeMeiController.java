@@ -78,6 +78,7 @@ public class ViabilidadeMeiController {
             case 1: restricaoPMB = "Atividade não permitida para o local"; break;
             case 2: restricaoPMB = "Imóvel com restrições"; break;
             case 3: restricaoPMB = "Código Imóvel Inválido ou Inexistente"; break;
+            case 9: restricaoPMB = "Não optou por Consulta para Estabelecer"; break;
         }
         textoEmail += "\nStatus Consulta Estabelecer PMB - ".concat((viabilidadeMeiModelAux.isStatusConsultaIPTU()) ? "Apto" : "Inapto - (" + restricaoPMB + ")");
 

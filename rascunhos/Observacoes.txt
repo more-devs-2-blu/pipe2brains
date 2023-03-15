@@ -67,3 +67,13 @@ Etapas e implementações
 - Apresentação final agendada para 17/03.
 
 
+- Melhorias
+1) Possibilidade de recebimento de um link via whatsApp já com o direcionamento para o CPF desejado
+	O usuário informa o CPF e recebe o link sem a necessidade de recaptcha
+2) Possibilidade de consulta da tela com os dados já cadastrado também através de um link específico já com o id relacionado ao cpf cadastrado e consultado
+
+3) Possibilidade de consulta de estabelecer diretamente com a consulta de ViabilidadeMEI. Fica opcional se o usuário quer realizar a consulta, habilitando os campos necessários
+
+Incluir campo codStatusConsultaIPTU no componente cadastro
+
+

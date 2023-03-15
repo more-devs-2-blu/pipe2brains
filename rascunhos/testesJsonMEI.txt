@@ -9,7 +9,7 @@
         "telefone1": "47999887766",
         "telefone2": "47912345678",
         "cnaePrimario": "4722901",
-        "cnaePrimarioOcupacao": "ABATEDOR(A) DE AVES COM COMERCIALIZAÇÃO DO PRODUTO INDEPENDENTE",
+        "cnaePrimarioOcupacao": "AÇOUGUEIRO(A) INDEPENDENTE",
         "eFuncPublico": false,
         "eSocio": false,
         "eMeiAtivo": false,
@@ -104,7 +104,7 @@
 
 4) Paula Lopes - Apto MEI, Inapto Estabelecer - Possui CPF sem restrições, atende requisitos MEI, não atende requisitos Estabelecer (cod 1 - Atividade não permitida no local)
 {
-        "nome": "Francisco Santos",
+        "nome": "Paula Lopes",
         "cpf": "10975384600",
         "statusCpf": "Regular",
         "dataNascimento": "22/09/2002",
@@ -135,3 +135,18 @@
         "statusConsultaIPTU": false,
 	"codStatusConsultaIPTU": 1
 }
+
+	"codStatusConsultaIPTU": 1
+
+
+
+
+
+
+
+
+
+
+
+
+
