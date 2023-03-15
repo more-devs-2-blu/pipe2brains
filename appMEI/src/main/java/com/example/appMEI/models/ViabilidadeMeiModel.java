@@ -336,11 +336,11 @@ public class ViabilidadeMeiModel implements Serializable {
         this.statusConsultaIPTU = statusConsultaIPTU;
     }
 
-   public Integer getCodStatusConsultaIPTU() {
+    public Integer getCodStatusConsultaIPTU() {
         return codStatusConsultaIPTU;
     }
 
-    public void setCodStatusConsultIPTU(Integer codStatusConsultaIPTU) {
+    public void setCodStatusConsultaIPTU(Integer codStatusConsultaIPTU) {
         this.codStatusConsultaIPTU = codStatusConsultaIPTU;
     }
 }
