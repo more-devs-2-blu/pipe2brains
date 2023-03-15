@@ -1,11 +1,13 @@
 import { Component, OnInit } from '@angular/core';
 import { NgForm } from '@angular/forms';
+import { Router } from '@angular/router';
 import cnaeImport from '../atividadesMEI.json';
 import { Cnae } from '../cnae';
 import { DataService } from '../data.service';
 import { HttpCpfService } from '../httpcpf.service';
 import { HttpIptuService } from '../httpiptu.service';
 import { HttpMeiService } from '../httpmei.service';
+import { ValidacaocadComponent } from '../validacaocad/validacaocad.component';
 import { CpfModel } from './cpfmodel';
 import { FormModel } from './formmodel';
 import { IptuResponseModel } from './ipturesponse';
@@ -34,6 +36,7 @@ export class CadastroComponent implements OnInit {
   }
 
   public formModel: FormModel = {
+    id:'',
     nome: '',
     cpf: '',
     statusCpf: '',
@@ -75,11 +78,13 @@ export class CadastroComponent implements OnInit {
     private httpCpfService: HttpCpfService,
     private httpIptuService: HttpIptuService,
     private httpMeiService: HttpMeiService,
-    private data: DataService
+    private data: DataService,
+    private router: Router
   ) { }
 
   ngOnInit() {
     this.data.requisicaoAtual.subscribe(requisicao => this.formModel = requisicao)
+    
   }
 
   buscaCNAE(key: string) {
@@ -102,8 +107,6 @@ export class CadastroComponent implements OnInit {
         this.formModel.dataNascimento = this.cpfAtual.nascimento;
         this.formModel.statusCpf = this.cpfAtual.situacao.descricao;
         this.formModel.cpf = cpf;
-        console.log(this.cpfAtual);
-
       })
     }
   }
@@ -120,12 +123,14 @@ export class CadastroComponent implements OnInit {
 
   postMEI(formModel: FormModel) {
     this.httpMeiService.postRequest(formModel).subscribe((response) => {
-      console.log(response);
+      this.formModel.id = response.id
+      this.router.navigate(['/validacaocad'])
+      
       if (response.id) {
         alert('Cadastro enviado com sucesso!')
       }
-      //falta logica
     })
+    this.data.setRequisicao(this.formModel)
   }
 
   atribuiCnae(elem: any) {
@@ -134,19 +139,21 @@ export class CadastroComponent implements OnInit {
   }
 
   onSubmit(form: NgForm) {
+    
+    this.data.setCpf(this.cpfAtual)
+    
     this.postMEI(this.formModel)
-
-    this.data.setRequisicao(this.formModel)
-    console.log(this.formModel);
+    // console.log(this.formModel);
 
     // console.log('entrou no submit');
 
     // console.log(this.cpfAtual);
 
-    this.data.setCpf(this.cpfAtual)
+    
+    
   }
 
-
+  
 
 
 }

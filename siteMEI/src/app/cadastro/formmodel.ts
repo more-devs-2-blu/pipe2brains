@@ -1,4 +1,5 @@
 export interface FormModel {
+    id: string,
     nome:string,
     cpf:string,
     statusCpf:string,       //verificar

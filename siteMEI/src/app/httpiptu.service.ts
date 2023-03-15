@@ -2,6 +2,7 @@ import { HttpClient, HttpErrorResponse } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { catchError, Observable, throwError } from 'rxjs';
 import { IptuResponseModel } from './cadastro/ipturesponse';
+import { IptuViabilidadeModel } from './cadastro/iptuviabilidade';
 
 @Injectable({
   providedIn: 'root'
@@ -21,7 +22,7 @@ export class HttpIptuService {
     );
   }
 
-  postRequest(body: IptuResponseModel): Observable<any> {
+  postRequest(body: IptuViabilidadeModel): Observable<any> {
     return this.http.post(`${this.url}/`, body)
     .pipe(
       catchError(this.handleError)

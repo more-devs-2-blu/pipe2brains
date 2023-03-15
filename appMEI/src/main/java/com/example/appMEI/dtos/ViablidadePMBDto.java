@@ -12,5 +12,5 @@ public class ViablidadePMBDto {
     private String cnaePrincipal;
     private String cpf;
     private String inscrCadIPTU;
-    private String areaEmpreend;
+    private Float areaEmpreend;
 }

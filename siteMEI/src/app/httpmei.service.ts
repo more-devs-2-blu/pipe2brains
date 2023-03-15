@@ -15,12 +15,12 @@ export class HttpMeiService {
     private http: HttpClient
   ) { }
 
-  // getRequest(cadIPTU: string,): Observable<any> {
-  //   return this.http.get(`${this.url}/${cadIPTU}`)
-  //   .pipe(
-  //     catchError(this.handleError)
-  //   );
-  // }
+  putRequest(body: FormModel): Observable<any>{
+    return this.http.put(`${this.url}/${body.id}`, body)
+    .pipe(
+      catchError(this.handleError)
+    );
+  }
 
   postRequest(body: FormModel): Observable<any> {
     return this.http.post(`${this.url}`, body)

@@ -36,6 +36,11 @@
     
     <div class="mb-3" *ngIf="formModel.nrFuncionarios > 1"><span class="negado">O MEI só pode ter até 1 funcionário.</span></div>
     
+    <button (click)="tornaElegivel()">torna elegivel</button>
+
+    <div *ngIf="formModel.statusConsultaMEI" class="mb-3">Você atende as condições iniciais para ser MEI. Deseja solicitar uma consulta para estabelecer?</div>
+    <button *ngIf="formModel.statusConsultaMEI" (click)="consultaEstabelecer()">Pedir Consulta</button>
+
     <!-- <div class="mb-3" >{{this.formModel.statusConsultaMEI}}</div> -->
     
 </div>
