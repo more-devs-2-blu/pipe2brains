@@ -1,13 +1,13 @@
 import { TestBed } from '@angular/core/testing';
 
-import { HttpCpfService } from './httpcpf.service';
+import { HttpMeiService } from './httpmei.service';
 
-describe('HttpcpfService', () => {
-  let service: HttpCpfService;
+describe('HttpmeiService', () => {
+  let service: HttpMeiService;
 
   beforeEach(() => {
     TestBed.configureTestingModule({});
-    service = TestBed.inject(HttpCpfService);
+    service = TestBed.inject(HttpMeiService);
   });
 
   it('should be created', () => {

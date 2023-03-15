@@ -1,9 +1,11 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { FormControl, FormGroup, NgForm, NgModel } from '@angular/forms';
 import cnaeImport from '../atividadesMEI.json';
 import { Cnae } from '../cnae';
+import { DataService } from '../data.service';
 import { HttpCpfService } from '../httpcpf.service';
 import { HttpIptuService } from '../httpiptu.service';
+import { HttpMeiService } from '../httpmei.service';
 import { CpfModel } from './cpfmodel';
 import { FormModel } from './formmodel';
 import { IptuResponseModel } from './ipturesponse';
@@ -13,7 +15,7 @@ import { IptuResponseModel } from './ipturesponse';
   templateUrl: './cadastro.component.html',
   styleUrls: ['./cadastro.component.css']
 })
-export class CadastroComponent {
+export class CadastroComponent implements OnInit{
 
   public cnaeList:Cnae[] = cnaeImport;
   public cnaeResultadoBusca: Cnae[] = this.cnaeList;
@@ -50,7 +52,7 @@ export class CadastroComponent {
 
     nrCadastroIPTU:'',
     enderecoIPTU:'',
-    areaEmpreendimento: 0,
+    areaEmpreend: 0,
 
     statusConsultaMEI:false,
     statusConsultaIPTU:false
@@ -59,8 +61,14 @@ export class CadastroComponent {
 
   constructor(
     private httpCpfService: HttpCpfService,
-    private httpIptuService: HttpIptuService
+    private httpIptuService: HttpIptuService,
+    private httpMeiService: HttpMeiService,
+    private data: DataService
     ) { }
+
+  ngOnInit() {
+      this.data.requisicaoAtual.subscribe(requisicao => this.formModel = requisicao)
+  }
 
   buscaCNAE(key: string){
     const results: Cnae[] = [];
@@ -91,29 +99,26 @@ export class CadastroComponent {
     if (nrCadastroIPTU) {
       this.httpIptuService.getRequest(nrCadastroIPTU).subscribe((response) => {        
         this.iptuResponse = response;
-        this.formModel.enderecoIPTU = this.iptuResponse.endereco;
-        console.log(this.formModel);
-        console.log(this.iptuResponse);
-        
+        this.formModel.enderecoIPTU = this.iptuResponse.endereco;        
       })
     }
   }
 
-  atribuiCnae(elem:any){
+  postMEI(formModel: FormModel){
+    this.httpMeiService.postRequest(formModel).subscribe((response) => {
+      // console.log(response);
+      //falta logica
+    })
+  }
 
+  atribuiCnae(elem:any){
     this.formModel.cnaePrimario = elem.value
     this.formModel.cnaePrimarioOcupacao = elem.dataset.ocup
   }
 
-
-
-
-
   onSubmit(form: NgForm){
-    
-
-    console.log(this.formModel);
-
+    this.postMEI(this.formModel)
+    this.data.setRequisicao(this.formModel)
   }
 
 

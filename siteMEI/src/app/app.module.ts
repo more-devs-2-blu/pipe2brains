@@ -8,6 +8,7 @@ import { FormsModule } from '@angular/forms';
 import { NavComponent } from './nav/nav.component';
 import { FooterComponent } from './footer/footer.component';
 import { HttpClientModule } from '@angular/common/http';
+import { ValidacaocadComponent } from './validacaocad/validacaocad.component';
 
 @NgModule({
   declarations: [

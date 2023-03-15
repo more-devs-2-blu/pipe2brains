@@ -33,13 +33,13 @@
             <legend>Endereço da empresa</legend>
         </div>
         <div class="mb-3">
-            <label for="enderecoEmpCep" class="form-label">Número do cadastro IPTU: </label>
+            <label for="nrCadastroIPTU" class="form-label">Número do cadastro IPTU: </label>
             <input type="text" class="form-control" id="nrCadastroIPTU" name="nrCadastroIPTU" #nrCadastroIPTU="ngModel" ngModel [(ngModel)]="formModel.nrCadastroIPTU"
             (blur)="getIPTU(nrCadastroIPTU.value)">
         </div>
         <div class="mb-3">
-            <label for="enderecoEmpCep" class="form-label">Área do empreendimento: </label>
-            <input type="text" class="form-control" id="areaEmpreendimento" name="areaEmpreendimento" #areaEmpreendimento="ngModel" ngModel [(ngModel)]="formModel.areaEmpreendimento">
+            <label for="areaEmpreend" class="form-label">Área do empreendimento: </label>
+            <input type="text" class="form-control" id="areaEmpreend" name="areaEmpreend" #areaEmpreend="ngModel" ngModel [(ngModel)]="formModel.areaEmpreend">
         </div>
     </fieldset>
 
@@ -163,7 +163,7 @@
 
 
     
-    <button type="submit" class="btn btn-primary">Enviar</button>
+    <button type="submit" class="btn btn-primary" routerLink="/validacaocad">Enviar</button>
 
 
 </form>
