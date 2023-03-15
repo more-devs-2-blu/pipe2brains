@@ -1,3 +1,4 @@
+//Estrutura do objeto ViabilidadeDto
 package com.example.appMEI.dtos;
 
 import jakarta.validation.constraints.NotBlank;

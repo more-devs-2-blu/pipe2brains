@@ -28,4 +28,5 @@ public class CPFController {
     public CPFDto getCpf(@PathVariable(value = "cpf") String niAux) throws InterruptedException, ExecutionException {
         return cpfService.getCpf(niAux);
     }
+
 }

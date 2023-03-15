@@ -52,14 +52,14 @@ public class Listas {
 
     // Carrega lista pré-definida com dados de cadastro de imoveis.
     public void carregaListaCadIPTU() {
-        this.listaCadIPTU.add(new CadIPTUDto("222554",new ArrayList<String>(),"Rua Governador Jorge Lacerda, 1890, Velha, 89045337",true));
-        this.listaCadIPTU.add(new CadIPTUDto("221987",new ArrayList<String>(),"Rua 7 de Setembro, 720, Centro, 89010200", false));
+        this.listaCadIPTU.add(new CadIPTUDto("222554",new ArrayList<String>(),"Rua Governador Jorge Lacerda, 1890, Velha, Blumenau, CEP 89045337",true));
+        this.listaCadIPTU.add(new CadIPTUDto("221987",new ArrayList<String>(),"Rua 7 de Setembro, 720, Centro, Blumenau, CEP 89010200", false));
         ArrayList<String> proibAux1 = new ArrayList<String>(); proibAux1.add("0159801"); proibAux1.add("2599301");
-        this.listaCadIPTU.add(new CadIPTUDto("221666",proibAux1,"Rua Progresso, 1200, Progresso, 89026202", true));
+        this.listaCadIPTU.add(new CadIPTUDto("221666",proibAux1,"Rua Progresso, 1200, Progresso, Blumenau, CEP 89026202", true));
         ArrayList<String> proibAux2 = new ArrayList<String>(); proibAux2.add("5099899"); proibAux2.add("4744099");
-        this.listaCadIPTU.add(new CadIPTUDto("226123",proibAux2,"Rua João Pessoa, 200, Velha, 89036000", false));
+        this.listaCadIPTU.add(new CadIPTUDto("226123",proibAux2,"Rua João Pessoa, 200, Velha, Blumenau, CEP 89036000", false));
         ArrayList<String> proibAux3 = new ArrayList<String>(); proibAux3.add("2219600"); proibAux3.add("2349499");
-        this.listaCadIPTU.add(new CadIPTUDto("226789",proibAux3,"Rua Amazonas, 2960, Garcia, 89022000", true));
+        this.listaCadIPTU.add(new CadIPTUDto("226789",proibAux3,"Rua Amazonas, 2960, Garcia, Blumenau, CEP 89022000", true));
     }
 
     // Retorna objeto contendo dados de um registro baseado no cadstro de IPTU informado
