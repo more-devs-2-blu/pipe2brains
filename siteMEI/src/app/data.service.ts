@@ -1,11 +1,23 @@
 import { Injectable } from '@angular/core';
 import { BehaviorSubject } from 'rxjs';
+import { CpfModel } from './cadastro/cpfmodel';
 import { FormModel } from './cadastro/formmodel';
 
 @Injectable({
   providedIn: 'root'
 })
 export class DataService {
+
+  public cpfModel: CpfModel = {
+    ni: "",
+    nome: "",
+    situacao: {
+        codigo: "",
+        descricao: ""
+    },
+    nascimento: "",
+    naturezaOcupacao: ""
+  }
 
   public formModel: FormModel = {
     nome:'',
@@ -40,15 +52,23 @@ export class DataService {
     areaEmpreend: 0,
 
     statusConsultaMEI:false,
-    statusConsultaIPTU:false
+    statusConsultaIPTU:false,
+    codStatusConsultaIPTU: 9
   }
 
   private requisicao = new BehaviorSubject<FormModel>(this.formModel);
   requisicaoAtual = this.requisicao.asObservable();
 
+  private cpf = new BehaviorSubject<CpfModel>(this.cpfModel);
+  cpfAtual = this.cpf.asObservable();
+
   constructor() {}
 
   setRequisicao(req: FormModel) {
     this.requisicao.next(req);
+  }
+
+  setCpf(cpf: CpfModel){
+    this.cpf.next(cpf);
   }
 }

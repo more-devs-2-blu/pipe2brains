@@ -1,3 +1,4 @@
+import { CommonModule } from "@angular/common";
 import { NgModule } from "@angular/core";
 import { ValidacaocadRoutingModule } from "./validacaocad-routing.module";
 import { ValidacaocadComponent } from "./validacaocad.component";
@@ -8,7 +9,8 @@ import { ValidacaocadComponent } from "./validacaocad.component";
         ValidacaocadComponent
     ],
     imports: [
-        ValidacaocadRoutingModule,        
+        ValidacaocadRoutingModule,
+        CommonModule      
     ]
 })
 export class ValidacaocadModule { }

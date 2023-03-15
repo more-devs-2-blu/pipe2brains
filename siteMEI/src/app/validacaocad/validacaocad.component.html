@@ -1,6 +1,49 @@
-<div>{{formModel.cpf}}</div>
-<div>{{formModel.nome}}</div>
-<div>{{formModel.dataNascimento}}</div>
-<div>{{formModel.enderecoIPTU}}</div>
-<div>{{formModel.previsaoFaturamento}}</div>
-<div>{{formModel.email}}</div>
+<div class="validacao-container">
+    <div class="mb-3">
+        <h1 id="titulo">Vamos lá {{(formModel.nome).split(' ')[0]}}...</h1>
+    </div>    
+    
+    <div class="mb-3">
+        <div *ngIf="cpfModel.situacao.codigo == '0'; else elseBlock"><span class="aprovado">Seu CPF está regular.</span></div>
+        <ng-template #elseBlock><span class="negado">Seu CPF está irregular, procure os orgãos competentes. Condição atual do cpf: {{cpfModel.situacao.descricao}}</span></ng-template>
+    </div>
+    
+    <div class="mb-3">
+        <div *ngIf="calculaIdade(formModel.dataNascimento) >= 18; else elseBlockIdade"><span class="aprovado">Você é maior de idade.</span></div>
+        <ng-template #elseBlockIdade><span class="negado">Para a condição de Micro Empreendedor Individual você precisa ser maior de idade.</span></ng-template>
+    </div>
+
+    <div class="mb-3" *ngIf="formModel.eFuncPublico"><span class="negado">Funcionários públicos não podem ser MEI.</span></div>
+    <div class="mb-3" *ngIf="formModel.eSocio"><span class="negado">MEIs não podem ser sócios em outras empresas.</span></div>
+    <div class="mb-3" *ngIf="formModel.eMeiAtivo"><span class="negado">Não é permitido ter outro MEI ativo.</span></div>
+    <div class="mb-3" *ngIf="formModel.temFiliais"><span class="negado">A Pessoa Jurídica do tipo MEI não pode ter filiais.</span></div>
+    
+    <div class="mb-3" *ngIf="formModel.temAposentadoriaInvalidez"><span class="alerta">Você pode perder sua aposentadoria por invalidez se prosseguir com o processo de MEI.</span></div>
+    <div class="mb-3" *ngIf="formModel.temAuxilioDoenca"><span class="alerta">Você pode perder seu auxílio doença se prosseguir com o processo de MEI.</span></div>
+    <div class="mb-3" *ngIf="formModel.temSalarioMaternidade"><span class="alerta">Você pode perder seu salário maternidade se prosseguir com o processo de MEI.</span></div>
+    <div class="mb-3" *ngIf="formModel.temSegDesemprego"><span class="alerta">Você pode perder seu seguro desemprego se prosseguir com o processo de MEI.</span></div>
+    <div class="mb-3" *ngIf="formModel.temBpcLoas"><span class="alerta">Você pode perder seu BPC-LOAS se prosseguir com o processo de MEI.</span></div>
+    <div class="mb-3" *ngIf="formModel.temProuni"><span class="alerta">Você pode perder sua bolsa PROUNI se prosseguir com o processo de MEI.</span></div>
+    <div class="mb-3" *ngIf="formModel.temFies"><span class="alerta">Você pode perder seu financiamento FIES se prosseguir com o processo de MEI.</span></div>
+    <div class="mb-3" *ngIf="formModel.temBolsaFamilia"><span class="alerta">Você pode perder sua bolsa família se prosseguir com o processo de MEI.</span></div>
+    
+    <div class="mb-3">
+        <div *ngIf="verificaFaturamento(); else elseBlockFaturamento"><span class="aprovado">Faturamento dentro do limite definido para sua atividade.</span></div>
+        <ng-template #elseBlockFaturamento><span class="negado">Faturamento acima do limite permitido para sua atividade.</span></ng-template>
+    </div>
+
+    <div class="mb-3" *ngIf="!verificaCustos()"><span class="negado">Custos não podem exceder em 80% o faturamento.</span></div>
+    
+    <div class="mb-3" *ngIf="formModel.nrFuncionarios > 1"><span class="negado">O MEI só pode ter até 1 funcionário.</span></div>
+    
+    <!-- <div class="mb-3" >{{this.formModel.statusConsultaMEI}}</div> -->
+    
+</div>
+
+
+
+
+
+<!-- cpf codigo 0 é regular -->
+
+

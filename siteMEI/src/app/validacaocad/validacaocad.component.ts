@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { CpfModel } from '../cadastro/cpfmodel';
 import { FormModel } from '../cadastro/formmodel';
 import { DataService } from '../data.service';
 
@@ -8,6 +9,17 @@ import { DataService } from '../data.service';
   styleUrls: ['./validacaocad.component.css']
 })
 export class ValidacaocadComponent implements OnInit {
+
+  public cpfModel: CpfModel = {
+    ni: "",
+    nome: "",
+    situacao: {
+        codigo: "",
+        descricao: ""
+    },
+    nascimento: "",
+    naturezaOcupacao: ""
+  }
 
   public formModel: FormModel = {
     nome: '',
@@ -42,7 +54,8 @@ export class ValidacaocadComponent implements OnInit {
     areaEmpreend: 0,
 
     statusConsultaMEI: false,
-    statusConsultaIPTU: false
+    statusConsultaIPTU: false,
+    codStatusConsultaIPTU: 9
   }
 
   constructor(
@@ -50,7 +63,47 @@ export class ValidacaocadComponent implements OnInit {
   ) { }
 
   ngOnInit() {
-    this.data.requisicaoAtual.subscribe(requisicao => this.formModel = requisicao)
+    this.data.requisicaoAtual.subscribe(requisicao => this.formModel = requisicao);
+    this.data.cpfAtual.subscribe(cpf => this.cpfModel = cpf);
   }
+
+  //alterar as datas para tipo data e refazer essa verificacao usando a data atual do sistema
+  public calculaIdade(nasc: string): number{
+    return 2023 - (parseInt(nasc[4]+nasc[5]+nasc[6]+nasc[7])) 
+  }
+  
+  verificaFaturamento():boolean{
+    if(
+      this.formModel.cnaePrimario == '4930-2/01' || 
+      this.formModel.cnaePrimario == '4930-2/02' ||
+      this.formModel.cnaePrimario == '4930-2/03' ||
+      this.formModel.cnaePrimario == '4930-2/04'
+    ){
+      if(this.formModel.previsaoFaturamento <= 251600){
+        return true;
+      } else {
+        return false;
+      }
+    } else {
+      if(this.formModel.previsaoFaturamento <= 81000){
+        return true;
+      } else {
+        return false;
+      }
+    }
+  }
+
+  verificaCustos():boolean{
+    if((this.formModel.previsaoCustos/this.formModel.previsaoFaturamento) < 0.8){
+      return true;
+    } else {
+      return false;
+    }
+  }
+
+
+
+
+
 
 }

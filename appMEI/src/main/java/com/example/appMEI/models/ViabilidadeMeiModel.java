@@ -7,7 +7,7 @@ import java.io.Serializable;
 import java.time.LocalDateTime;
 import java.util.UUID;
 
-@Data
+
 @Entity
 @Table(name = "TB_CADASTRO_MEI")
 public class ViabilidadeMeiModel implements Serializable {
@@ -336,11 +336,11 @@ public class ViabilidadeMeiModel implements Serializable {
         this.statusConsultaIPTU = statusConsultaIPTU;
     }
 
-   public Integer getCodStatusConsultaIPTU() {
+    public Integer getCodStatusConsultaIPTU() {
         return codStatusConsultaIPTU;
     }
 
-    public void setCodStatusConsultIPTU(Integer codStatusConsultaIPTU) {
+    public void setCodStatusConsultaIPTU(Integer codStatusConsultaIPTU) {
         this.codStatusConsultaIPTU = codStatusConsultaIPTU;
     }
 }
