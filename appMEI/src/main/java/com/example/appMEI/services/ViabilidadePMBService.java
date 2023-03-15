@@ -33,5 +33,6 @@ public class ViabilidadePMBService {
                 else return '0';
         }
         return '3';
+
     }
 }

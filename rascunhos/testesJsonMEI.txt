@@ -68,7 +68,7 @@
 	"codStatusConsultaIPTU": 0
 }
 
-3) Francisco Santos - Apto MEI, Inapto Estabelecer - Possui CPF sem restrições, atende requisitos MEI, não atende requisitos Estabelecer (cod 2 - Atividade não permitida no local)
+3) Francisco Santos - Apto MEI, Inapto Estabelecer - Possui CPF sem restrições, atende requisitos MEI, não atende requisitos Estabelecer (cod 2 - Imóvel com restrições)
 {
         "nome": "Francisco Santos",
         "cpf": "63017285995",
@@ -100,4 +100,38 @@
         "statusConsultaMEI": true,
         "statusConsultaIPTU": false,
 	"codStatusConsultaIPTU": 2
+}
+
+4) Paula Lopes - Apto MEI, Inapto Estabelecer - Possui CPF sem restrições, atende requisitos MEI, não atende requisitos Estabelecer (cod 1 - Atividade não permitida no local)
+{
+        "nome": "Francisco Santos",
+        "cpf": "10975384600",
+        "statusCpf": "Regular",
+        "dataNascimento": "22/09/2002",
+        "email": "pipe2brains@gmail.com",
+        "telefone1": "47954787669",
+        "telefone2": "47912986453",
+        "cnaePrimario": "1412602",
+        "cnaePrimarioOcupacao": "COSTUREIRO(A) DE ROUPAS, EXCETO SOB MEDIDA, INDEPENDENTE",
+        "eFuncPublico": false,
+        "eSocio": false,
+        "eMeiAtivo": false,
+        "temAposentadoriaInvalidez": false,
+        "temAuxilioDoenca": false,
+        "temSalarioMaternidade": false,
+        "temSegDesemprego": false,
+        "temBpcLoas": false,
+        "temProuni": false,
+        "temFies": false,
+        "temBolsaFamilia": false,
+        "temFiliais": false,
+        "previsaoFaturamento": 75000,
+        "previsaoCustos": 32000,
+        "nrFuncionarios": 0,
+        "nrCadastroIPTU": "226123",
+        "enderecoIPTU": "Rua João Pessoa, 200, Velha, Blumenau, CEP 89036000",
+        "areaEmpreend": 15,
+        "statusConsultaMEI": true,
+        "statusConsultaIPTU": false,
+	"codStatusConsultaIPTU": 1
 }

@@ -28,3 +28,6 @@ Opções: POST - /        - Registra um pacote json na tabela (atuamente não ex
                         - Evita que métodos GET, DEL e PUT sejam executados se registro não existir previamente
 
 Observações: O arquivo racunhos/testesJsonMEI.txt possui 3 exemplos de cadastro utilizando a ferramenta Postman 
+
+15/03 - API /viabilidadeMei (Envio de emails para os usuários TB_EMAIL)
+Opções: POST - /        - Registro um pacote json na tabela e realiza o envio do email contendo um objeto EmailDto

@@ -75,8 +75,8 @@ public class ViabilidadeMeiController {
         textoEmail += "\nÁrea Empreendimento - " + viabilidadeMeiModelAux.getAreaEmpreend() + "m2";
         String restricaoPMB = "";
         switch (viabilidadeMeiModelAux.getCodStatusConsultaIPTU()){
-            case 1: restricaoPMB = "Imóvel com restrições"; break;
-            case 2: restricaoPMB = "Atividade não permitida para o local"; break;
+            case 1: restricaoPMB = "Atividade não permitida para o local"; break;
+            case 2: restricaoPMB = "Imóvel com restrições"; break;
             case 3: restricaoPMB = "Código Imóvel Inválido ou Inexistente"; break;
         }
         textoEmail += "\nStatus Consulta Estabelecer PMB - ".concat((viabilidadeMeiModelAux.isStatusConsultaIPTU()) ? "Apto" : "Inapto - (" + restricaoPMB + ")");
@@ -164,4 +164,6 @@ public class ViabilidadeMeiController {
         ResponseEntity<Object> viabilidadeMeiResponse = ResponseEntity.status(HttpStatus.OK).body(viabilidadeMeiService.save(viabilidadeMeiModel));
         return viabilidadeMeiResponse;
     }
+
+
 }
