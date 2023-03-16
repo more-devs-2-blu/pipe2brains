@@ -29,5 +29,8 @@ Opções: POST - /        - Registra um pacote json na tabela (atuamente não ex
 
 Observações: O arquivo racunhos/testesJsonMEI.txt possui 3 exemplos de cadastro utilizando a ferramenta Postman 
 
-15/03 - API /viabilidadeMei (Envio de emails para os usuários TB_EMAIL)
+15/03 - API /viabilidadeMei (Envio de emails para os usuários - Tabela TB_EMAIL)
 Opções: POST - /        - Registro um pacote json na tabela e realiza o envio do email contendo um objeto EmailDto
+
+16/03 - API /viablidadeMei (Nova rota para a tabela TB_CADASTRO_MEI)
+Opção: PUT - /retornoconsultapmb/(id) - atualiza registro com os dados de retorno da Consulta de Estabelecer
