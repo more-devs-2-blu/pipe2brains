@@ -7,7 +7,6 @@ import { DataService } from '../data.service';
 import { HttpCpfService } from '../httpcpf.service';
 import { HttpIptuService } from '../httpiptu.service';
 import { HttpMeiService } from '../httpmei.service';
-import { ValidacaocadComponent } from '../validacaocad/validacaocad.component';
 import { CpfModel } from './cpfmodel';
 import { FormModel } from './formmodel';
 import { IptuResponseModel } from './ipturesponse';
@@ -36,7 +35,7 @@ export class CadastroComponent implements OnInit {
   }
 
   public formModel: FormModel = {
-    id:'',
+    id: '',
     nome: '',
     cpf: '',
     statusCpf: '',
@@ -84,7 +83,7 @@ export class CadastroComponent implements OnInit {
 
   ngOnInit() {
     this.data.requisicaoAtual.subscribe(requisicao => this.formModel = requisicao)
-    
+
   }
 
   buscaCNAE(key: string) {
@@ -100,13 +99,21 @@ export class CadastroComponent implements OnInit {
 
   getCPF(cpf: string) {
     cpf = cpf.replace(/[^0-9]/g, '')
+    console.log(cpf);
+    
     if (cpf) {
+      console.log('entrou no if');
+      
       this.httpCpfService.getRequest(cpf).subscribe((response) => {
+        
+        
         this.cpfAtual = response;
         this.formModel.nome = this.cpfAtual.nome;
         this.formModel.dataNascimento = this.cpfAtual.nascimento;
         this.formModel.statusCpf = this.cpfAtual.situacao.descricao;
         this.formModel.cpf = cpf;
+        
+        console.log(this.formModel);
       })
     }
   }
@@ -125,7 +132,7 @@ export class CadastroComponent implements OnInit {
     this.httpMeiService.postRequest(formModel).subscribe((response) => {
       this.formModel.id = response.id
       this.router.navigate(['/validacaocad'])
-      
+
       if (response.id) {
         alert('Cadastro enviado com sucesso!')
       }
@@ -139,21 +146,45 @@ export class CadastroComponent implements OnInit {
   }
 
   onSubmit(form: NgForm) {
-    
+
     this.data.setCpf(this.cpfAtual)
-    
+
     this.postMEI(this.formModel)
-    // console.log(this.formModel);
 
-    // console.log('entrou no submit');
-
-    // console.log(this.cpfAtual);
-
-    
-    
   }
 
-  
+  // funcionalidade de carousel
 
+  public slideAtivo:number = 1;
+  public slide1 = document.getElementById('slide-1')
+  public slide2 = document.getElementById('slide-2')
+  public slide3 = document.getElementById('slide-3')
+  public slide4 = document.getElementById('slide-4')
+  public slide5 = document.getElementById('slide-5')
+  
+  nextButtonClick() {
+    if (this.slideAtivo < 1 || this.slideAtivo > 5){return}
+    if(this.slideAtivo != 5){this.slideAtivo++;}
+    var allSlides = document.querySelectorAll('.slide')
+    
+    var slideAtivar = document.getElementById(`slide-${this.slideAtivo}`)
+    allSlides.forEach(element => {
+      element.classList.add('slide-hidden')
+    });
+    slideAtivar?.classList.remove('slide-hidden')
+  }
+
+  prevButtonClick() {
+    if (this.slideAtivo < 1 || this.slideAtivo > 5){return}
+    if(this.slideAtivo != 1){this.slideAtivo--;}
+
+    var allSlides = document.querySelectorAll('.slide')
+    
+    var slideAtivar = document.getElementById(`slide-${this.slideAtivo}`)
+    allSlides.forEach(element => {
+      element.classList.add('slide-hidden')
+    });
+    slideAtivar?.classList.remove('slide-hidden')
+  }
 
 }
