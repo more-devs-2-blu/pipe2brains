@@ -1,7 +1,7 @@
 
 <div class="container text-center bannerHome">
     <div class="row">
-      <div class="col infoBanner">
+      <div class="col-md-6 infoBanner">
             <ul class="list-group">
                 <p class="text-md-start fs-6 m-3">Informações para abertura de empresas;</p>
                 <p class="text-md-start fs-6 m-3">Formalização de microempreendedores individuais;</p>
@@ -13,10 +13,8 @@
                 <p class="text-md-start fs-6 m-3">Emissão de alvarás;</p>
                 <p class="text-md-start fs-6 m-3">Emissão de guias.</p>
             </ul>
-
-            <p></p>
         </div>
-      <div class="col imgBanner">
+      <div class="col-md-6 imgBanner">
         <!-- <img [src]="imgBanner" alt=""> -->
         <img class="img-fluid" src="../assets/img/imgBanner.svg" alt="">
       </div>
@@ -86,17 +84,20 @@
     </button>
   </div>
 
-<section class="section-3">
-<div class="area-title-2">
-    <h1>Aqui temos um vídeo explicativo de como abrir seu MEI de GRAÇA!</h1> <h3></h3> 
-        
-        
+
+  <div class="row">
+    <div class="col-md-6">
+      <div class="area-title-2">
+        <h1>Aqui temos um vídeo explicativo de como abrir seu MEI de GRAÇA!</h1>
+        </div>
     </div>
-    <div class="area-video">
-    <h4>Clique no Play e confere esse video explicativo:</h4>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/wMUS4gGklgY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <div class="col-md-6">
+      <div class="area-video">
+        <h4>Clique no Play e confere esse video explicativo:</h4>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/wMUS4gGklgY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
     </div>
-</section>
+  </div>
 
 <form>
     <div class="mb-3">
@@ -111,14 +112,20 @@
     <button type="submit" class="btn btn-primary" id="colorButton">Inscreva-se</button>
   </form>
 
-<section class="section-5">
-    <div class="area-mapa">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d113873.11727025984!2d-49.1388088055473!3d-26.886513733030856!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x94df1f3c5c851617%3A0xe5044b89f043b28a!2sVia%20Expressa%20-%20Rodovia%20Paul%20Fritz%20Kuehnrich%2C%201600%20-%20Itoupava%20Norte%2C%20Blumenau%20-%20SC%2C%2089052-050!3m2!1d-26.886530999999998!2d-49.0687685!5e0!3m2!1spt-PT!2sbr!4v1678733059576!5m2!1spt-PT!2sbr" width="600" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  <div class="row">
+    <div class="col-md-6">
+      <div class="area-mapa">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d113873.11727025984!2d-49.1388088055473!3d-26.886513733030856!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x94df1f3c5c851617%3A0xe5044b89f043b28a!2sVia%20Expressa%20-%20Rodovia%20Paul%20Fritz%20Kuehnrich%2C%201600%20-%20Itoupava%20Norte%2C%20Blumenau%20-%20SC%2C%2089052-050!3m2!1d-26.886530999999998!2d-49.0687685!5e0!3m2!1spt-PT!2sbr!4v1678733059576!5m2!1spt-PT!2sbr" width="750" height="550" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
     </div>
-    <div class="titulo-mapa">
-        <h1>ENDEREÇO:</h1>
-        <p>Via Expressa - Rodovia Paul Fritz Kuehnrich, 1600</p>
-        <p>Itoupava Norte</p>
-        <p>Blumenau - SC, 89052-050</p>
+  
+    <div class="col-md-6">
+      <div class="titulo-mapa">
+        <h1 id="titulo-mapa">ENDEREÇO:</h1>
+        <p id="titulo-mapa">Via Expressa - </p>
+        <p id="titulo-mapa">Rodovia Paul Fritz Kuehnrich, 1600</p>
+        <p id="titulo-mapa">Itoupava Norte</p>
+        <p id="titulo-mapa">Blumenau - SC, 89052-050</p>
     </div>
-</section>
+    </div>
+  </div>
