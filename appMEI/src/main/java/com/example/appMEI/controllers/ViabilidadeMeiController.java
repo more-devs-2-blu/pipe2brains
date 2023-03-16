@@ -3,6 +3,7 @@
 //          GET - / -   retora a lista com todos os registros da tabela
 //          GET - /(id) - retorna o registro correspondente ao id informado
 //          PUT - /(id) - atualiza o registro correspondente ao id informado
+//          PUT - /retornoconsultapmb/(id) - atualiza registro com os dados de retorno da Consulta de Estabelecer
 //          DEL - /(id) - remove o registro correspondente ao id informado
 
 package com.example.appMEI.controllers;
@@ -33,57 +34,74 @@ public class ViabilidadeMeiController {
     private final ViabilidadeMeiRepository viabilidadeMeiRepository;
 
     //Concatena todos os dados do objeto ViabilidadeMeiModel que irão compor o corpo da mensagem de email
-    public String FormataTextoMensagemEmail(ViabilidadeMeiModel viabilidadeMeiModelAux){
+    public String FormataTextoMensagemEmail(ViabilidadeMeiModel viabilidadeMeiModelAux, Integer opEmail){
         String textoEmail = "";
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy HH:mm:ss");
         String dataFormatadaBR = viabilidadeMeiModelAux.getDataConsulta().format(formatter);
 
-        textoEmail = "DADOS GERADOS NA CONSULTA DE VIABILIDADE MEI\n";
-        textoEmail += "\nData Consulta - " + dataFormatadaBR;
-        textoEmail += "\nNome - " + viabilidadeMeiModelAux.getNome();
-        textoEmail += "\nCPF - " + viabilidadeMeiModelAux.getCpf();
-        textoEmail += "\nStatus CPF - " + viabilidadeMeiModelAux.getStatusCpf();
-        textoEmail += "\nData Nascimento - " + viabilidadeMeiModelAux.getDataNascimento();
-        textoEmail += "\nEmail - " + viabilidadeMeiModelAux.getEmail();
-        textoEmail += "\nTelefone 1 - " + viabilidadeMeiModelAux.getTelefone1();
-        textoEmail += "\nTelefone 2 - " + viabilidadeMeiModelAux.getTelefone2();
+        //Texto com cadastro inicial
+        if (opEmail == 1) {
+            textoEmail = "DADOS GERADOS NA CONSULTA DE VIABILIDADE MEI\n";
+            textoEmail += "\nData Consulta - " + dataFormatadaBR;
+            textoEmail += "\nNome - " + viabilidadeMeiModelAux.getNome();
+            textoEmail += "\nCPF - " + viabilidadeMeiModelAux.getCpf();
+            textoEmail += "\nStatus CPF - " + viabilidadeMeiModelAux.getStatusCpf();
+            textoEmail += "\nData Nascimento - " + viabilidadeMeiModelAux.getDataNascimento();
+            textoEmail += "\nEmail - " + viabilidadeMeiModelAux.getEmail();
+            textoEmail += "\nTelefone 1 - " + viabilidadeMeiModelAux.getTelefone1();
+            textoEmail += "\nTelefone 2 - " + viabilidadeMeiModelAux.getTelefone2();
 
-        textoEmail += "\n\nCNAE Primário - " + viabilidadeMeiModelAux.getCnaePrimario();
-        textoEmail += "\nOcupação CNAE Primário - " + viabilidadeMeiModelAux.getCnaePrimarioOcupacao();
+            textoEmail += "\n\nCNAE Primário - " + viabilidadeMeiModelAux.getCnaePrimario();
+            textoEmail += "\nOcupação CNAE Primário - " + viabilidadeMeiModelAux.getCnaePrimarioOcupacao();
 
-        textoEmail += "\n\nFuncionário Público Federal - ".concat((viabilidadeMeiModelAux.iseFuncPublico()) ? "SIM" : "NAO");
-        textoEmail += "\nSócio de Empresa - ".concat((viabilidadeMeiModelAux.iseSocio()) ? "SIM" : "NAO");
-        textoEmail += "\nMEI Ativo - ".concat((viabilidadeMeiModelAux.iseMeiAtivo()) ? "SIM" : "NAO");
-        textoEmail += "\nAuxílio Doença - ".concat((viabilidadeMeiModelAux.isTemAuxilioDoenca()) ? "SIM" : "NAO");
-        textoEmail += "\nSalário Maternidade - ".concat((viabilidadeMeiModelAux.isTemSalarioMaternidade()) ? "SIM" : "NAO");
-        textoEmail += "\nSeguro Desemprego - ".concat((viabilidadeMeiModelAux.isTemSegDesemprego()) ? "SIM" : "NAO");
-        textoEmail += "\nBPC LOAS - ".concat((viabilidadeMeiModelAux.isTemBpcLoas()) ? "SIM" : "NAO");
-        textoEmail += "\nProuni - ".concat((viabilidadeMeiModelAux.isTemProuni()) ? "SIM" : "NAO");
-        textoEmail += "\nFies - ".concat((viabilidadeMeiModelAux.isTemFies()) ? "SIM" : "NAO");
-        textoEmail += "\nBolsa Familia - ".concat((viabilidadeMeiModelAux.isTemBolsaFamilia()) ? "SIM" : "NAO");
+            textoEmail += "\n\nFuncionário Público Federal - ".concat((viabilidadeMeiModelAux.iseFuncPublico()) ? "SIM" : "NAO");
+            textoEmail += "\nSócio de Empresa - ".concat((viabilidadeMeiModelAux.iseSocio()) ? "SIM" : "NAO");
+            textoEmail += "\nMEI Ativo - ".concat((viabilidadeMeiModelAux.iseMeiAtivo()) ? "SIM" : "NAO");
+            textoEmail += "\nAuxílio Doença - ".concat((viabilidadeMeiModelAux.isTemAuxilioDoenca()) ? "SIM" : "NAO");
+            textoEmail += "\nSalário Maternidade - ".concat((viabilidadeMeiModelAux.isTemSalarioMaternidade()) ? "SIM" : "NAO");
+            textoEmail += "\nSeguro Desemprego - ".concat((viabilidadeMeiModelAux.isTemSegDesemprego()) ? "SIM" : "NAO");
+            textoEmail += "\nBPC LOAS - ".concat((viabilidadeMeiModelAux.isTemBpcLoas()) ? "SIM" : "NAO");
+            textoEmail += "\nProuni - ".concat((viabilidadeMeiModelAux.isTemProuni()) ? "SIM" : "NAO");
+            textoEmail += "\nFies - ".concat((viabilidadeMeiModelAux.isTemFies()) ? "SIM" : "NAO");
+            textoEmail += "\nBolsa Familia - ".concat((viabilidadeMeiModelAux.isTemBolsaFamilia()) ? "SIM" : "NAO");
 
-        String valorMoedaBR;
-        valorMoedaBR = NumberFormat.getCurrencyInstance(new Locale("pt", "BR")).format(viabilidadeMeiModelAux.getPrevisaoFaturamento());
-        textoEmail += "\n\nPrevisão de Faturamento - " + valorMoedaBR;
-        valorMoedaBR = NumberFormat.getCurrencyInstance(new Locale("pt", "BR")).format(viabilidadeMeiModelAux.getPrevisaoCustos());
-        textoEmail += "\nPrevisão de Custos - " + valorMoedaBR;
-        textoEmail += "\nNúmero de Funcionários - " + viabilidadeMeiModelAux.getNrFuncionarios();
-        textoEmail += "\nPrecisa ter filiais - ".concat((viabilidadeMeiModelAux.isTemFiliais()) ? "SIM" : "NAO");
+            String valorMoedaBR;
+            valorMoedaBR = NumberFormat.getCurrencyInstance(new Locale("pt", "BR")).format(viabilidadeMeiModelAux.getPrevisaoFaturamento());
+            textoEmail += "\n\nPrevisão de Faturamento - " + valorMoedaBR;
+            valorMoedaBR = NumberFormat.getCurrencyInstance(new Locale("pt", "BR")).format(viabilidadeMeiModelAux.getPrevisaoCustos());
+            textoEmail += "\nPrevisão de Custos - " + valorMoedaBR;
+            textoEmail += "\nNúmero de Funcionários - " + viabilidadeMeiModelAux.getNrFuncionarios();
+            textoEmail += "\nPrecisa ter filiais - ".concat((viabilidadeMeiModelAux.isTemFiliais()) ? "SIM" : "NAO");
 
-        textoEmail += "\n\nNúmero Cadastro IPTU - " + viabilidadeMeiModelAux.getNrCadastroIPTU();
-        textoEmail += "\nEndereço Empreendimento - " + viabilidadeMeiModelAux.getEnderecoIPTU();
-        textoEmail += "\nÁrea Empreendimento - " + viabilidadeMeiModelAux.getAreaEmpreend() + "m2";
-        String restricaoPMB = "";
-        switch (viabilidadeMeiModelAux.getCodStatusConsultaIPTU()){
-            case 1: restricaoPMB = "Atividade não permitida para o local"; break;
-            case 2: restricaoPMB = "Imóvel com restrições"; break;
-            case 3: restricaoPMB = "Código Imóvel Inválido ou Inexistente"; break;
-            case 9: restricaoPMB = "Não optou por Consulta para Estabelecer"; break;
+            textoEmail += "\n\nStatus Consulta Estabelecer PMB - Não realizada ou pendente";
+            textoEmail += "\nStatus Consulta Viabilidade MEI - ".concat((viabilidadeMeiModelAux.isStatusConsultaMEI()) ? "Apto" : "Inapto");
         }
-        textoEmail += "\nStatus Consulta Estabelecer PMB - ".concat((viabilidadeMeiModelAux.isStatusConsultaIPTU()) ? "Apto" : "Inapto - (" + restricaoPMB + ")");
-
-        textoEmail += "\n\nStatus Consulta Viabilidade MEI - ".concat((viabilidadeMeiModelAux.isStatusConsultaMEI()) ? "Apto" : "Inapto");
-
+        // Opção para texto de retorno da Consulta de Estabelecer
+        else if (opEmail == 2){
+            textoEmail = "ATUALIZAÇÃO DE CADASTRO - RESULTADO DA CONSULTA DE ESTABELECER\n";
+            textoEmail += "\nData Consulta - " + dataFormatadaBR;
+            textoEmail += "\nNome - " + viabilidadeMeiModelAux.getNome();
+            textoEmail += "\nCPF - " + viabilidadeMeiModelAux.getCpf();
+            textoEmail += "\n\nNúmero Cadastro IPTU - " + viabilidadeMeiModelAux.getNrCadastroIPTU();
+            textoEmail += "\nEndereço Empreendimento - " + viabilidadeMeiModelAux.getEnderecoIPTU();
+            textoEmail += "\nÁrea Empreendimento - " + viabilidadeMeiModelAux.getAreaEmpreend() + "m2";
+            String restricaoPMB = "";
+            switch (viabilidadeMeiModelAux.getCodStatusConsultaIPTU()) {
+                case 1:
+                    restricaoPMB = "Atividade não permitida para o local";
+                    break;
+                case 2:
+                    restricaoPMB = "Imóvel com restrições";
+                    break;
+                case 3:
+                    restricaoPMB = "Código Imóvel Inválido ou Inexistente";
+                    break;
+                case 9:
+                    restricaoPMB = "Não optou por Consulta para Estabelecer";
+                    break;
+            }
+            textoEmail += "\n\nStatus Consulta Estabelecer PMB - ".concat((viabilidadeMeiModelAux.isStatusConsultaIPTU()) ? "Apto" : "Inapto - (" + restricaoPMB + ")");
+        }
         return textoEmail;
     }
 
@@ -112,7 +130,7 @@ public class ViabilidadeMeiController {
             emailModel.setEmailTo("cristianofreese@terra.com.br");
             emailModel.setOwnerRef("Pipe2Brains");
             emailModel.setSubject("Notificação de Consulta MEI - " + viabilidadeMeiModel.getCpf() + " - " + viabilidadeMeiModel.getNome());
-            String textoViabilidadeEmail = FormataTextoMensagemEmail(viabilidadeMeiModel);
+            String textoViabilidadeEmail = FormataTextoMensagemEmail(viabilidadeMeiModel,1);
             emailModel.setText(textoViabilidadeEmail);
             emailService.sendEmail(emailModel);
         }
@@ -163,6 +181,35 @@ public class ViabilidadeMeiController {
         viabilidadeMeiModel.setId(viabilidadeMeiModelOptional.get().getId());
         viabilidadeMeiModel.setDataConsulta(viabilidadeMeiModelOptional.get().getDataConsulta());
         ResponseEntity<Object> viabilidadeMeiResponse = ResponseEntity.status(HttpStatus.OK).body(viabilidadeMeiService.save(viabilidadeMeiModel));
+        return viabilidadeMeiResponse;
+    }
+
+    @PutMapping("/retornoconsultapmb/{id}")
+    public ResponseEntity<Object> updateRetornoConsultaPMB(@PathVariable(value = "id") UUID id,
+                                                       @RequestBody @Valid ViabilidadeMeiDto viabilidadeMeiDto){
+        Optional<ViabilidadeMeiModel> viabilidadeMeiModelOptional = viabilidadeMeiService.findById(id);
+
+        if(!viabilidadeMeiModelOptional.isPresent()){
+            return ResponseEntity.status(HttpStatus.NOT_FOUND).body("Consulta de Viabilidade MEI não encontrada!");
+        }
+
+        var viabilidadeMeiModel = viabilidadeMeiModelOptional.get();
+
+        viabilidadeMeiModel.setStatusConsultaIPTU(viabilidadeMeiDto.isStatusConsultaIPTU());
+        viabilidadeMeiModel.setCodStatusConsultaIPTU(viabilidadeMeiDto.getCodStatusConsultaIPTU());
+        ResponseEntity<Object> viabilidadeMeiResponse = ResponseEntity.status(HttpStatus.OK).body(viabilidadeMeiService.save(viabilidadeMeiModel));
+
+        if (viabilidadeMeiResponse.getStatusCode().value()==200) {
+            EmailModel emailModel = new EmailModel();
+            emailModel.setEmailFrom("cristianofreese@gmail.com");
+            emailModel.setEmailTo("cristianofreese@terra.com.br");
+            emailModel.setOwnerRef("Pipe2Brains");
+            emailModel.setSubject("Atualização Consulta Estabelecer - " + viabilidadeMeiModel.getCpf() + " - " + viabilidadeMeiModel.getNome());
+            String textoViabilidadeEmail = FormataTextoMensagemEmail(viabilidadeMeiModel,2);
+            emailModel.setText(textoViabilidadeEmail);
+            emailService.sendEmail(emailModel);
+        }
+
         return viabilidadeMeiResponse;
     }
 

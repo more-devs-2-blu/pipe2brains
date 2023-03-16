@@ -1,6 +1,6 @@
 .bannerHome{
     background-color: #F0EBFF;
-    margin: 25px;
+   
 }
 
 #tituloCarousel{
@@ -8,8 +8,6 @@
     padding: 30px;
     text-align: center;
     font-size: 24px;
-    
-
 }
 .bannerCarousel{
     padding-bottom: 50px;
@@ -21,14 +19,11 @@
     align-items: center;
     display:  inline-flex;
 }
-/* .area-title-2{
-    display: inline-block;
-} */
+
 .area-title-2  h1{
     font-size: 28px;
     font-weight: 800;
     padding-right: 30px;
-    /* margin-left: 20px; */
     
 }
 .area-title-2  h3{
@@ -36,8 +31,41 @@
     font-weight: 400;
     padding-left: 35px;
 
+}
 
-
+@media screen and (max-width:420px) {
+    .area-mapa{
+        margin-top: 20px;
+    }
+    iframe{
+        padding: auto;
+        margin: auto;
+        width: 40vh !important;
+        height: 30vh !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .titulo-mapa{
+        margin-top: 10px;
+    }
+    .titulo-mapa h1{
+        font-size: 15px !important;
+        /* text-indent: 2em;  */
+        line-height: 28px; 
+        align-items: center;
+    }
+    .titulo-mapa p{
+        align-items: center;
+        line-height: 28px; 
+        
+    }
+    #titulo-mapa{
+        padding-left: -20px;
+    }
+    .area-video{
+        margin-bottom: 20px;
+    }
 }
 .area-video h4{
     font-size: 20px;
@@ -45,7 +73,7 @@
     padding-bottom: 20px;
 }
 .area-video iframe{
-    margin-left: 75px;
+    margin-left: 10px;
 }
 
 #newsletter{
@@ -60,20 +88,20 @@
 
 .section-5{
     padding-top: 50px;
-    /* align-items: center; */
     display:  inline-flex;
 }
 
-.section-5 h1{
+.titulo-mapa h1{
     font-size: 24px;
     text-align: center;
     margin: 50px;
     font-weight: bold;
+    padding-left: 25px;
  
 }
-.section-5 p{
+.titulo-mapa p{
     padding-left: 50px;
+    text-align: center;
     font-size: 18px;
     margin: 20px;
-    
 }
