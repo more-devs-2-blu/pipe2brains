@@ -1,4 +1,4 @@
-/* CONFIGURAÇÕES RELACIONADAS A TABELA DE ANIMAIS CADASTRADOS */
+
 #moduloCadastro{
     color: var(--blue);
     padding-top: 50px;
@@ -14,13 +14,7 @@
     width: 80px;
   }
   
-  #tabelaAnimais {
-    padding-top: 50px;
-    font-size: 30px;
-    padding-bottom: 30px;
-  }
-
-  .table{
+    .table{
     color:var(--blue);  
     border: 2px solid var(--blue);
   }
@@ -36,6 +30,7 @@
 
   .input_text.ng-invalid.ng-touched{
     border: 1px solid red;
+    
   }
 
   .submit:disabled{

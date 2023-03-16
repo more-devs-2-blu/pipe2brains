@@ -45,3 +45,17 @@ blockquote:before blockquote:after, q:before, q:after {
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
+
+@media screen and (max-width:420px) {
+    footer .rede-social{
+        display: none;
+
+    }
+
+    footer{
+        position: absolute;
+        bottom: 0;
+        
+    }
+    
+}

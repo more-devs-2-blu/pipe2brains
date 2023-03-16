@@ -36,10 +36,14 @@
     
     <div class="mb-3" *ngIf="formModel.nrFuncionarios > 1"><span class="negado">O MEI só pode ter até 1 funcionário.</span></div>
     
-    <button (click)="tornaElegivel()">torna elegivel</button>
+    <div *ngIf="formModel.statusConsultaMEI" class="mb-3"><span class="aprovado">Você atende as condições iniciais para ser MEI. Deseja solicitar uma consulta para estabelecer?</span></div>
+    
+    <div class="mb-3"><span><button type="button" class="btn btn-primary" *ngIf="formModel.statusConsultaMEI" (click)="consultaEstabelecer()">Pedir Consulta</button></span></div>
 
-    <div *ngIf="formModel.statusConsultaMEI" class="mb-3">Você atende as condições iniciais para ser MEI. Deseja solicitar uma consulta para estabelecer?</div>
-    <button *ngIf="formModel.statusConsultaMEI" (click)="consultaEstabelecer()">Pedir Consulta</button>
+    <div *ngIf="resultadoEstabelecer == '0'; else elseBlockEstabelecer"><span class="aprovado">Sua consulta para estabelecer foi aprovada. Procure a Praça do Empreendedor para formalizar.</span></div>
+        <ng-template #elseBlockEstabelecer><span class="negado">Sua consulta para estabelecer não foi aprovada.</span></ng-template>
+
+<!-- retorno da consulta para estabelecer 0 - true, outros false -->
 
     <!-- <div class="mb-3" >{{this.formModel.statusConsultaMEI}}</div> -->
     

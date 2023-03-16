@@ -83,7 +83,7 @@ export class ValidacaocadComponent implements OnInit {
     this.data.requisicaoAtual.subscribe(requisicao => this.formModel = requisicao);
     this.data.cpfAtual.subscribe(cpf => this.cpfModel = cpf);
     this.checaViabilidadeMei();
-    this.incluiStatusMei();
+    this.putFormMei();
     
     // console.log('passando pelo init');
     // console.log(this.formModel);
@@ -99,7 +99,7 @@ export class ValidacaocadComponent implements OnInit {
     return 2023 - (parseInt(nasc[4]+nasc[5]+nasc[6]+nasc[7])) 
   }
 
-  incluiStatusMei(){    
+  putFormMei(){    
     this.httpMeiService.putRequest(this.formModel).subscribe((response) => {} )}
   
   public resultadoEstabelecer: string;  //alterar parar propriedade dentro do formmodel
@@ -112,7 +112,13 @@ export class ValidacaocadComponent implements OnInit {
 
     this.httpIptuService.postRequest(this.estabelecerModel).subscribe((response) => {
       this.resultadoEstabelecer = response;
+      if (this.resultadoEstabelecer == '0'){this.formModel.statusConsultaIPTU = true}
+      this.formModel.codStatusConsultaIPTU = parseInt(this.resultadoEstabelecer)
+      this.putFormMei()
       console.log(this.resultadoEstabelecer);
+
+      //fazer put statusConsultaIPTU retorna true pra 0, false pros demais
+      //codStatusConsultaIPTU eh o codigo que chegou
     })
 
   }
