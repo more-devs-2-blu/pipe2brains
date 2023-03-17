@@ -7,7 +7,16 @@
     color:#07479C!important;
     padding: 30px;
     text-align: center;
-    font-size: 24px;
+    font-size: 30px;
+    font-weight: 800;
+}
+#pFigure{
+    font-weight: 800;
+    color: rgb(8, 8, 8);
+    font-size: 1.2em;
+}
+.foto{
+    margin-top: 20px;
 }
 .bannerCarousel{
     padding-bottom: 50px;
@@ -67,19 +76,23 @@
         margin-bottom: 20px;
     }
 }
+.area-video{
+    margin-top: 20px;
+}
 .area-video h4{
     font-size: 20px;
     padding-top: 20px;
     padding-bottom: 20px;
 }
 .area-video iframe{
-    margin-left: 10px;
+    margin-left: 0px;
 }
 
 #newsletter{
     font-size: 24px;
     color:#07479C!important;
     font-weight: bold;
+    margin-top: 50px;
 }
 
 #colorButton{

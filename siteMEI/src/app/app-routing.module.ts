@@ -5,7 +5,10 @@ const routes: Routes = [{ path: 'cadastro', loadChildren: () => import('./cadast
                         { path: "", redirectTo: "cadastro", pathMatch: "full"},
                         { path: 'inicio', loadChildren: () => import('./inicio/inicio.module').then(m => m.InicioModule) },
                         { path: 'validacaocad', loadChildren: () => import('./validacaocad/validacaocad.module').then(m => m.ValidacaocadModule) },
-                        { path: 'telarecaptcha', loadChildren: () => import('./telarecaptcha/telarecaptcha.module').then(m => m.TelarecaptchaModule) }
+                        { path: 'telarecaptcha', loadChildren: () => import('./telarecaptcha/telarecaptcha.module').then(m => m.TelarecaptchaModule) },
+                        { path: 'sobre', loadChildren: () => import('./sobre/sobre.module').then(m => m.SobreModule) },
+                        { path: 'contato', loadChildren: () => import('./contato/contato.module').then(m => m.ContatoModule) },
+                        { path: 'newsletter', loadChildren: () => import('./newsletter/newsletter.module').then(m => m.NewsletterModule) }
                        ];
 @NgModule({
   declarations: [],
