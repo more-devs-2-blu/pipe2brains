@@ -33,7 +33,7 @@
             </div>
             <div class="mb-3">
                 <label for="telefone2" class="form-label">Telefone 2: </label>
-                <input type="text" class="form-control" id="telefone2" name="telefone2" #telefone2="ngModel" ngModel
+                <input type="text" class="form-control" mask="(00) 00000-0000" id="telefone2" name="telefone2" #telefone2="ngModel" ngModel
                     [(ngModel)]="formModel.telefone2">
             </div>
 
@@ -191,7 +191,7 @@
 
 
 
-            <button (click)="onSubmit(form)" type="button" class="btn btn-primary">Enviar</button>
+            <button (click)="onSubmit()" type="button" class="btn btn-primary">Enviar</button>
 
         </li>
         <div>

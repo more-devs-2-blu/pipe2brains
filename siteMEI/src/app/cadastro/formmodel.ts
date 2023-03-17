@@ -33,5 +33,7 @@ export interface FormModel {
 
     statusConsultaMEI:boolean,  //verificar - true se aprovado no MEI
     statusConsultaIPTU:boolean,  //verificar - altera status quando processou consulta pra estabelecer
-    codStatusConsultaIPTU:number
+    codStatusConsultaIPTU:number,
+
+    dataConsulta:string
 }

@@ -54,7 +54,8 @@ export class DataService {
 
     statusConsultaMEI:false,
     statusConsultaIPTU:false,
-    codStatusConsultaIPTU: 9
+    codStatusConsultaIPTU: 9,
+    dataConsulta:''
   }
 
   private requisicao = new BehaviorSubject<FormModel>(this.formModel);

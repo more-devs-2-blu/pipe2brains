@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { environment } from 'src/environments/environment';
 import { CpfModel } from '../cadastro/cpfmodel';
 import { FormModel } from '../cadastro/formmodel';
 import { IptuViabilidadeModel } from '../cadastro/iptuviabilidade';
@@ -70,7 +71,8 @@ export class ValidacaocadComponent implements OnInit {
 
     statusConsultaMEI: false,
     statusConsultaIPTU: false,
-    codStatusConsultaIPTU: 9
+    codStatusConsultaIPTU: 9,
+    dataConsulta:''
   }
 
   constructor(
@@ -84,10 +86,6 @@ export class ValidacaocadComponent implements OnInit {
     this.data.cpfAtual.subscribe(cpf => this.cpfModel = cpf);
     this.checaViabilidadeMei();
     this.putFormMei();
-    
-    // console.log('passando pelo init');
-    // console.log(this.formModel);
-    
   }
 
   tornaElegivel(){
@@ -100,9 +98,12 @@ export class ValidacaocadComponent implements OnInit {
   }
 
   putFormMei(){    
-    this.httpMeiService.putRequest(this.formModel).subscribe((response) => {} )}
+    this.httpMeiService.putRequest(this.formModel).subscribe((response) => {
+      console.log('resposta do put');
+      console.log(response);
+    } )}
   
-  public resultadoEstabelecer: string;  //alterar parar propriedade dentro do formmodel
+  public resultadoEstabelecer: string;  
 
   consultaEstabelecer(){
     this.estabelecerModel.cnaePrincipal = this.formModel.cnaePrimario;
@@ -115,10 +116,6 @@ export class ValidacaocadComponent implements OnInit {
       if (this.resultadoEstabelecer == '0'){this.formModel.statusConsultaIPTU = true}
       this.formModel.codStatusConsultaIPTU = parseInt(this.resultadoEstabelecer)
       this.putFormMei()
-      console.log(this.resultadoEstabelecer);
-
-      //fazer put statusConsultaIPTU retorna true pra 0, false pros demais
-      //codStatusConsultaIPTU eh o codigo que chegou
     })
 
   }
@@ -126,36 +123,31 @@ export class ValidacaocadComponent implements OnInit {
   checaViabilidadeMei(){
     if(
       this.cpfModel.situacao.codigo != '0' ||
-      this.calculaIdade(this.formModel.dataNascimento) < 18 ||
+      this.calculaIdade(this.formModel.dataNascimento) < environment.maxIdadePermitida ||
       this.formModel.eFuncPublico ||
       this.formModel.eSocio ||
       this.formModel.eMeiAtivo ||
       this.formModel.temFiliais ||
       !this.verificaFaturamento() ||
       !this.verificaCustos() ||
-      this.formModel.nrFuncionarios > 1
+      this.formModel.nrFuncionarios > environment.maxFuncionarios
     ){
       this.formModel.statusConsultaMEI = false;
     } else {
       this.formModel.statusConsultaMEI = true;
     }
-    // this.data.setRequisicao(this.formModel)
+    this.data.setRequisicao(this.formModel)
   }
 
   verificaFaturamento():boolean{
-    if(
-      this.formModel.cnaePrimario == '4930-2/01' || 
-      this.formModel.cnaePrimario == '4930-2/02' ||
-      this.formModel.cnaePrimario == '4930-2/03' ||
-      this.formModel.cnaePrimario == '4930-2/04'
-    ){
-      if(this.formModel.previsaoFaturamento <= 251600){
+    if(environment.cnaesTabelaB.includes(this.formModel.cnaePrimario)){
+      if(this.formModel.previsaoFaturamento <= environment.maxFatTabelaB){
         return true;
       } else {
         return false;
       }
     } else {
-      if(this.formModel.previsaoFaturamento <= 81000){
+      if(this.formModel.previsaoFaturamento <= environment.maxFatTabelaA){
         return true;
       } else {
         return false;
@@ -164,7 +156,7 @@ export class ValidacaocadComponent implements OnInit {
   }
 
   verificaCustos():boolean{
-    if((this.formModel.previsaoCustos/this.formModel.previsaoFaturamento) < 0.8){
+    if((this.formModel.previsaoCustos/this.formModel.previsaoFaturamento) < environment.maxPorcentagemCusto){
       return true;
     } else {
       return false;

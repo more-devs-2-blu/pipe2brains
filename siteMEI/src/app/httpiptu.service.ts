@@ -1,7 +1,7 @@
 import { HttpClient, HttpErrorResponse } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { catchError, Observable, throwError } from 'rxjs';
-import { IptuResponseModel } from './cadastro/ipturesponse';
+import { environment } from 'src/environments/environment';
 import { IptuViabilidadeModel } from './cadastro/iptuviabilidade';
 
 @Injectable({
@@ -9,7 +9,7 @@ import { IptuViabilidadeModel } from './cadastro/iptuviabilidade';
 })
 export class HttpIptuService {
 
-  url = 'http://localhost:8080/consultaviabilidadepmb'
+  url:string = environment.urlConsultaIptu
 
   constructor(
     private http: HttpClient

@@ -1,15 +1,15 @@
 import { HttpClient, HttpErrorResponse } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { catchError, Observable, throwError } from 'rxjs';
+import { environment } from 'src/environments/environment';
 import { FormModel } from './cadastro/formmodel';
-import { IptuResponseModel } from './cadastro/ipturesponse';
 
 @Injectable({
   providedIn: 'root'
 })
 export class HttpMeiService {
 
-  url = 'http://localhost:8080/viabilidadeMei'
+  url:string = environment.urlViabilidadeMei
 
   constructor(
     private http: HttpClient

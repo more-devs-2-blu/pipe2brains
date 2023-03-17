@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { NgForm } from '@angular/forms';
 import { Router } from '@angular/router';
 import cnaeImport from '../atividadesMEI.json';
 import { Cnae } from '../cnae';
@@ -21,7 +20,6 @@ export class CadastroComponent implements OnInit {
   public cnaeList: Cnae[] = cnaeImport;
   public cnaeResultadoBusca: Cnae[] = this.cnaeList;
   public iptuResponse: IptuResponseModel;
-  // public cpfAtual: CpfModel;
 
   public cpfAtual: CpfModel = {
     ni: "",
@@ -69,9 +67,9 @@ export class CadastroComponent implements OnInit {
 
     statusConsultaMEI: false,
     statusConsultaIPTU: false,
-    codStatusConsultaIPTU: 9
+    codStatusConsultaIPTU: 9,
+    dataConsulta: ''
   }
-
 
   constructor(
     private httpCpfService: HttpCpfService,
@@ -83,7 +81,6 @@ export class CadastroComponent implements OnInit {
 
   ngOnInit() {
     this.data.requisicaoAtual.subscribe(requisicao => this.formModel = requisicao)
-
   }
 
   buscaCNAE(key: string) {
@@ -99,21 +96,14 @@ export class CadastroComponent implements OnInit {
 
   getCPF(cpf: string) {
     cpf = cpf.replace(/[^0-9]/g, '')
-    console.log(cpf);
-    
+
     if (cpf) {
-      console.log('entrou no if');
-      
       this.httpCpfService.getRequest(cpf).subscribe((response) => {
-        
-        
         this.cpfAtual = response;
         this.formModel.nome = this.cpfAtual.nome;
         this.formModel.dataNascimento = this.cpfAtual.nascimento;
         this.formModel.statusCpf = this.cpfAtual.situacao.descricao;
         this.formModel.cpf = cpf;
-        
-        console.log(this.formModel);
       })
     }
   }
@@ -130,6 +120,9 @@ export class CadastroComponent implements OnInit {
 
   postMEI(formModel: FormModel) {
     this.httpMeiService.postRequest(formModel).subscribe((response) => {
+      console.log('resposta do post');
+      console.log(response);
+
       this.formModel.id = response.id
       this.router.navigate(['/validacaocad'])
 
@@ -145,28 +138,20 @@ export class CadastroComponent implements OnInit {
     this.formModel.cnaePrimarioOcupacao = elem.dataset.ocup
   }
 
-  onSubmit(form: NgForm) {
-
+  onSubmit() {
     this.data.setCpf(this.cpfAtual)
-
     this.postMEI(this.formModel)
-
   }
 
   // funcionalidade de carousel
 
-  public slideAtivo:number = 1;
-  public slide1 = document.getElementById('slide-1')
-  public slide2 = document.getElementById('slide-2')
-  public slide3 = document.getElementById('slide-3')
-  public slide4 = document.getElementById('slide-4')
-  public slide5 = document.getElementById('slide-5')
-  
+  public slideAtivo: number = 1;
+
   nextButtonClick() {
-    if (this.slideAtivo < 1 || this.slideAtivo > 5){return}
-    if(this.slideAtivo != 5){this.slideAtivo++;}
+    if (this.slideAtivo < 1 || this.slideAtivo > 5) { return }
+    if (this.slideAtivo != 5) { this.slideAtivo++; }
     var allSlides = document.querySelectorAll('.slide')
-    
+
     var slideAtivar = document.getElementById(`slide-${this.slideAtivo}`)
     allSlides.forEach(element => {
       element.classList.add('slide-hidden')
@@ -175,11 +160,11 @@ export class CadastroComponent implements OnInit {
   }
 
   prevButtonClick() {
-    if (this.slideAtivo < 1 || this.slideAtivo > 5){return}
-    if(this.slideAtivo != 1){this.slideAtivo--;}
+    if (this.slideAtivo < 1 || this.slideAtivo > 5) { return }
+    if (this.slideAtivo != 1) { this.slideAtivo--; }
 
     var allSlides = document.querySelectorAll('.slide')
-    
+
     var slideAtivar = document.getElementById(`slide-${this.slideAtivo}`)
     allSlides.forEach(element => {
       element.classList.add('slide-hidden')

@@ -1,13 +1,14 @@
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpErrorResponse } from '@angular/common/http';
 import { catchError, Observable, throwError } from 'rxjs';
+import { environment } from 'src/environments/environment';
 
 @Injectable({
   providedIn: 'root'
 })
 export class HttpCpfService {
 
-  url = 'http://localhost:8080/consultacpf'
+  url:string = environment.urlConsultaCpf
 
   constructor(
     private http: HttpClient
