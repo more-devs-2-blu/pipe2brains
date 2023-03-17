@@ -1,0 +1,22 @@
+#titleContato{
+    font-size: 25px;
+    color: #002774;
+    font-weight: 800;
+}
+.titulo-mapa{
+    padding-top: 50px;
+    /* align-items: center; */
+    display:  block;
+}
+.titulo-mapa h1{
+    font-size: 24px;
+    text-align: center;
+    margin: 50px;
+    font-weight: bold;
+}
+.titulo-mapa p{
+    padding-left: 50px;
+    font-size: 18px;
+    margin: 20px;
+}
+

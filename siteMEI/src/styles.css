@@ -53,7 +53,7 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
     }
 
     footer{
-        position: absolute;
+        /* position: absolute; */
         bottom: 0;
         
     }

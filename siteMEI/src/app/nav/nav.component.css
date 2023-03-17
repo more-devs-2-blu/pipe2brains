@@ -1,0 +1,18 @@
+a.nav-link {
+    color: #10347D;
+    font-weight: bold;
+}
+
+a.nav-link:hover {
+    color: #FE7C68;
+}
+
+.icofont-navigation-menu {
+    color: #FE7C68;
+}
+
+@media only screen and (max-width: 1025px) {
+    a.navbar-brand {
+        padding: 0;
+    }
+}
