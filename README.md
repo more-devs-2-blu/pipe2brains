@@ -34,3 +34,5 @@ Opções: POST - /        - Registro um pacote json na tabela e realiza o envio 
 
 16/03 - API /viablidadeMei (Nova rota para a tabela TB_CADASTRO_MEI)
 Opção: PUT - /retornoconsultapmb/(id) - atualiza registro com os dados de retorno da Consulta de Estabelecer
+
+Protótipo - https://www.figma.com/file/Y3v7jvNKDCRWzPsjBJ4RLw/Untitled?node-id=0-1&t=FRJy0ZcS5fZndNvj-0
