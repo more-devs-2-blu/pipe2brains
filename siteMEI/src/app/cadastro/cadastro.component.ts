@@ -124,6 +124,7 @@ export class CadastroComponent implements OnInit {
       console.log(response);
 
       this.formModel.id = response.id
+      this.formModel.dataConsulta = response.dataConsulta
       this.router.navigate(['/validacaocad'])
 
       if (response.id) {
